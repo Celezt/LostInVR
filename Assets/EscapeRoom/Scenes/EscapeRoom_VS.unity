@@ -9899,11 +9899,53 @@ MonoBehaviour:
   playArea: {fileID: 1569447710}
   headset: {fileID: 1569447709}
   headsetCamera: {fileID: 1569447708}
-  headsetVelocityTracker: {fileID: 0}
+  headsetVelocityTracker: {fileID: 1569447720}
   leftController: {fileID: 1569447707}
-  leftControllerVelocityTracker: {fileID: 0}
+  leftControllerVelocityTracker: {fileID: 1569447719}
   rightController: {fileID: 1569447706}
-  rightControllerVelocityTracker: {fileID: 0}
+  rightControllerVelocityTracker: {fileID: 1569447713}
+--- !u!114 &1569447713
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1569447706}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec7fc08fc6170da4cadd3a09b5bc02f4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  trackedGameObject: {fileID: 1569447706}
+  relativeTo: {fileID: 1569447710}
+--- !u!114 &1569447719
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1569447707}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec7fc08fc6170da4cadd3a09b5bc02f4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  trackedGameObject: {fileID: 1569447707}
+  relativeTo: {fileID: 1569447710}
+--- !u!114 &1569447720
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1569447709}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec7fc08fc6170da4cadd3a09b5bc02f4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  trackedGameObject: {fileID: 1569447709}
+  relativeTo: {fileID: 1569447710}
 --- !u!114 &1569447722
 MonoBehaviour:
   m_ObjectHideFlags: 0
