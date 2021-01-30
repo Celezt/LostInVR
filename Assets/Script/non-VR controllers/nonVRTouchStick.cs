@@ -4,6 +4,10 @@ using UnityEngine;
 
 public class nonVRTouchStick : MonoBehaviour
 {
+    void Start()
+    {
+        Cursor.lockState = CursorLockMode.Locked;
+    }
     void OnTriggerStay(Collider other)
     {
         if (Input.GetMouseButtonDown(0))
