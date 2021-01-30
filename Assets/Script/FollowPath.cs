@@ -25,7 +25,7 @@ public class FollowPath : MonoBehaviour
 
     void Start()
     {
-        _offsetPosition = transform.position;
+        _offsetPosition = GetComponentInChildren<FollowPath>().transform.localPosition;
         LookRotation = transform.rotation;
 
         if (Creator != null)
