@@ -29,7 +29,7 @@ public class RegisterArea : MonoBehaviour
             }
 
             _particles.Play();
-            Destroy(other);
+            Destroy(other.gameObject);
         }
     }
 }
