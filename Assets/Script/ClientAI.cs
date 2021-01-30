@@ -57,9 +57,20 @@ public class ClientAI : MonoBehaviour
                 var rotation = Quaternion.LookRotation(lookPosition);
                 transform.rotation = Quaternion.Slerp(transform.rotation, rotation, Time.deltaTime * DampRotation);
 
-                break;
-            case ClientState.Register:
+                if (!Request)
+                {
+                    _follow.ToMove = true;
+                    _follow.ToRotate = true;
 
+                    State = ClientState.MoveFrom;
+                }
+
+                break;
+            case ClientState.MoveFrom:
+                if (_follow.PercentTravelled < WaitPoint)
+                {
+                    State = ClientState.MoveTo;
+                }
 
                 break;
         }

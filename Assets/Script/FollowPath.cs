@@ -9,6 +9,7 @@ public class FollowPath : MonoBehaviour
 
     public PathCreator Creator;
     public float Speed = 5;
+    public float DampRotation = 2;
 
     public Quaternion LookRotation { get; set; }
     public float DistanceTravelled { get; set; }
@@ -45,7 +46,8 @@ public class FollowPath : MonoBehaviour
                 transform.position = Creator.path.GetPointAtDistance(DistanceTravelled) + _offset;
             }
 
-            LookRotation = Quaternion.LookRotation(Creator.path.GetDirectionAtDistance(DistanceTravelled), Vector3.up);
+            var rotation = Quaternion.LookRotation(Creator.path.GetDirectionAtDistance(DistanceTravelled), Vector3.up);
+            LookRotation = Quaternion.Slerp(transform.rotation, rotation, Time.deltaTime * DampRotation);
 
             if (ToRotate)
                 transform.rotation = LookRotation;
