@@ -46,7 +46,7 @@ public class ClientAI : MonoBehaviour
 
                 break;
             case ClientState.Request:
-                Vector3 lookPosition = Camera.current.transform.position - transform.position;
+                Vector3 lookPosition = Camera.main.transform.position - transform.position;
                 lookPosition.y = 0;
                 var rotation = Quaternion.LookRotation(lookPosition);
                 transform.rotation = Quaternion.Slerp(transform.rotation, rotation, Time.deltaTime * DampRotation);
