@@ -16,7 +16,7 @@ public class GameLoopManager : Singleton <GameLoopManager>
     public UnityEngine.UI.Text finalScoreDisplay;
 
     private int currentGameScore = 0, RemainingMinutes = 0, RemainingSeconds = 0;
-    private float currentGameTimeRemaining = 0;
+    public float currentGameTimeRemaining = 0;
 
     [HideInInspector]
     public bool gameOver = false;
