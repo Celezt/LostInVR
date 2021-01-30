@@ -5,5 +5,5 @@ using UnityEngine;
 public class QuestItem : MonoBehaviour
 {
     public int Score;
-    public float Time;
+    public int Time;
 }
