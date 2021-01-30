@@ -12,6 +12,12 @@ public class MeshController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        Object[] loadList = Resources.LoadAll("Objects", typeof(GameObject));
+        foreach (GameObject loadedObject in loadList)
+        {
+            Prefabs.Add(loadedObject);
+        }
+
         random = new System.Random();
         foreach (GameObject go in Objects)
         {
