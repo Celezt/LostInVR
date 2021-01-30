@@ -30,12 +30,15 @@ public class GameLoopManager : Singleton <GameLoopManager>
     // Update is called once per frame
     void Update()
     {
+        AkSoundEngine.SetRTPCValue("GameTimeRemaining", currentGameTimeRemaining);
         if (!gameOver)
         {
             currentGameTimeRemaining -= Time.fixedDeltaTime;
             RemainingMinutes = (int)(currentGameTimeRemaining / 60f);
             RemainingSeconds = (int)(currentGameTimeRemaining % 60f);
             gameTimeDisplay.text = RemainingMinutes.ToString("00") + ":" + RemainingSeconds.ToString("00");
+           
+
             if (currentGameTimeRemaining <= 0)
             {
                 DisplayGameOverMessage();
