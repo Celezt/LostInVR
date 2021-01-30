@@ -914,6 +914,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 232060737, guid: c023e04bd57d64945afa32329459588d, type: 3}
+      propertyPath: gameScoreDisplay
+      value: 
+      objectReference: {fileID: 1352106856}
+    - target: {fileID: 232060737, guid: c023e04bd57d64945afa32329459588d, type: 3}
+      propertyPath: gameTimeDisplay
+      value: 
+      objectReference: {fileID: 945813103}
     - target: {fileID: 4870783832653965417, guid: c023e04bd57d64945afa32329459588d,
         type: 3}
       propertyPath: m_Name
