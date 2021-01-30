@@ -11,92 +11,157 @@
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="1355168291" Language="SFX" Hash="2618021421">
+		<SoundBank Id="1355168291" Language="SFX" Hash="4149590578">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="3991942870" Language="SFX" Hash="2425587666">
+		<SoundBank Id="3991942870" Language="SFX" Hash="1454744932">
 			<ObjectPath>\SoundBanks\Default Work Unit\Music</ObjectPath>
 			<ShortName>Music</ShortName>
 			<Path>Music.bnk</Path>
 			<IncludedEvents>
-				<Event Id="379521629" Name="Test_Music" ObjectPath="\Events\Default Work Unit\Music\Test_Music" DurationType="Infinite">
+				<Event Id="63796330" Name="Main_Music" ObjectPath="\Events\Default Work Unit\Music\Main_Music" DurationType="Infinite">
 					<IncludedMemoryFiles>
-						<File Id="34388636" Language="SFX">
-							<ShortName>SectionB_Synth2_125bpm_4m.wav</ShortName>
-							<Path>SFX/SectionB_Synth2_125bpm_4m_D79FB2B7.wem</Path>
+						<File Id="605525" Language="SFX">
+							<ShortName>Intensity_2_B_125bpm_Piano_v2.wav</ShortName>
+							<Path>SFX/Intensity_2_B_125bpm_Piano_v2_D79FB2B7.wem</Path>
 						</File>
-						<File Id="81235974" Language="SFX">
-							<ShortName>SectionA_Piano2_125bpm_4m.wav</ShortName>
-							<Path>SFX/SectionA_Piano2_125bpm_4m_D79FB2B7.wem</Path>
+						<File Id="3559877" Language="SFX">
+							<ShortName>Intensity_1_A_120bpm_GuitarCymb.wav</ShortName>
+							<Path>SFX/Intensity_1_A_120bpm_GuitarCymb_D79FB2B7.wem</Path>
 						</File>
-						<File Id="101275765" Language="SFX">
-							<ShortName>SectionB_Drums_125bpm_4m.wav</ShortName>
-							<Path>SFX/SectionB_Drums_125bpm_4m_D79FB2B7.wem</Path>
+						<File Id="11094414" Language="SFX">
+							<ShortName>Intensity_1_B_120bpm_GtrCymb.wav</ShortName>
+							<Path>SFX/Intensity_1_B_120bpm_GtrCymb_D79FB2B7.wem</Path>
 						</File>
-						<File Id="170572212" Language="SFX">
-							<ShortName>SectionA_Piano3_125bpm_4m.wav</ShortName>
-							<Path>SFX/SectionA_Piano3_125bpm_4m_D79FB2B7.wem</Path>
+						<File Id="115320259" Language="SFX">
+							<ShortName>Intensity_2_B_125bpm_Flute.wav</ShortName>
+							<Path>SFX/Intensity_2_B_125bpm_Flute_D79FB2B7.wem</Path>
 						</File>
-						<File Id="253820210" Language="SFX">
-							<ShortName>SectionA_Drums_125bpm_4m.wav</ShortName>
-							<Path>SFX/SectionA_Drums_125bpm_4m_D79FB2B7.wem</Path>
+						<File Id="183014018" Language="SFX">
+							<ShortName>Intensity_1_C_120bpm_Bass.wav</ShortName>
+							<Path>SFX/Intensity_1_C_120bpm_Bass_D79FB2B7.wem</Path>
 						</File>
-						<File Id="263403999" Language="SFX">
-							<ShortName>SectionA_Synth2.5_125bpm_4m.wav</ShortName>
-							<Path>SFX/SectionA_Synth2.5_125bpm_4m_D79FB2B7.wem</Path>
+						<File Id="318979798" Language="SFX">
+							<ShortName>Intensity_2_B_125bpm_Strings.wav</ShortName>
+							<Path>SFX/Intensity_2_B_125bpm_Strings_D79FB2B7.wem</Path>
 						</File>
-						<File Id="284259145" Language="SFX">
-							<ShortName>DrumIntro_Drums_125bpm_2m.wav</ShortName>
-							<Path>SFX/DrumIntro_Drums_125bpm_2m_D79FB2B7.wem</Path>
+						<File Id="325108709" Language="SFX">
+							<ShortName>Intensity_2_A_125bpm_Piano.wav</ShortName>
+							<Path>SFX/Intensity_2_A_125bpm_Piano_D79FB2B7.wem</Path>
 						</File>
-						<File Id="507124366" Language="SFX">
-							<ShortName>DrumIntro_Piano2_125bpm_2m.wav</ShortName>
-							<Path>SFX/DrumIntro_Piano2_125bpm_2m_D79FB2B7.wem</Path>
+						<File Id="398526417" Language="SFX">
+							<ShortName>Intensity_2_B_125bpm_Bass.wav</ShortName>
+							<Path>SFX/Intensity_2_B_125bpm_Bass_D79FB2B7.wem</Path>
 						</File>
-						<File Id="509921208" Language="SFX">
-							<ShortName>SectionA_Synth3_125bpm_4m.wav</ShortName>
-							<Path>SFX/SectionA_Synth3_125bpm_4m_D79FB2B7.wem</Path>
+						<File Id="443386815" Language="SFX">
+							<ShortName>Intensity_2_A_125bpm_Strings.wav</ShortName>
+							<Path>SFX/Intensity_2_A_125bpm_Strings_D79FB2B7.wem</Path>
 						</File>
-						<File Id="593615582" Language="SFX">
-							<ShortName>SectionB_Synth3_125bpm_4m.wav</ShortName>
-							<Path>SFX/SectionB_Synth3_125bpm_4m_D79FB2B7.wem</Path>
+						<File Id="500636322" Language="SFX">
+							<ShortName>Intensity_2_B_125bpm_Drums.wav</ShortName>
+							<Path>SFX/Intensity_2_B_125bpm_Drums_D79FB2B7.wem</Path>
 						</File>
-						<File Id="700774636" Language="SFX">
-							<ShortName>SectionA_Synth1_125bpm_4m.wav</ShortName>
-							<Path>SFX/SectionA_Synth1_125bpm_4m_D79FB2B7.wem</Path>
+						<File Id="502383278" Language="SFX">
+							<ShortName>Intensity_1_C_120bpm_Strings.wav</ShortName>
+							<Path>SFX/Intensity_1_C_120bpm_Strings_D79FB2B7.wem</Path>
 						</File>
-						<File Id="707820485" Language="SFX">
-							<ShortName>SectionB_Piano3_125bpm_4m.wav</ShortName>
-							<Path>SFX/SectionB_Piano3_125bpm_4m_D79FB2B7.wem</Path>
+						<File Id="564177471" Language="SFX">
+							<ShortName>Intensity_1_C_120bpm_Piano.wav</ShortName>
+							<Path>SFX/Intensity_1_C_120bpm_Piano_D79FB2B7.wem</Path>
 						</File>
-						<File Id="745220130" Language="SFX">
-							<ShortName>SectionB_Bass_125bpm_4m.wav</ShortName>
-							<Path>SFX/SectionB_Bass_125bpm_4m_D79FB2B7.wem</Path>
+						<File Id="571278796" Language="SFX">
+							<ShortName>Intensity_1_B_120bpm_Piano.wav</ShortName>
+							<Path>SFX/Intensity_1_B_120bpm_Piano_D79FB2B7.wem</Path>
 						</File>
-						<File Id="873080354" Language="SFX">
-							<ShortName>SectionA_Flute_125bpm_4m.wav</ShortName>
-							<Path>SFX/SectionA_Flute_125bpm_4m_D79FB2B7.wem</Path>
+						<File Id="607620207" Language="SFX">
+							<ShortName>Intensity_1_A_120bpm_Strings.wav</ShortName>
+							<Path>SFX/Intensity_1_A_120bpm_Strings_D79FB2B7.wem</Path>
 						</File>
-						<File Id="952565326" Language="SFX">
-							<ShortName>SectionA_Piano_125bpm_4m.wav</ShortName>
-							<Path>SFX/SectionA_Piano_125bpm_4m_D79FB2B7.wem</Path>
+						<File Id="611069992" Language="SFX">
+							<ShortName>Intensity_1_B_120bpm_Strings.wav</ShortName>
+							<Path>SFX/Intensity_1_B_120bpm_Strings_D79FB2B7.wem</Path>
 						</File>
-						<File Id="957612058" Language="SFX">
-							<ShortName>SectionB_Flute_125bpm_4m.wav</ShortName>
-							<Path>SFX/SectionB_Flute_125bpm_4m_D79FB2B7.wem</Path>
+						<File Id="629630328" Language="SFX">
+							<ShortName>Intensity_1_C_120bpm_Drums.wav</ShortName>
+							<Path>SFX/Intensity_1_C_120bpm_Drums_D79FB2B7.wem</Path>
 						</File>
-						<File Id="1027734444" Language="SFX">
-							<ShortName>DrumIntro_Piano_125bpm_2m.wav</ShortName>
-							<Path>SFX/DrumIntro_Piano_125bpm_2m_D79FB2B7.wem</Path>
+						<File Id="741189474" Language="SFX">
+							<ShortName>Intensity_2_A_125bpm_Synth.wav</ShortName>
+							<Path>SFX/Intensity_2_A_125bpm_Synth_D79FB2B7.wem</Path>
+						</File>
+						<File Id="801906834" Language="SFX">
+							<ShortName>Intensity_1_C_120bpm_GtrCymb.wav</ShortName>
+							<Path>SFX/Intensity_1_C_120bpm_GtrCymb_D79FB2B7.wem</Path>
+						</File>
+						<File Id="813226892" Language="SFX">
+							<ShortName>Intensity_1_A_120bpm_Piano.wav</ShortName>
+							<Path>SFX/Intensity_1_A_120bpm_Piano_D79FB2B7.wem</Path>
+						</File>
+						<File Id="848920090" Language="SFX">
+							<ShortName>Intensity_1_B_120bpm_Bass.wav</ShortName>
+							<Path>SFX/Intensity_1_B_120bpm_Bass_D79FB2B7.wem</Path>
+						</File>
+						<File Id="956581375" Language="SFX">
+							<ShortName>Intensity_2_A_125bpm_Bass.wav</ShortName>
+							<Path>SFX/Intensity_2_A_125bpm_Bass_D79FB2B7.wem</Path>
+						</File>
+						<File Id="963811356" Language="SFX">
+							<ShortName>Intensity_2_B_125bpm_Synth.wav</ShortName>
+							<Path>SFX/Intensity_2_B_125bpm_Synth_D79FB2B7.wem</Path>
+						</File>
+						<File Id="1048074152" Language="SFX">
+							<ShortName>Intensity_1_C_120bpm_Synth.wav</ShortName>
+							<Path>SFX/Intensity_1_C_120bpm_Synth_D79FB2B7.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
+					<SwitchContainers>
+						<SwitchContainer SwitchValue="{92C9F3BD-AB15-448A-A6DB-D9876A1ABD2B}">
+							<Media>
+								<File Id="3559877"/>
+								<File Id="11094414"/>
+								<File Id="183014018"/>
+								<File Id="502383278"/>
+								<File Id="564177471"/>
+								<File Id="571278796"/>
+								<File Id="607620207"/>
+								<File Id="611069992"/>
+								<File Id="629630328"/>
+								<File Id="801906834"/>
+								<File Id="813226892"/>
+								<File Id="848920090"/>
+								<File Id="1048074152"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{38775332-F86F-497A-ABDC-1325CC9445F8}">
+							<Media>
+								<File Id="605525"/>
+								<File Id="115320259"/>
+								<File Id="318979798"/>
+								<File Id="325108709"/>
+								<File Id="398526417"/>
+								<File Id="443386815"/>
+								<File Id="500636322"/>
+								<File Id="741189474"/>
+								<File Id="956581375"/>
+								<File Id="963811356"/>
+							</Media>
+						</SwitchContainer>
+					</SwitchContainers>
 				</Event>
 			</IncludedEvents>
 			<GameParameters>
-				<GameParameter Id="2125575055" Name="Items_Collected" ObjectPath="\Game Parameters\Default Work Unit\Items_Collected"/>
+				<GameParameter Id="3437824496" Name="GameTimeRemaining" ObjectPath="\Game Parameters\Default Work Unit\GameTimeRemaining"/>
 			</GameParameters>
+			<SwitchGroups>
+				<SwitchGroup Id="2520593515" Name="Music_Playlist" ObjectPath="\Switches\Default Work Unit\Music_Playlist">
+					<Switches>
+						<Switch Id="3987970511" Name="Loop_1" ObjectPath="\Switches\Default Work Unit\Music_Playlist\Loop_1"/>
+						<Switch Id="3987970508" Name="Loop_2" ObjectPath="\Switches\Default Work Unit\Music_Playlist\Loop_2"/>
+					</Switches>
+				</SwitchGroup>
+			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
 </SoundBanksInfo>
