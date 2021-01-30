@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationCache Version="1" SchemaVersion="97">
+	<ValidationCacheItem File="Z:\Applications\Audiokinetic\Wwise 2019.2.5.7349\SoVGA mini projects\Lost in VR\Virtual Acoustics\Factory Reflect Acoustic Textures.wwu" DateLow="1601478017" DateHigh="0"/>
+	<ValidationCacheItem File="Z:\Applications\Audiokinetic\Wwise 2019.2.5.7349\SoVGA mini projects\Lost in VR\Virtual Acoustics\Default Work Unit.wwu" DateLow="1612002812" DateHigh="0"/>
+	<ValidationCacheItem File="Z:\Applications\Audiokinetic\Wwise 2019.2.5.7349\SoVGA mini projects\Lost in VR\Triggers\Default Work Unit.wwu" DateLow="1612002812" DateHigh="0"/>
+	<ValidationCacheItem File="Z:\Applications\Audiokinetic\Wwise 2019.2.5.7349\SoVGA mini projects\Lost in VR\Switches\Default Work Unit.wwu" DateLow="1612025033" DateHigh="0"/>
+	<ValidationCacheItem File="Z:\Applications\Audiokinetic\Wwise 2019.2.5.7349\SoVGA mini projects\Lost in VR\States\Default Work Unit.wwu" DateLow="1612002812" DateHigh="0"/>
+	<ValidationCacheItem File="Z:\Applications\Audiokinetic\Wwise 2019.2.5.7349\SoVGA mini projects\Lost in VR\Soundcaster Sessions\Default Work Unit.wwu" DateLow="1612002812" DateHigh="0"/>
+	<ValidationCacheItem File="Z:\Applications\Audiokinetic\Wwise 2019.2.5.7349\SoVGA mini projects\Lost in VR\SoundBanks\Default Work Unit.wwu" DateLow="1612022974" DateHigh="0"/>
+	<ValidationCacheItem File="Z:\Applications\Audiokinetic\Wwise 2019.2.5.7349\SoVGA mini projects\Lost in VR\Queries\Factory Queries.wwu" DateLow="1601478016" DateHigh="0"/>
+	<ValidationCacheItem File="Z:\Applications\Audiokinetic\Wwise 2019.2.5.7349\SoVGA mini projects\Lost in VR\Queries\Default Work Unit.wwu" DateLow="1612002812" DateHigh="0"/>
+	<ValidationCacheItem File="Z:\Applications\Audiokinetic\Wwise 2019.2.5.7349\SoVGA mini projects\Lost in VR\Presets\Factory Spatial Audio.wwu" DateLow="1601478016" DateHigh="0"/>
+	<ValidationCacheItem File="Z:\Applications\Audiokinetic\Wwise 2019.2.5.7349\SoVGA mini projects\Lost in VR\Presets\Factory Reflect.wwu" DateLow="1601478017" DateHigh="0"/>
+	<ValidationCacheItem File="Z:\Applications\Audiokinetic\Wwise 2019.2.5.7349\SoVGA mini projects\Lost in VR\Presets\Default Work Unit.wwu" DateLow="1612002812" DateHigh="0"/>
+	<ValidationCacheItem File="Z:\Applications\Audiokinetic\Wwise 2019.2.5.7349\SoVGA mini projects\Lost in VR\Modulators\Default Work Unit.wwu" DateLow="1612002812" DateHigh="0"/>
+	<ValidationCacheItem File="Z:\Applications\Audiokinetic\Wwise 2019.2.5.7349\SoVGA mini projects\Lost in VR\Mixing Sessions\Default Work Unit.wwu" DateLow="1612002812" DateHigh="0"/>
+	<ValidationCacheItem File="Z:\Applications\Audiokinetic\Wwise 2019.2.5.7349\SoVGA mini projects\Lost in VR\Master-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1612022994" DateHigh="0"/>
+	<ValidationCacheItem File="Z:\Applications\Audiokinetic\Wwise 2019.2.5.7349\SoVGA mini projects\Lost in VR\Lost in VR.wproj" DateLow="1612019906" DateHigh="0"/>
+	<ValidationCacheItem File="Z:\Applications\Audiokinetic\Wwise 2019.2.5.7349\SoVGA mini projects\Lost in VR\Lost in VR.crossover.wsettings" DateLow="1612031526" DateHigh="0"/>
+	<ValidationCacheItem File="Z:\Applications\Audiokinetic\Wwise 2019.2.5.7349\SoVGA mini projects\Lost in VR\Interactive Music Hierarchy\Music.wwu" DateLow="1612025033" DateHigh="0"/>
+	<ValidationCacheItem File="Z:\Applications\Audiokinetic\Wwise 2019.2.5.7349\SoVGA mini projects\Lost in VR\Interactive Music Hierarchy\Default Work Unit.wwu" DateLow="1612002952" DateHigh="0"/>
+	<ValidationCacheItem File="Z:\Applications\Audiokinetic\Wwise 2019.2.5.7349\SoVGA mini projects\Lost in VR\Game Parameters\Factory SoundSeed Grain.wwu" DateLow="1601478017" DateHigh="0"/>
+	<ValidationCacheItem File="Z:\Applications\Audiokinetic\Wwise 2019.2.5.7349\SoVGA mini projects\Lost in VR\Game Parameters\Factory SoundSeed Air Game Syncs.wwu" DateLow="1601478017" DateHigh="0"/>
+	<ValidationCacheItem File="Z:\Applications\Audiokinetic\Wwise 2019.2.5.7349\SoVGA mini projects\Lost in VR\Game Parameters\Factory Motion.wwu" DateLow="1601478017" DateHigh="0"/>
+	<ValidationCacheItem File="Z:\Applications\Audiokinetic\Wwise 2019.2.5.7349\SoVGA mini projects\Lost in VR\Game Parameters\Default Work Unit.wwu" DateLow="1612025033" DateHigh="0"/>
+	<ValidationCacheItem File="Z:\Applications\Audiokinetic\Wwise 2019.2.5.7349\SoVGA mini projects\Lost in VR\Events\Music.wwu" DateLow="1612025033" DateHigh="0"/>
+	<ValidationCacheItem File="Z:\Applications\Audiokinetic\Wwise 2019.2.5.7349\SoVGA mini projects\Lost in VR\Events\Default Work Unit.wwu" DateLow="1612022974" DateHigh="0"/>
+	<ValidationCacheItem File="Z:\Applications\Audiokinetic\Wwise 2019.2.5.7349\SoVGA mini projects\Lost in VR\Effects\Factory Reflect.wwu" DateLow="1601478017" DateHigh="0"/>
+	<ValidationCacheItem File="Z:\Applications\Audiokinetic\Wwise 2019.2.5.7349\SoVGA mini projects\Lost in VR\Effects\Factory McDSP Effects.wwu" DateLow="1601478017" DateHigh="0"/>
+	<ValidationCacheItem File="Z:\Applications\Audiokinetic\Wwise 2019.2.5.7349\SoVGA mini projects\Lost in VR\Effects\Factory Mastering Suite.wwu" DateLow="1601478016" DateHigh="0"/>
+	<ValidationCacheItem File="Z:\Applications\Audiokinetic\Wwise 2019.2.5.7349\SoVGA mini projects\Lost in VR\Effects\Factory iZotope Singleband Distortion.wwu" DateLow="1601478017" DateHigh="0"/>
+	<ValidationCacheItem File="Z:\Applications\Audiokinetic\Wwise 2019.2.5.7349\SoVGA mini projects\Lost in VR\Effects\Factory iZotope Multiband Distortion.wwu" DateLow="1601478017" DateHigh="0"/>
+	<ValidationCacheItem File="Z:\Applications\Audiokinetic\Wwise 2019.2.5.7349\SoVGA mini projects\Lost in VR\Effects\Factory iZotope Hybrid Reverb Effects.wwu" DateLow="1601478017" DateHigh="0"/>
+	<ValidationCacheItem File="Z:\Applications\Audiokinetic\Wwise 2019.2.5.7349\SoVGA mini projects\Lost in VR\Effects\Factory iZotope Filters.wwu" DateLow="1601478017" DateHigh="0"/>
+	<ValidationCacheItem File="Z:\Applications\Audiokinetic\Wwise 2019.2.5.7349\SoVGA mini projects\Lost in VR\Effects\Factory iZotope Dynamics.wwu" DateLow="1601478017" DateHigh="0"/>
+	<ValidationCacheItem File="Z:\Applications\Audiokinetic\Wwise 2019.2.5.7349\SoVGA mini projects\Lost in VR\Effects\Factory iZotope Delay.wwu" DateLow="1601478017" DateHigh="0"/>
+	<ValidationCacheItem File="Z:\Applications\Audiokinetic\Wwise 2019.2.5.7349\SoVGA mini projects\Lost in VR\Effects\Factory iZotope Box Modeler.wwu" DateLow="1601478017" DateHigh="0"/>
+	<ValidationCacheItem File="Z:\Applications\Audiokinetic\Wwise 2019.2.5.7349\SoVGA mini projects\Lost in VR\Effects\Factory Effects.wwu" DateLow="1601478016" DateHigh="0"/>
+	<ValidationCacheItem File="Z:\Applications\Audiokinetic\Wwise 2019.2.5.7349\SoVGA mini projects\Lost in VR\Effects\Factory Convolution Reverb Effects Stereo.wwu" DateLow="1601478017" DateHigh="0"/>
+	<ValidationCacheItem File="Z:\Applications\Audiokinetic\Wwise 2019.2.5.7349\SoVGA mini projects\Lost in VR\Effects\Factory Convolution Reverb Effects Ambisonics.wwu" DateLow="1601478017" DateHigh="0"/>
+	<ValidationCacheItem File="Z:\Applications\Audiokinetic\Wwise 2019.2.5.7349\SoVGA mini projects\Lost in VR\Effects\Factory Auro Headphone.wwu" DateLow="1601478017" DateHigh="0"/>
+	<ValidationCacheItem File="Z:\Applications\Audiokinetic\Wwise 2019.2.5.7349\SoVGA mini projects\Lost in VR\Effects\Factory Altiverb - Outdoor and More.wwu" DateLow="1601478017" DateHigh="0"/>
+	<ValidationCacheItem File="Z:\Applications\Audiokinetic\Wwise 2019.2.5.7349\SoVGA mini projects\Lost in VR\Effects\Default Work Unit.wwu" DateLow="1612002812" DateHigh="0"/>
+	<ValidationCacheItem File="Z:\Applications\Audiokinetic\Wwise 2019.2.5.7349\SoVGA mini projects\Lost in VR\Effects\BOOM Library IR - Outdoor.wwu" DateLow="1612002817" DateHigh="0"/>
+	<ValidationCacheItem File="Z:\Applications\Audiokinetic\Wwise 2019.2.5.7349\SoVGA mini projects\Lost in VR\Dynamic Dialogue\Default Work Unit.wwu" DateLow="1612002812" DateHigh="0"/>
+	<ValidationCacheItem File="Z:\Applications\Audiokinetic\Wwise 2019.2.5.7349\SoVGA mini projects\Lost in VR\Conversion Settings\Factory SoundSeed Grain.wwu" DateLow="1601478017" DateHigh="0"/>
+	<ValidationCacheItem File="Z:\Applications\Audiokinetic\Wwise 2019.2.5.7349\SoVGA mini projects\Lost in VR\Conversion Settings\Factory Conversion Settings.wwu" DateLow="1601478016" DateHigh="0"/>
+	<ValidationCacheItem File="Z:\Applications\Audiokinetic\Wwise 2019.2.5.7349\SoVGA mini projects\Lost in VR\Conversion Settings\Default Work Unit.wwu" DateLow="1612002812" DateHigh="0"/>
+	<ValidationCacheItem File="Z:\Applications\Audiokinetic\Wwise 2019.2.5.7349\SoVGA mini projects\Lost in VR\Control Surface Sessions\Default Work Unit.wwu" DateLow="1612002812" DateHigh="0"/>
+	<ValidationCacheItem File="Z:\Applications\Audiokinetic\Wwise 2019.2.5.7349\SoVGA mini projects\Lost in VR\Audio Devices\Default Work Unit.wwu" DateLow="1612002817" DateHigh="0"/>
+	<ValidationCacheItem File="Z:\Applications\Audiokinetic\Wwise 2019.2.5.7349\SoVGA mini projects\Lost in VR\Attenuations\Default Work Unit.wwu" DateLow="1612002812" DateHigh="0"/>
+	<ValidationCacheItem File="Z:\Applications\Audiokinetic\Wwise 2019.2.5.7349\SoVGA mini projects\Lost in VR\Actor-Mixer Hierarchy\Factory Synth One.wwu" DateLow="1601478017" DateHigh="0"/>
+	<ValidationCacheItem File="Z:\Applications\Audiokinetic\Wwise 2019.2.5.7349\SoVGA mini projects\Lost in VR\Actor-Mixer Hierarchy\Factory SoundSeed Grain.wwu" DateLow="1601478017" DateHigh="0"/>
+	<ValidationCacheItem File="Z:\Applications\Audiokinetic\Wwise 2019.2.5.7349\SoVGA mini projects\Lost in VR\Actor-Mixer Hierarchy\Factory SoundSeed Air Objects.wwu" DateLow="1601478017" DateHigh="0"/>
+	<ValidationCacheItem File="Z:\Applications\Audiokinetic\Wwise 2019.2.5.7349\SoVGA mini projects\Lost in VR\Actor-Mixer Hierarchy\Factory Motion.wwu" DateLow="1601478017" DateHigh="0"/>
+	<ValidationCacheItem File="Z:\Applications\Audiokinetic\Wwise 2019.2.5.7349\SoVGA mini projects\Lost in VR\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1612002812" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\GitHub\LostInVR\Assets\Wwise\Lost in VR - Wwise Project\Virtual Acoustics\Factory Reflect Acoustic Textures.wwu" DateLow="1601478017" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\GitHub\LostInVR\Assets\Wwise\Lost in VR - Wwise Project\Virtual Acoustics\Default Work Unit.wwu" DateLow="1612002812" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\GitHub\LostInVR\Assets\Wwise\Lost in VR - Wwise Project\Triggers\Default Work Unit.wwu" DateLow="1612002812" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\GitHub\LostInVR\Assets\Wwise\Lost in VR - Wwise Project\Switches\Default Work Unit.wwu" DateLow="1612025033" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\GitHub\LostInVR\Assets\Wwise\Lost in VR - Wwise Project\States\Default Work Unit.wwu" DateLow="1612002812" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\GitHub\LostInVR\Assets\Wwise\Lost in VR - Wwise Project\Soundcaster Sessions\Default Work Unit.wwu" DateLow="1612002812" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\GitHub\LostInVR\Assets\Wwise\Lost in VR - Wwise Project\SoundBanks\Default Work Unit.wwu" DateLow="1612022974" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\GitHub\LostInVR\Assets\Wwise\Lost in VR - Wwise Project\Queries\Factory Queries.wwu" DateLow="1601478016" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\GitHub\LostInVR\Assets\Wwise\Lost in VR - Wwise Project\Queries\Default Work Unit.wwu" DateLow="1612002812" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\GitHub\LostInVR\Assets\Wwise\Lost in VR - Wwise Project\Presets\Factory Spatial Audio.wwu" DateLow="1601478016" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\GitHub\LostInVR\Assets\Wwise\Lost in VR - Wwise Project\Presets\Factory Reflect.wwu" DateLow="1601478017" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\GitHub\LostInVR\Assets\Wwise\Lost in VR - Wwise Project\Presets\Default Work Unit.wwu" DateLow="1612002812" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\GitHub\LostInVR\Assets\Wwise\Lost in VR - Wwise Project\Modulators\Default Work Unit.wwu" DateLow="1612002812" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\GitHub\LostInVR\Assets\Wwise\Lost in VR - Wwise Project\Mixing Sessions\Default Work Unit.wwu" DateLow="1612002812" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\GitHub\LostInVR\Assets\Wwise\Lost in VR - Wwise Project\Master-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1612022994" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\GitHub\LostInVR\Assets\Wwise\Lost in VR - Wwise Project\Lost in VR.wproj" DateLow="1612019906" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\GitHub\LostInVR\Assets\Wwise\Lost in VR - Wwise Project\Lost in VR.crossover.wsettings" DateLow="1612031526" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\GitHub\LostInVR\Assets\Wwise\Lost in VR - Wwise Project\Interactive Music Hierarchy\Music.wwu" DateLow="1612025033" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\GitHub\LostInVR\Assets\Wwise\Lost in VR - Wwise Project\Interactive Music Hierarchy\Default Work Unit.wwu" DateLow="1612002952" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\GitHub\LostInVR\Assets\Wwise\Lost in VR - Wwise Project\Game Parameters\Factory SoundSeed Grain.wwu" DateLow="1601478017" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\GitHub\LostInVR\Assets\Wwise\Lost in VR - Wwise Project\Game Parameters\Factory SoundSeed Air Game Syncs.wwu" DateLow="1601478017" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\GitHub\LostInVR\Assets\Wwise\Lost in VR - Wwise Project\Game Parameters\Factory Motion.wwu" DateLow="1601478017" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\GitHub\LostInVR\Assets\Wwise\Lost in VR - Wwise Project\Game Parameters\Default Work Unit.wwu" DateLow="1612025033" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\GitHub\LostInVR\Assets\Wwise\Lost in VR - Wwise Project\Events\Music.wwu" DateLow="1612025033" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\GitHub\LostInVR\Assets\Wwise\Lost in VR - Wwise Project\Events\Default Work Unit.wwu" DateLow="1612022974" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\GitHub\LostInVR\Assets\Wwise\Lost in VR - Wwise Project\Effects\Factory Reflect.wwu" DateLow="1601478017" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\GitHub\LostInVR\Assets\Wwise\Lost in VR - Wwise Project\Effects\Factory McDSP Effects.wwu" DateLow="1601478017" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\GitHub\LostInVR\Assets\Wwise\Lost in VR - Wwise Project\Effects\Factory Mastering Suite.wwu" DateLow="1601478016" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\GitHub\LostInVR\Assets\Wwise\Lost in VR - Wwise Project\Effects\Factory iZotope Singleband Distortion.wwu" DateLow="1601478017" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\GitHub\LostInVR\Assets\Wwise\Lost in VR - Wwise Project\Effects\Factory iZotope Multiband Distortion.wwu" DateLow="1601478017" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\GitHub\LostInVR\Assets\Wwise\Lost in VR - Wwise Project\Effects\Factory iZotope Hybrid Reverb Effects.wwu" DateLow="1601478017" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\GitHub\LostInVR\Assets\Wwise\Lost in VR - Wwise Project\Effects\Factory iZotope Filters.wwu" DateLow="1601478017" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\GitHub\LostInVR\Assets\Wwise\Lost in VR - Wwise Project\Effects\Factory iZotope Dynamics.wwu" DateLow="1601478017" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\GitHub\LostInVR\Assets\Wwise\Lost in VR - Wwise Project\Effects\Factory iZotope Delay.wwu" DateLow="1601478017" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\GitHub\LostInVR\Assets\Wwise\Lost in VR - Wwise Project\Effects\Factory iZotope Box Modeler.wwu" DateLow="1601478017" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\GitHub\LostInVR\Assets\Wwise\Lost in VR - Wwise Project\Effects\Factory Effects.wwu" DateLow="1601478016" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\GitHub\LostInVR\Assets\Wwise\Lost in VR - Wwise Project\Effects\Factory Convolution Reverb Effects Stereo.wwu" DateLow="1601478017" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\GitHub\LostInVR\Assets\Wwise\Lost in VR - Wwise Project\Effects\Factory Convolution Reverb Effects Ambisonics.wwu" DateLow="1601478017" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\GitHub\LostInVR\Assets\Wwise\Lost in VR - Wwise Project\Effects\Factory Auro Headphone.wwu" DateLow="1601478017" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\GitHub\LostInVR\Assets\Wwise\Lost in VR - Wwise Project\Effects\Factory Altiverb - Outdoor and More.wwu" DateLow="1601478017" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\GitHub\LostInVR\Assets\Wwise\Lost in VR - Wwise Project\Effects\Default Work Unit.wwu" DateLow="1612002812" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\GitHub\LostInVR\Assets\Wwise\Lost in VR - Wwise Project\Effects\BOOM Library IR - Outdoor.wwu" DateLow="1612002817" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\GitHub\LostInVR\Assets\Wwise\Lost in VR - Wwise Project\Dynamic Dialogue\Default Work Unit.wwu" DateLow="1612002812" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\GitHub\LostInVR\Assets\Wwise\Lost in VR - Wwise Project\Conversion Settings\Factory SoundSeed Grain.wwu" DateLow="1601478017" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\GitHub\LostInVR\Assets\Wwise\Lost in VR - Wwise Project\Conversion Settings\Factory Conversion Settings.wwu" DateLow="1601478016" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\GitHub\LostInVR\Assets\Wwise\Lost in VR - Wwise Project\Conversion Settings\Default Work Unit.wwu" DateLow="1612002812" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\GitHub\LostInVR\Assets\Wwise\Lost in VR - Wwise Project\Control Surface Sessions\Default Work Unit.wwu" DateLow="1612002812" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\GitHub\LostInVR\Assets\Wwise\Lost in VR - Wwise Project\Audio Devices\Default Work Unit.wwu" DateLow="1612002817" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\GitHub\LostInVR\Assets\Wwise\Lost in VR - Wwise Project\Attenuations\Default Work Unit.wwu" DateLow="1612002812" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\GitHub\LostInVR\Assets\Wwise\Lost in VR - Wwise Project\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1612002812" DateHigh="0"/>
+</ValidationCache>

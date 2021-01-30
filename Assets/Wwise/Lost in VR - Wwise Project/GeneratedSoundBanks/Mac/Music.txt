@@ -1,0 +1,32 @@
+Event	ID	Name			Wwise Object Path	Notes
+	379521629	Test_Music			\Default Work Unit\Music\Test_Music	
+
+Switch Group	ID	Name			Wwise Object Path	Notes
+	2520593515	Music_Playlist			\Default Work Unit\Music_Playlist	
+
+Switch	ID	Name	Switch Group			Notes
+	3987970508	Loop_2	Music_Playlist			
+	3987970511	Loop_1	Music_Playlist			
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	2125575055	Items_Collected			\Default Work Unit\Items_Collected	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	34388636	SectionB_Synth2_125bpm_4m	Z:\Applications\Audiokinetic\Wwise 2019.2.5.7349\SoVGA mini projects\Lost in VR\.cache\Mac\SFX\SectionB_Synth2_125bpm_4m_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Test container\Intensity 2\Section B\SectionB_Synth2_125bpm_4m		2212032
+	81235974	SectionA_Piano2_125bpm_4m	Z:\Applications\Audiokinetic\Wwise 2019.2.5.7349\SoVGA mini projects\Lost in VR\.cache\Mac\SFX\SectionA_Piano2_125bpm_4m_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Test container\Intensity 2\Section A\SectionA_Piano2_125bpm_4m		3686592
+	101275765	SectionB_Drums_125bpm_4m	Z:\Applications\Audiokinetic\Wwise 2019.2.5.7349\SoVGA mini projects\Lost in VR\.cache\Mac\SFX\SectionB_Drums_125bpm_4m_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Test container\Intensity 2\Section B\SectionB_Drums_125bpm_4m		2212032
+	170572212	SectionA_Piano3_125bpm_4m	Z:\Applications\Audiokinetic\Wwise 2019.2.5.7349\SoVGA mini projects\Lost in VR\.cache\Mac\SFX\SectionA_Piano3_125bpm_4m_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Test container\Intensity 2\Section A\SectionA_Piano3_125bpm_4m		3686592
+	253820210	SectionA_Drums_125bpm_4m	Z:\Applications\Audiokinetic\Wwise 2019.2.5.7349\SoVGA mini projects\Lost in VR\.cache\Mac\SFX\SectionA_Drums_125bpm_4m_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Test container\Intensity 2\Section A\SectionA_Drums_125bpm_4m		3686592
+	263403999	SectionA_Synth1_125bpm_4m	Z:\Applications\Audiokinetic\Wwise 2019.2.5.7349\SoVGA mini projects\Lost in VR\.cache\Mac\SFX\SectionA_Synth2.5_125bpm_4m_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Test container\Intensity 2\Section A\SectionA_Synth1_125bpm_4m		3686592
+	284259145	DrumIntro_Drums_125bpm_2m	Z:\Applications\Audiokinetic\Wwise 2019.2.5.7349\SoVGA mini projects\Lost in VR\.cache\Mac\SFX\DrumIntro_Drums_125bpm_2m_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Test container\Intensity 2\Drum Intro\DrumIntro_Drums_125bpm_2m		1474752
+	507124366	DrumIntro_Piano2_125bpm_2m	Z:\Applications\Audiokinetic\Wwise 2019.2.5.7349\SoVGA mini projects\Lost in VR\.cache\Mac\SFX\DrumIntro_Piano2_125bpm_2m_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Test container\Intensity 2\Drum Intro\DrumIntro_Piano2_125bpm_2m		1474752
+	509921208	SectionA_Synth3_125bpm_4m	Z:\Applications\Audiokinetic\Wwise 2019.2.5.7349\SoVGA mini projects\Lost in VR\.cache\Mac\SFX\SectionA_Synth3_125bpm_4m_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Test container\Intensity 2\Section A\SectionA_Synth3_125bpm_4m		3686592
+	593615582	SectionB_Synth3_125bpm_4m	Z:\Applications\Audiokinetic\Wwise 2019.2.5.7349\SoVGA mini projects\Lost in VR\.cache\Mac\SFX\SectionB_Synth3_125bpm_4m_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Test container\Intensity 2\Section B\SectionB_Synth3_125bpm_4m		2212032
+	700774636	SectionA_Synth1_125bpm_4m	Z:\Applications\Audiokinetic\Wwise 2019.2.5.7349\SoVGA mini projects\Lost in VR\.cache\Mac\SFX\SectionA_Synth1_125bpm_4m_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Test container\Intensity 2\Section A\SectionA_Synth1_125bpm_4m		3686592
+	707820485	SectionB_Piano3_125bpm_4m	Z:\Applications\Audiokinetic\Wwise 2019.2.5.7349\SoVGA mini projects\Lost in VR\.cache\Mac\SFX\SectionB_Piano3_125bpm_4m_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Test container\Intensity 2\Section B\SectionB_Piano3_125bpm_4m		2212032
+	745220130	SectionB_Bass_125bpm_4m	Z:\Applications\Audiokinetic\Wwise 2019.2.5.7349\SoVGA mini projects\Lost in VR\.cache\Mac\SFX\SectionB_Bass_125bpm_4m_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Test container\Intensity 2\Section B\SectionB_Bass_125bpm_4m		2212032
+	873080354	SectionA_Flute_125bpm_4m	Z:\Applications\Audiokinetic\Wwise 2019.2.5.7349\SoVGA mini projects\Lost in VR\.cache\Mac\SFX\SectionA_Flute_125bpm_4m_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Test container\Intensity 2\Section A\SectionA_Flute_125bpm_4m		3686592
+	952565326	SectionA_Piano_125bpm_4m	Z:\Applications\Audiokinetic\Wwise 2019.2.5.7349\SoVGA mini projects\Lost in VR\.cache\Mac\SFX\SectionA_Piano_125bpm_4m_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Test container\Intensity 2\Section A\SectionA_Piano_125bpm_4m		3686592
+	957612058	SectionB_Flute_125bpm_4m	Z:\Applications\Audiokinetic\Wwise 2019.2.5.7349\SoVGA mini projects\Lost in VR\.cache\Mac\SFX\SectionB_Flute_125bpm_4m_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Test container\Intensity 2\Section B\SectionB_Flute_125bpm_4m		2212032
+	1027734444	DrumIntro_Piano_125bpm_2m	Z:\Applications\Audiokinetic\Wwise 2019.2.5.7349\SoVGA mini projects\Lost in VR\.cache\Mac\SFX\DrumIntro_Piano_125bpm_2m_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Test container\Intensity 2\Drum Intro\DrumIntro_Piano_125bpm_2m		1474752
+

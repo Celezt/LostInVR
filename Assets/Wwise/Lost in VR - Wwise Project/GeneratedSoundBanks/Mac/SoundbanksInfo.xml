@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="12" SoundbankVersion="135">
+	<RootPaths>
+		<ProjectRoot>/Users/mikeyparsons/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/Documents/GitHub/LostInVR/Assets/Wwise/Lost in VR - Wwise Project/</ProjectRoot>
+		<SourceFilesRoot>/Users/mikeyparsons/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/Documents/GitHub/LostInVR/Assets/Wwise/Lost in VR - Wwise Project/.cache/Mac/</SourceFilesRoot>
+		<SoundBanksRoot>/Users/mikeyparsons/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/Documents/GitHub/LostInVR/Assets/Wwise/Lost in VR - Wwise Project/GeneratedSoundBanks/Mac/</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>/Users/mikeyparsons/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/Documents/GitHub/LostInVR/Assets/Wwise/Lost in VR - Wwise Project/GeneratedSoundBanks/Mac</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Language="SFX" Hash="1640092987">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="3991942870" Language="SFX" Hash="2425587666">
+			<ObjectPath>\SoundBanks\Default Work Unit\Music</ObjectPath>
+			<ShortName>Music</ShortName>
+			<Path>Music.bnk</Path>
+			<IncludedEvents>
+				<Event Id="379521629" Name="Test_Music" ObjectPath="\Events\Default Work Unit\Music\Test_Music" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="34388636" Language="SFX">
+							<ShortName>SectionB_Synth2_125bpm_4m.wav</ShortName>
+							<Path>SFX/SectionB_Synth2_125bpm_4m_D79FB2B7.wem</Path>
+						</File>
+						<File Id="81235974" Language="SFX">
+							<ShortName>SectionA_Piano2_125bpm_4m.wav</ShortName>
+							<Path>SFX/SectionA_Piano2_125bpm_4m_D79FB2B7.wem</Path>
+						</File>
+						<File Id="101275765" Language="SFX">
+							<ShortName>SectionB_Drums_125bpm_4m.wav</ShortName>
+							<Path>SFX/SectionB_Drums_125bpm_4m_D79FB2B7.wem</Path>
+						</File>
+						<File Id="170572212" Language="SFX">
+							<ShortName>SectionA_Piano3_125bpm_4m.wav</ShortName>
+							<Path>SFX/SectionA_Piano3_125bpm_4m_D79FB2B7.wem</Path>
+						</File>
+						<File Id="253820210" Language="SFX">
+							<ShortName>SectionA_Drums_125bpm_4m.wav</ShortName>
+							<Path>SFX/SectionA_Drums_125bpm_4m_D79FB2B7.wem</Path>
+						</File>
+						<File Id="263403999" Language="SFX">
+							<ShortName>SectionA_Synth2.5_125bpm_4m.wav</ShortName>
+							<Path>SFX/SectionA_Synth2.5_125bpm_4m_D79FB2B7.wem</Path>
+						</File>
+						<File Id="284259145" Language="SFX">
+							<ShortName>DrumIntro_Drums_125bpm_2m.wav</ShortName>
+							<Path>SFX/DrumIntro_Drums_125bpm_2m_D79FB2B7.wem</Path>
+						</File>
+						<File Id="507124366" Language="SFX">
+							<ShortName>DrumIntro_Piano2_125bpm_2m.wav</ShortName>
+							<Path>SFX/DrumIntro_Piano2_125bpm_2m_D79FB2B7.wem</Path>
+						</File>
+						<File Id="509921208" Language="SFX">
+							<ShortName>SectionA_Synth3_125bpm_4m.wav</ShortName>
+							<Path>SFX/SectionA_Synth3_125bpm_4m_D79FB2B7.wem</Path>
+						</File>
+						<File Id="593615582" Language="SFX">
+							<ShortName>SectionB_Synth3_125bpm_4m.wav</ShortName>
+							<Path>SFX/SectionB_Synth3_125bpm_4m_D79FB2B7.wem</Path>
+						</File>
+						<File Id="700774636" Language="SFX">
+							<ShortName>SectionA_Synth1_125bpm_4m.wav</ShortName>
+							<Path>SFX/SectionA_Synth1_125bpm_4m_D79FB2B7.wem</Path>
+						</File>
+						<File Id="707820485" Language="SFX">
+							<ShortName>SectionB_Piano3_125bpm_4m.wav</ShortName>
+							<Path>SFX/SectionB_Piano3_125bpm_4m_D79FB2B7.wem</Path>
+						</File>
+						<File Id="745220130" Language="SFX">
+							<ShortName>SectionB_Bass_125bpm_4m.wav</ShortName>
+							<Path>SFX/SectionB_Bass_125bpm_4m_D79FB2B7.wem</Path>
+						</File>
+						<File Id="873080354" Language="SFX">
+							<ShortName>SectionA_Flute_125bpm_4m.wav</ShortName>
+							<Path>SFX/SectionA_Flute_125bpm_4m_D79FB2B7.wem</Path>
+						</File>
+						<File Id="952565326" Language="SFX">
+							<ShortName>SectionA_Piano_125bpm_4m.wav</ShortName>
+							<Path>SFX/SectionA_Piano_125bpm_4m_D79FB2B7.wem</Path>
+						</File>
+						<File Id="957612058" Language="SFX">
+							<ShortName>SectionB_Flute_125bpm_4m.wav</ShortName>
+							<Path>SFX/SectionB_Flute_125bpm_4m_D79FB2B7.wem</Path>
+						</File>
+						<File Id="1027734444" Language="SFX">
+							<ShortName>DrumIntro_Piano_125bpm_2m.wav</ShortName>
+							<Path>SFX/DrumIntro_Piano_125bpm_2m_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+			</IncludedEvents>
+			<GameParameters>
+				<GameParameter Id="2125575055" Name="Items_Collected" ObjectPath="\Game Parameters\Default Work Unit\Items_Collected"/>
+			</GameParameters>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>
