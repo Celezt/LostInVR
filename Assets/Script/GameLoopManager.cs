@@ -1,7 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using UnityEngine.SceneManagement;
 
 public class GameLoopManager : Singleton <GameLoopManager>
 {
@@ -42,6 +42,7 @@ public class GameLoopManager : Singleton <GameLoopManager>
             if (currentGameTimeRemaining <= 0)
             {
                 DisplayGameOverMessage();
+                GameObject.FindGameObjectWithTag("Menu").SetActive(true);
                 gameOver = true;
             }
         }

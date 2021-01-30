@@ -12,7 +12,7 @@
 						<Switch Name="Loop_2" ID="{38775332-F86F-497A-ABDC-1325CC9445F8}"/>
 					</ChildrenList>
 					<SwitchOnRTPC>
-						<GameParameterRef Name="Items_Collected" ID="{9DC5D1E1-7BBE-41D8-8022-88A272F694A0}"/>
+						<GameParameterRef Name="GameTimeRemaining" ID="{FF2EC264-7F3B-44CB-AEA8-336CBB19F329}"/>
 						<Curve Name="" ID="{0FC5E9C8-F5C7-4D5F-BCE3-0B9010FF1AAA}">
 							<PropertyList>
 								<Property Name="Flags" Type="int32" Value="65537"/>
@@ -20,17 +20,17 @@
 							<PointList>
 								<Point>
 									<XPos>0</XPos>
-									<YPos>1</YPos>
+									<YPos>2</YPos>
 									<Flags>5</Flags>
 								</Point>
 								<Point>
-									<XPos>2</XPos>
-									<YPos>2</YPos>
+									<XPos>100</XPos>
+									<YPos>1</YPos>
 									<Flags>0</Flags>
 								</Point>
 								<Point>
-									<XPos>10</XPos>
-									<YPos>0</YPos>
+									<XPos>120</XPos>
+									<YPos>1</YPos>
 									<Flags>37</Flags>
 								</Point>
 							</PointList>
