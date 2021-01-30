@@ -199,7 +199,7 @@ GameObject:
   - component: {fileID: 5728846272640513364}
   m_Layer: 0
   m_Name: Handle
-  m_TagString: Untagged
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -275,7 +275,7 @@ GameObject:
   - component: {fileID: 8088376337108989126}
   m_Layer: 0
   m_Name: Blades
-  m_TagString: Untagged
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
