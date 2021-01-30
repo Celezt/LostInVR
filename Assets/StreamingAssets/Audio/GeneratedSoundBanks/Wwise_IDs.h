@@ -11,11 +11,32 @@
 
 namespace AK
 {
+    namespace EVENTS
+    {
+        static const AkUniqueID TEST_MUSIC = 379521629U;
+    } // namespace EVENTS
+
+    namespace SWITCHES
+    {
+        namespace MUSIC_PLAYLIST
+        {
+            static const AkUniqueID GROUP = 2520593515U;
+
+            namespace SWITCH
+            {
+                static const AkUniqueID LOOP_1 = 3987970511U;
+                static const AkUniqueID LOOP_2 = 3987970508U;
+            } // namespace SWITCH
+        } // namespace MUSIC_PLAYLIST
+
+    } // namespace SWITCHES
+
     namespace GAME_PARAMETERS
     {
         static const AkUniqueID DENSITY_FA_SSGRAIN = 2715217995U;
         static const AkUniqueID IMMERSION_FA_SSGRAIN = 2481728872U;
         static const AkUniqueID INSTRUMENT_FA_SSGRAIN = 2317409760U;
+        static const AkUniqueID ITEMS_COLLECTED = 2125575055U;
         static const AkUniqueID PLAYBACK_RATE = 1524500807U;
         static const AkUniqueID PROXIMITY_FA_SSGRAIN = 1791284502U;
         static const AkUniqueID RPM = 796049864U;
@@ -33,10 +54,15 @@ namespace AK
         static const AkUniqueID SS_AIR_TURBULENCE = 4160247818U;
     } // namespace GAME_PARAMETERS
 
+    namespace BANKS
+    {
+        static const AkUniqueID INIT = 1355168291U;
+        static const AkUniqueID MUSIC = 3991942870U;
+    } // namespace BANKS
+
     namespace BUSSES
     {
         static const AkUniqueID MASTER_AUDIO_BUS = 3803692087U;
-        static const AkUniqueID MOTION_FACTORY_BUS = 985987111U;
     } // namespace BUSSES
 
     namespace AUDIO_DEVICES
