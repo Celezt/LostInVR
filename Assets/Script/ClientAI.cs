@@ -6,7 +6,6 @@ using UnityEngine;
 public class ClientAI : MonoBehaviour
 {
     private FollowPath _follow;
-    private Outline _outline;
 
     [SerializeField]
     private GameObject _player;
@@ -33,7 +32,6 @@ public class ClientAI : MonoBehaviour
     private void Start()
     {
         _follow = GetComponent<FollowPath>();
-        _outline = GetComponent<Outline>();
     }
 
     private void Update()
@@ -74,11 +72,6 @@ public class ClientAI : MonoBehaviour
 
                 break;
         }
-
-        if (Vector3.Distance(_player.transform.position, transform.position) < DistanceThreshold)
-            _outline.enabled = true;
-        else
-            _outline.enabled = false;
     }
 
     private void OnMouseDown()

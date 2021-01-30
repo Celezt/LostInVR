@@ -5,7 +5,7 @@ using PathCreation;
 
 public class FollowPath : MonoBehaviour
 {
-    private Vector3 _offset;
+    private Vector3 _offsetPosition;
 
     public PathCreator Creator;
     public float Speed = 5;
@@ -25,7 +25,7 @@ public class FollowPath : MonoBehaviour
 
     void Start()
     {
-        _offset = transform.position;
+        _offsetPosition = transform.position;
         LookRotation = transform.rotation;
 
         if (Creator != null)
@@ -43,11 +43,11 @@ public class FollowPath : MonoBehaviour
             {
                 DistanceTravelled += Speed * Time.deltaTime;
                 PercentTravelled = DistanceTravelled / Creator.path.length;
-                transform.position = Creator.path.GetPointAtDistance(DistanceTravelled) + _offset;
+                transform.position = Creator.path.GetPointAtDistance(DistanceTravelled) + _offsetPosition;
             }
 
             var rotation = Quaternion.LookRotation(Creator.path.GetDirectionAtDistance(DistanceTravelled), Vector3.up);
-            LookRotation = Quaternion.Slerp(transform.rotation, rotation, Time.deltaTime * DampRotation);
+            LookRotation = Quaternion.Slerp(transform.localRotation, rotation, Time.deltaTime * DampRotation);
 
             if (ToRotate)
                 transform.rotation = LookRotation;
