@@ -26,7 +26,7 @@ public class LookOutline : MonoBehaviour
         _outline.enabled = false;
 
         if (_renderer.isVisible)
-            if (Vector3.Distance(Camera.current.transform.position, transform.position) < DistanceThreshold)
+            if (Vector3.Distance(Camera.main.transform.position, transform.position) < DistanceThreshold)
             {
                 RaycastHit hit;
 
