@@ -7,9 +7,6 @@ public class ClientAI : MonoBehaviour
 {
     private FollowPath _follow;
 
-    [SerializeField]
-    private GameObject _player;
-
     public int DistanceThreshold = 3;
     [Range(0, 1)]
     public float WaitPoint;
@@ -26,7 +23,6 @@ public class ClientAI : MonoBehaviour
         MoveTo,
         MoveFrom,
         Request,
-        Register,
     }
 
     private void Start()
@@ -50,7 +46,7 @@ public class ClientAI : MonoBehaviour
 
                 break;
             case ClientState.Request:
-                Vector3 lookPosition = _player.transform.position - transform.position;
+                Vector3 lookPosition = Camera.main.transform.position - transform.position;
                 lookPosition.y = 0;
                 var rotation = Quaternion.LookRotation(lookPosition);
                 transform.rotation = Quaternion.Slerp(transform.rotation, rotation, Time.deltaTime * DampRotation);
@@ -72,11 +68,5 @@ public class ClientAI : MonoBehaviour
 
                 break;
         }
-    }
-
-    private void OnMouseDown()
-    {
-        if (Vector3.Distance(_player.transform.position, transform.position) < DistanceThreshold)
-            State = ClientState.Register;
     }
 }
