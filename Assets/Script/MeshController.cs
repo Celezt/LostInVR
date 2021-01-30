@@ -18,6 +18,12 @@ public class MeshController : MonoBehaviour
             Prefabs.Add(loadedObject);
         }
 
+        GameObject[] objectList = GameObject.FindGameObjectsWithTag("Object");
+        foreach (GameObject go in objectList)
+        {
+            Objects.Add(go);
+        }
+
         random = new System.Random();
         foreach (GameObject go in Objects)
         {
