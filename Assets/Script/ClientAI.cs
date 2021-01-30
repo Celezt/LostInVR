@@ -15,15 +15,17 @@ public class ClientAI : MonoBehaviour
     [Range(0, 1)]
     public float WaitPoint;
     public float DampRotation = 2f;
+    public GameObject Request;
 
     /// <summary>
     /// The current state of the client.
     /// </summary>
-    public ClientState State { get; private set; } = ClientState.Move;
+    public ClientState State { get; private set; } = ClientState.MoveTo;
 
     public enum ClientState
     {
-        Move,
+        MoveTo,
+        MoveFrom,
         Request,
         Register,
     }
@@ -38,7 +40,7 @@ public class ClientAI : MonoBehaviour
     {
         switch (State)
         {
-            case ClientState.Move:
+            case ClientState.MoveTo:
                 if (_follow.PercentTravelled > WaitPoint)
                 {
                     // Request item.
@@ -54,8 +56,11 @@ public class ClientAI : MonoBehaviour
                 lookPosition.y = 0;
                 var rotation = Quaternion.LookRotation(lookPosition);
                 transform.rotation = Quaternion.Slerp(transform.rotation, rotation, Time.deltaTime * DampRotation);
+
                 break;
             case ClientState.Register:
+
+
                 break;
         }
 
@@ -63,12 +68,11 @@ public class ClientAI : MonoBehaviour
             _outline.enabled = true;
         else
             _outline.enabled = false;
-
     }
 
     private void OnMouseDown()
     {
         if (Vector3.Distance(_player.transform.position, transform.position) < DistanceThreshold)
-            print("hej");
+            State = ClientState.Register;
     }
 }
