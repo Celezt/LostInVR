@@ -12,6 +12,7 @@ public class FollowPath : MonoBehaviour
 
     public Quaternion LookRotation { get; set; }
     public float DistanceTravelled { get; set; }
+    public float PercentTravelled { get; set; }
     /// <summary>
     /// Enable/Disable update for movement.
     /// </summary>
@@ -40,6 +41,7 @@ public class FollowPath : MonoBehaviour
             if (ToMove)
             {
                 DistanceTravelled += Speed * Time.deltaTime;
+                PercentTravelled = DistanceTravelled / Creator.path.length;
                 transform.position = Creator.path.GetPointAtDistance(DistanceTravelled) + _offset;
             }
 
