@@ -1,0 +1,57 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using PathCreation;
+
+public class FollowPath : MonoBehaviour
+{
+    private Vector3 _offset;
+
+    public PathCreator Creator;
+    public float Speed = 5;
+
+    public Quaternion LookRotation { get; set; }
+    public float DistanceTravelled { get; set; }
+    /// <summary>
+    /// Enable/Disable update for movement.
+    /// </summary>
+    public bool ToMove { get; set; } = true;
+    /// <summary>
+    /// Enable/Disable update for rotation.
+    /// </summary>
+    public bool ToRotate { get; set; } = true;
+
+    void Start()
+    {
+        _offset = transform.position;
+        LookRotation = transform.rotation;
+
+        if (Creator != null)
+        {
+            // Subscribed to get notified if the path changes during the game.
+            Creator.pathUpdated += OnPathChanged;
+        }
+    }
+
+    void Update()
+    {
+        if (Creator != null)
+        {
+            if (ToMove)
+            {
+                DistanceTravelled += Speed * Time.deltaTime;
+                transform.position = Creator.path.GetPointAtDistance(DistanceTravelled) + _offset;
+            }
+
+            LookRotation = Quaternion.LookRotation(Creator.path.GetDirectionAtDistance(DistanceTravelled), Vector3.up);
+
+            if (ToRotate)
+                transform.rotation = LookRotation;
+        }
+    }
+
+    void OnPathChanged()
+    {
+        DistanceTravelled = Creator.path.GetClosestDistanceAlongPath(transform.position);
+    }
+}
