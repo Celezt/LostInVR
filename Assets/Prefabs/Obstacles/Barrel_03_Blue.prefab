@@ -11,7 +11,10 @@ GameObject:
   - component: {fileID: 428934}
   - component: {fileID: 3355470}
   - component: {fileID: 2350168}
-  - component: {fileID: 5945695286020242972}
+  - component: {fileID: 6607453525276160883}
+  - component: {fileID: 5658502586351367696}
+  - component: {fileID: 492558223027986411}
+  - component: {fileID: 54845481565125548}
   m_Layer: 0
   m_Name: Barrel_03_Blue
   m_TagString: Untagged
@@ -78,8 +81,8 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!64 &5945695286020242972
-MeshCollider:
+--- !u!65 &6607453525276160883
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -88,7 +91,48 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
-  m_Convex: 0
-  m_CookingOptions: 14
-  m_Mesh: {fileID: 4300000, guid: f1a871656407f1843a8eea3435a3ef93, type: 3}
+  serializedVersion: 2
+  m_Size: {x: 0.53, y: 0.8799999, z: 0.25}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!65 &5658502586351367696
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 112082}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.25, y: 0.8799999, z: 0.53}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!65 &492558223027986411
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 112082}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.39, y: 0.8799999, z: 0.39}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!54 &54845481565125548
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 112082}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0

@@ -1,0 +1,282 @@
+fileFormatVersion: 2
+guid: f2a966b4a22bdf941994865495b61902
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Chains
+    100004: Cube.002
+    100006: Cube.003
+    100008: Door
+    100010: Lamp
+    100012: Lamp.001
+    100014: Lamp_Wire
+    100016: Lamp_Wire.001
+    100018: Light
+    100020: Loby_beams
+    100022: Loby_Room
+    100024: Main_room
+    100026: MainRoom_beams
+    100028: Plane.004
+    100030: Plane.005
+    100032: Plane.006
+    100034: Plane.007
+    100036: Point
+    100038: Point.001
+    100040: Window
+    100042: Window_Light
+    400000: //RootNode
+    400002: Chains
+    400004: Cube.002
+    400006: Cube.003
+    400008: Door
+    400010: Lamp
+    400012: Lamp.001
+    400014: Lamp_Wire
+    400016: Lamp_Wire.001
+    400018: Light
+    400020: Loby_beams
+    400022: Loby_Room
+    400024: Main_room
+    400026: MainRoom_beams
+    400028: Plane.004
+    400030: Plane.005
+    400032: Plane.006
+    400034: Plane.007
+    400036: Point
+    400038: Point.001
+    400040: Window
+    400042: Window_Light
+    2100000: Kiosk_color1
+    2100002: Kiosk_color2
+    2100004: Kiosk_color3
+    2100006: Kiosk_glass
+    2100008: Lightbulb_glass
+    2100010: Lightbulb_metal
+    2100012: No Name
+    2100014: wooden_beams_color1
+    2100016: Room_wall_color1
+    2100018: Room_roof_color1
+    2100020: Room_floor_color1
+    2100022: Window_color1
+    2100024: Window_light
+    2100026: Glass_fake_light
+    2100028: Door_color1
+    2300000: Chains
+    2300002: Cube.002
+    2300004: Cube.003
+    2300006: Door
+    2300008: Lamp
+    2300010: Lamp.001
+    2300012: Lamp_Wire
+    2300014: Lamp_Wire.001
+    2300016: Loby_beams
+    2300018: Loby_Room
+    2300020: Main_room
+    2300022: MainRoom_beams
+    2300024: Plane.004
+    2300026: Plane.005
+    2300028: Plane.006
+    2300030: Plane.007
+    2300032: Window
+    2300034: Window_Light
+    3300000: Chains
+    3300002: Cube.002
+    3300004: Cube.003
+    3300006: Door
+    3300008: Lamp
+    3300010: Lamp.001
+    3300012: Lamp_Wire
+    3300014: Lamp_Wire.001
+    3300016: Loby_beams
+    3300018: Loby_Room
+    3300020: Main_room
+    3300022: MainRoom_beams
+    3300024: Plane.004
+    3300026: Plane.005
+    3300028: Plane.006
+    3300030: Plane.007
+    3300032: Window
+    3300034: Window_Light
+    4300000: Plane.004
+    4300002: Cube.002
+    4300004: Cube.003
+    4300006: Plane.005
+    4300008: Plane.006
+    4300010: Plane.007
+    4300012: Lamp
+    4300014: Lamp_Wire
+    4300016: Lamp.001
+    4300018: Lamp_Wire.001
+    4300020: Loby_beams
+    4300022: Loby_Room
+    4300024: Window
+    4300026: Window_Light
+    4300028: Main_room
+    4300030: MainRoom_beams
+    4300032: Door
+    4300034: Chains
+    10800000: Light
+    10800002: Point
+    10800004: Point.001
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Door_color1
+    second: {fileID: 2100000, guid: adf34c54ac28d54459b73f9f69e00f60, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Glass_fake_light
+    second: {fileID: 2100000, guid: 535c11bcca3d56e4db891eea3e04e349, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kiosk_color1
+    second: {fileID: 2100000, guid: 8846adc36b3059747add2f7fa20e4557, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kiosk_color2
+    second: {fileID: 2100000, guid: 71a0cabe69132dc4d89a462b3f6bec58, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kiosk_color3
+    second: {fileID: 2100000, guid: cc73055701842e04e8ed571988106e79, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kiosk_glass
+    second: {fileID: 2100000, guid: f964200df02423b45b49c5f3ba5b15ae, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lightbulb_glass
+    second: {fileID: 2100000, guid: 3f9155d36b073ae4c8e2bf184cbeefdd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lightbulb_metal
+    second: {fileID: 2100000, guid: 3b3672c1d70fe3a46a0c5d4ae83e9a55, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: No Name
+    second: {fileID: 2100000, guid: 4fbbde0b8cb4b5a478c3c3e2862e4b2e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Room_floor_color1
+    second: {fileID: 2100000, guid: 2f817cc48d4bf164ba0e8ad310c70312, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Room_roof_color1
+    second: {fileID: 2100000, guid: b38ee00216c9fb24baec54bd0da24134, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Room_wall_color1
+    second: {fileID: 2100000, guid: 8810d2460d87111439ef93292bd6ed2c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Window_color1
+    second: {fileID: 2100000, guid: 373dd490b35ca8e45a9d06e531ffb620, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Window_light
+    second: {fileID: 2100000, guid: e449c1c2a4095a848856515569ec5c5f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: wooden_beams_color1
+    second: {fileID: 2100000, guid: c30c0958dfe676749bb720446e1587cf, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
