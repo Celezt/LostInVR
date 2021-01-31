@@ -6,12 +6,19 @@ using UnityEngine;
 public class ClientAI : MonoBehaviour
 {
     private FollowPath _follow;
+    private Renderer _renderer;
+
+    private int _randomTextureIndex;
+    private float _oldPercentTravelled;
 
     public int DistanceThreshold = 3;
     [Range(0, 1)]
     public float WaitPoint;
     public float DampRotation = 2f;
     public GameObject Request;
+
+    [SerializeField]
+    private Texture[] _textures;
 
     /// <summary>
     /// The current state of the client.
@@ -28,6 +35,11 @@ public class ClientAI : MonoBehaviour
     private void Start()
     {
         _follow = GetComponent<FollowPath>();
+        _renderer = GetComponent<Renderer>();
+
+        _oldPercentTravelled = _follow.PercentTravelled;
+
+        ChangeTexture();
     }
 
     private void Update()
@@ -61,12 +73,22 @@ public class ClientAI : MonoBehaviour
 
                 break;
             case ClientState.MoveFrom:
-                if (_follow.PercentTravelled < WaitPoint)
+                if (_follow.PercentTravelled < _oldPercentTravelled)
                 {
                     State = ClientState.MoveTo;
+                    ChangeTexture();
                 }
 
                 break;
         }
+
+        _oldPercentTravelled = _follow.PercentTravelled;
+    }
+
+    private void ChangeTexture()
+    {
+        // Random skin
+        _randomTextureIndex = Random.Range(0, _textures.Length);
+        _renderer.material.mainTexture = _textures[_randomTextureIndex];
     }
 }
