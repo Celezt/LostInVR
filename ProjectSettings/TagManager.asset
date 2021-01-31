@@ -23,7 +23,7 @@ TagManager:
   - ObjectLayer
   - PlayerLayer
   - Ground
-  - 
+  - AxisMovementBarrier
   - 
   - 
   - 
