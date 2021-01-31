@@ -4408,6 +4408,11 @@ PrefabInstance:
       propertyPath: WaitPoint
       value: 0.35
       objectReference: {fileID: 0}
+    - target: {fileID: 6262287086804345132, guid: 2d62d389a56fd494f90daf80d3b4b923,
+        type: 3}
+      propertyPath: RequestName
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 7720254131603920583, guid: 2d62d389a56fd494f90daf80d3b4b923,
         type: 3}
       propertyPath: m_Radius
