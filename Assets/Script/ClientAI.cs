@@ -58,6 +58,8 @@ public class ClientAI : MonoBehaviour
                     _follow.ToRotate = false;
 
                     // Set the first found game object with the name as request sample.
+                    GameObject obj = GameObject.Find(RequestName);
+
                     _requestSample = (RequestName != "") ? GameObject.Find(RequestName) : null;
 
                     DisplayRequest();
@@ -86,6 +88,7 @@ public class ClientAI : MonoBehaviour
                 {
                     State = ClientState.MoveTo;
                     ChangeTexture();
+                    RandomRequest();
                 }
 
                 break;
@@ -124,5 +127,13 @@ public class ClientAI : MonoBehaviour
         // Random skin
         _randomTextureIndex = Random.Range(0, _textures.Length);
         _renderer.material.mainTexture = _textures[_randomTextureIndex];
+    }
+
+    private void RandomRequest()
+    {
+        GameObject[] objects = GameObject.FindGameObjectsWithTag("Object");
+        int pickedObjectIndex = Random.Range(0, objects.Length);
+
+        RequestName = objects[pickedObjectIndex].name.Split('(')[0].Trim();
     }
 }

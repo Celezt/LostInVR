@@ -15,6 +15,11 @@ public class MeshController : MonoBehaviour
         Object[] loadList = Resources.LoadAll("Objects", typeof(GameObject));
         foreach (GameObject loadedObject in loadList)
         {
+            // Add quest item component on all prefabs.
+            QuestItem item = loadedObject.AddComponent<QuestItem>();
+            item.Score = 100;
+            item.Time = 15;
+
             Prefabs.Add(loadedObject);
         }
 
