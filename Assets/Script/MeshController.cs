@@ -23,7 +23,7 @@ public class MeshController : MonoBehaviour
             Prefabs.Add(loadedObject);
         }
 
-        GameObject[] objectList = GameObject.FindGameObjectsWithTag("Object");
+        GameObject[] objectList = GameObject.FindGameObjectsWithTag("GrabbableObject");
         foreach (GameObject go in objectList)
         {
             Objects.Add(go);
