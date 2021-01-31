@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 65466937216074542}
   m_Layer: 0
   m_Name: Suitcase_01_Blue
-  m_TagString: Untagged
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -104,7 +104,7 @@ GameObject:
   - component: {fileID: 3623266298182803701}
   m_Layer: 0
   m_Name: bag
-  m_TagString: Object
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -148,7 +148,7 @@ GameObject:
   - component: {fileID: 8315264632554121736}
   m_Layer: 0
   m_Name: handle
-  m_TagString: Object
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

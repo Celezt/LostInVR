@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 65711810878931858}
   m_Layer: 0
   m_Name: BeveledStar
-  m_TagString: Untagged
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -60,7 +60,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 932bfbb102946e04796ee9ade9385119, type: 2}
+  - {fileID: 0}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -120,4 +120,4 @@ BoxCollider:
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 3.2141156, y: 0.5243465, z: 3.0568075}
-  m_Center: {x: -0.0000004172325, y: -0.0004924388, z: 0.16135935}
+  m_Center: {x: 0, y: 0, z: 0}

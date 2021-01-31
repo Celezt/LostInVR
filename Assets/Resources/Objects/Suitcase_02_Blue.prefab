@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 65908224931112410}
   m_Layer: 0
   m_Name: Suitcase_02_Blue
-  m_TagString: Untagged
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

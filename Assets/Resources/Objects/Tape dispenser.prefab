@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 4274085853288620}
   m_Layer: 0
   m_Name: Tape dispenser
-  m_TagString: Untagged
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -46,7 +46,7 @@ GameObject:
   - component: {fileID: 4510139507932455080}
   m_Layer: 0
   m_Name: Tape dispenser
-  m_TagString: Object
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
