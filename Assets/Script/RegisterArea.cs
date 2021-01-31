@@ -20,43 +20,20 @@ public class RegisterArea : MonoBehaviour
     }
     private void OnTriggerEnter(Collider other)
     {
-        bool found = false;
         if (_client.RequestName == other.name.Split('(')[0].Trim())
         {
-            foreach (Transform child in LeftHand.transform)
-            {
-                if (child == other.gameObject)
-                {
-                    found = true;
-                    break;
-                }
-            }
-            if (found == false)
-            {
-                foreach (Transform child in RightHand.transform)
-                {
-                    if (child == other.gameObject)
-                    {
-                        found = true;
-                        break;
-                    }
-                }
-            }
-            if (found == false)
-            {
-                _client.RequestName = "";
+            _client.RequestName = "";
 
-                QuestItem item = other.GetComponent<QuestItem>();
+            QuestItem item = other.GetComponent<QuestItem>();
 
-                if (item && _manager)
-                {
-                    _manager.IncreaseTimeRemaining(item.Time);
-                    _manager.IncreaseScore(item.Score);
-                }
-
-                _particles.Play();
-                Destroy(other.gameObject);
+            if (item && _manager)
+            {
+                _manager.IncreaseTimeRemaining(item.Time);
+                _manager.IncreaseScore(item.Score);
             }
+
+            _particles.Play();
+            Destroy(other.gameObject);
         }
     }
 }
