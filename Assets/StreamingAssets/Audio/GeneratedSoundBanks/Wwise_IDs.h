@@ -13,7 +13,7 @@ namespace AK
 {
     namespace EVENTS
     {
-        static const AkUniqueID TEST_MUSIC = 379521629U;
+        static const AkUniqueID MAIN_MUSIC = 63796330U;
     } // namespace EVENTS
 
     namespace SWITCHES
@@ -34,6 +34,7 @@ namespace AK
     namespace GAME_PARAMETERS
     {
         static const AkUniqueID DENSITY_FA_SSGRAIN = 2715217995U;
+        static const AkUniqueID GAMETIMEREMAINING = 3437824496U;
         static const AkUniqueID IMMERSION_FA_SSGRAIN = 2481728872U;
         static const AkUniqueID INSTRUMENT_FA_SSGRAIN = 2317409760U;
         static const AkUniqueID ITEMS_COLLECTED = 2125575055U;

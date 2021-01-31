@@ -9,6 +9,12 @@
 						<Property Name="Max" Type="Real64" Value="10"/>
 					</PropertyList>
 				</GameParameter>
+				<GameParameter Name="GameTimeRemaining" ID="{FF2EC264-7F3B-44CB-AEA8-336CBB19F329}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="120"/>
+						<Property Name="Max" Type="Real64" Value="120"/>
+					</PropertyList>
+				</GameParameter>
 			</ChildrenList>
 		</WorkUnit>
 	</GameParameters>
