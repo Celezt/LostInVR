@@ -98,6 +98,7 @@ public class ClientAI : MonoBehaviour
 
                 if (RequestName == "")
                 {
+                    _scaleOffset = 0;
                     transform.localScale = _startlocalScale;
 
                     IsMoving = true;

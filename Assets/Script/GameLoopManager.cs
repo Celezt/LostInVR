@@ -9,6 +9,8 @@ public class GameLoopManager : Singleton <GameLoopManager>
 
     public int MaxGameTime = 120;
 
+    public float secondsSinceLastItemDelivered;
+
     public GameObject ActiveGameScreen;
     public GameObject GameOverScreen;
     public GameObject Client;
@@ -41,6 +43,7 @@ public class GameLoopManager : Singleton <GameLoopManager>
     // Update is called once per frame
     void Update()
     {
+        secondsSinceLastItemDelivered += Time.deltaTime;
         AkSoundEngine.SetRTPCValue("GameTimeRemaining", currentGameTimeRemaining);
         if (currentGameState == GameState.Started)
         {
