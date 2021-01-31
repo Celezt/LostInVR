@@ -2541,6 +2541,12 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 454061309}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &477591616 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1745000259005847576, guid: 25e69d57cf2d14c47bb981a96a63d8e1,
+    type: 3}
+  m_PrefabInstance: {fileID: 1197583835}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &478901464
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4467,6 +4473,16 @@ PrefabInstance:
       propertyPath: m_Center.x
       value: 0.47931504
       objectReference: {fileID: 0}
+    - target: {fileID: 3231129224143125856, guid: cb044805de5f18547ba94ac0c1e564ef,
+        type: 3}
+      propertyPath: LeftHand
+      value: 
+      objectReference: {fileID: 477591616}
+    - target: {fileID: 3231129224143125856, guid: cb044805de5f18547ba94ac0c1e564ef,
+        type: 3}
+      propertyPath: RightHand
+      value: 
+      objectReference: {fileID: 1500686398}
     - target: {fileID: 5216888035916101223, guid: cb044805de5f18547ba94ac0c1e564ef,
         type: 3}
       propertyPath: m_Name
@@ -11235,7 +11251,8 @@ PrefabInstance:
       propertyPath: grabAction
       value: 
       objectReference: {fileID: 837518151}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 5276454315718969560, guid: 25e69d57cf2d14c47bb981a96a63d8e1, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 25e69d57cf2d14c47bb981a96a63d8e1, type: 3}
 --- !u!1001 &1211691687
 PrefabInstance:
