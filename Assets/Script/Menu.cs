@@ -6,8 +6,8 @@ public class Menu : MonoBehaviour
 {
     public void ReloadScene()
     {
-        Scene scene = SceneManager.GetActiveScene();
-        SceneManager.LoadScene(scene.name);
+        //Scene scene = SceneManager.GetActiveScene();
+        //SceneManager.LoadScene(scene.name);
     }
 
     public void ShowCredits()
