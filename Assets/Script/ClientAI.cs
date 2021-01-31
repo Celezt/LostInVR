@@ -7,6 +7,9 @@ public class ClientAI : MonoBehaviour
 {
     private FollowPath _follow;
     private Renderer _renderer;
+    private GameObject _requestSample;
+    private GameObject _displayItem;
+
 
     private int _randomTextureIndex;
     private float _oldPercentTravelled;
@@ -15,7 +18,7 @@ public class ClientAI : MonoBehaviour
     [Range(0, 1)]
     public float WaitPoint;
     public float DampRotation = 2f;
-    public GameObject Request;
+    public string RequestTag = "Untagged";
 
     [SerializeField]
     private Texture[] _textures;
@@ -54,6 +57,11 @@ public class ClientAI : MonoBehaviour
 
                     _follow.ToMove = false;
                     _follow.ToRotate = false;
+
+                    // Set the first found game object with the tag as request sample.
+                    _requestSample = (RequestTag != "Untagged") ? GameObject.FindWithTag(RequestTag) : null;
+
+                    DisplayRequest();
                 }
 
                 break;
@@ -63,12 +71,14 @@ public class ClientAI : MonoBehaviour
                 var rotation = Quaternion.LookRotation(lookPosition);
                 transform.rotation = Quaternion.Slerp(transform.rotation, rotation, Time.deltaTime * DampRotation);
 
-                if (!Request)
+                if (RequestTag == "Untagged")
                 {
                     _follow.ToMove = true;
                     _follow.ToRotate = true;
 
                     State = ClientState.MoveFrom;
+
+                    Destroy(_displayItem);
                 }
 
                 break;
@@ -83,6 +93,31 @@ public class ClientAI : MonoBehaviour
         }
 
         _oldPercentTravelled = _follow.PercentTravelled;
+    }
+    private void DisplayRequest()
+    {
+        if (_displayItem)
+            Destroy(_displayItem);
+
+        if (_requestSample)
+        {
+            _displayItem = new GameObject("DisplayItem");
+            _displayItem.transform.position = transform.position + new Vector3(0, 1, -1);
+            _displayItem.transform.rotation = transform.rotation;
+            _displayItem.transform.localScale = _requestSample.transform.localScale;
+            _displayItem.transform.parent = transform;
+
+            MeshRenderer renderer = _displayItem.AddComponent<MeshRenderer>();
+            MeshFilter filter = _displayItem.AddComponent<MeshFilter>();
+
+            renderer.sharedMaterials = _requestSample.GetComponent<MeshRenderer>().sharedMaterials;
+            filter.sharedMesh = _requestSample.GetComponent<MeshFilter>().sharedMesh;
+
+            Outline outline = _displayItem.AddComponent<Outline>();
+            outline.OutlineMode = Outline.Mode.OutlineVisible;
+            outline.OutlineColor = Color.yellow;
+            outline.OutlineWidth = 10f;
+        }
     }
 
     private void ChangeTexture()
