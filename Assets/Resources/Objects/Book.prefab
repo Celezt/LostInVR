@@ -15,8 +15,8 @@ GameObject:
   - component: {fileID: 114751208293740340}
   - component: {fileID: 114397792701523964}
   - component: {fileID: 114316313750514522}
-  - component: {fileID: 114707581503260394}
-  - component: {fileID: 114027012122059984}
+  - component: {fileID: 114574117169553406}
+  - component: {fileID: 114015585870210226}
   m_Layer: 0
   m_Name: Book
   m_TagString: Untagged
@@ -138,7 +138,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Score: 100
   Time: 15
---- !u!114 &114707581503260394
+--- !u!114 &114574117169553406
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -152,7 +152,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Score: 100
   Time: 15
---- !u!114 &114027012122059984
+--- !u!114 &114015585870210226
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
