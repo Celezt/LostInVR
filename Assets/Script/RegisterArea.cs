@@ -18,22 +18,20 @@ public class RegisterArea : MonoBehaviour
         // Find client in scene.
         ClientAI client = FindObjectOfType<ClientAI>();
 
-        // If other has a tag on it.
-        if (other.gameObject.tag != "Untagged")
-            if (client.RequestTag == other.gameObject.tag)
+        if (client.RequestName == other.name.Split('(')[0].Trim())
+        {
+            client.RequestName = "";
+
+            QuestItem item = other.GetComponent<QuestItem>();
+
+            if (item && _manager)
             {
-                client.RequestTag = "Untagged";
-
-                QuestItem item = other.GetComponent<QuestItem>();
-
-                if (item && _manager)
-                {
-                    _manager.IncreaseTimeRemaining(item.Time);
-                    _manager.IncreaseScore(item.Score);
-                }
-
-                _particles.Play();
-                Destroy(other.gameObject);
+                _manager.IncreaseTimeRemaining(item.Time);
+                _manager.IncreaseScore(item.Score);
             }
+
+            _particles.Play();
+            Destroy(other.gameObject);
+        }
     }
 }

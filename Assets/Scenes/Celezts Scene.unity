@@ -1339,6 +1339,11 @@ PrefabInstance:
       propertyPath: RequestTag
       value: Object
       objectReference: {fileID: 0}
+    - target: {fileID: 6262287086804345132, guid: 2d62d389a56fd494f90daf80d3b4b923,
+        type: 3}
+      propertyPath: RequestName
+      value: Item
+      objectReference: {fileID: 0}
     - target: {fileID: 8510586875315933523, guid: 2d62d389a56fd494f90daf80d3b4b923,
         type: 3}
       propertyPath: m_Materials.Array.data[0]

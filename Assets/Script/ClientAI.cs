@@ -10,7 +10,6 @@ public class ClientAI : MonoBehaviour
     private GameObject _requestSample;
     private GameObject _displayItem;
 
-
     private int _randomTextureIndex;
     private float _oldPercentTravelled;
 
@@ -18,7 +17,7 @@ public class ClientAI : MonoBehaviour
     [Range(0, 1)]
     public float WaitPoint;
     public float DampRotation = 2f;
-    public string RequestTag = "Untagged";
+    public string RequestName = "";
 
     [SerializeField]
     private Texture[] _textures;
@@ -58,8 +57,8 @@ public class ClientAI : MonoBehaviour
                     _follow.ToMove = false;
                     _follow.ToRotate = false;
 
-                    // Set the first found game object with the tag as request sample.
-                    _requestSample = (RequestTag != "Untagged") ? GameObject.FindWithTag(RequestTag) : null;
+                    // Set the first found game object with the name as request sample.
+                    _requestSample = (RequestName != "") ? GameObject.Find(RequestName) : null;
 
                     DisplayRequest();
                 }
@@ -71,7 +70,7 @@ public class ClientAI : MonoBehaviour
                 var rotation = Quaternion.LookRotation(lookPosition);
                 transform.rotation = Quaternion.Slerp(transform.rotation, rotation, Time.deltaTime * DampRotation);
 
-                if (RequestTag == "Untagged")
+                if (RequestName == "")
                 {
                     _follow.ToMove = true;
                     _follow.ToRotate = true;
