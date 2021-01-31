@@ -6,6 +6,8 @@ using VRTK.Prefabs.Interactions.Interactables;
 [RequireComponent(typeof(Collider))]
 public class RegisterArea : MonoBehaviour
 {
+    public GameObject LeftHand;
+    public GameObject RightHand;
     private ParticleSystem _particles;
     private GameLoopManager _manager;
     private ClientAI _client;
@@ -18,12 +20,6 @@ public class RegisterArea : MonoBehaviour
     }
     private void OnTriggerEnter(Collider other)
     {
-        InteractableFacade interactable = other.GetComponent<InteractableFacade>();
-
-        // Skip if interactable facade is currently grabbing.
-        if (interactable != null && interactable.IsGrabbed == true)
-            return;
-
         if (_client.RequestName == other.name.Split('(')[0].Trim())
         {
             _client.RequestName = "";
@@ -38,6 +34,8 @@ public class RegisterArea : MonoBehaviour
 
             _particles.Play();
             Destroy(other.gameObject);
+            LeftHand.SetActive(true);
+            RightHand.SetActive(true);
         }
     }
 }
