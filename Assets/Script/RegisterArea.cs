@@ -1,13 +1,13 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using VRTK.Prefabs.Interactions.Interactables;
+using VRTK.Prefabs.Interactions.Interactors;
 
 [RequireComponent(typeof(Collider))]
 public class RegisterArea : MonoBehaviour
 {
-    public GameObject LeftHand;
-    public GameObject RightHand;
+    public InteractorFacade LeftHand;
+    public InteractorFacade RightHand;
     private ParticleSystem _particles;
     private GameLoopManager _manager;
     private ClientAI _client;
@@ -22,20 +22,21 @@ public class RegisterArea : MonoBehaviour
     {
         if (_client.RequestName == other.name.Split('(')[0].Trim())
         {
-            _client.RequestName = "";
-
-            QuestItem item = other.GetComponent<QuestItem>();
-
-            if (item && _manager)
+            if (LeftHand.GrabbedObjects.Count == 0 && RightHand.GrabbedObjects.Count == 0)
             {
-                _manager.IncreaseTimeRemaining(item.Time);
-                _manager.IncreaseScore(item.Score);
-            }
+                _client.RequestName = "";
 
-            _particles.Play();
-            Destroy(other.gameObject);
-            LeftHand.SetActive(true);
-            RightHand.SetActive(true);
+                QuestItem item = other.GetComponent<QuestItem>();
+
+                if (item && _manager)
+                {
+                    _manager.IncreaseTimeRemaining(item.Time);
+                    _manager.IncreaseScore(item.Score);
+                }
+
+                _particles.Play();
+                Destroy(other.gameObject);
+            }
         }
     }
 }
