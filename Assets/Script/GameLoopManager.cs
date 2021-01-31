@@ -13,6 +13,8 @@ public class GameLoopManager : Singleton <GameLoopManager>
 
     public GameObject ActiveGameScreen;
     public GameObject GameOverScreen;
+    public GameObject Client;
+    public GameObject RegisterArea;
     public UnityEngine.UI.Text gameScoreDisplay;
     public UnityEngine.UI.Text gameTimeDisplay;
     public UnityEngine.UI.Text finalScoreDisplay;
@@ -22,6 +24,15 @@ public class GameLoopManager : Singleton <GameLoopManager>
 
     [HideInInspector]
     public bool gameOver = false;
+
+    public enum GameState
+    {
+        Idle,
+        Started,
+        GameOver
+    }
+
+    public GameState currentGameState = GameState.Idle;
 
     // Start is called before the first frame update
     void Start()
@@ -34,20 +45,25 @@ public class GameLoopManager : Singleton <GameLoopManager>
     {
         secondsSinceLastItemDelivered += Time.deltaTime;
         AkSoundEngine.SetRTPCValue("GameTimeRemaining", currentGameTimeRemaining);
-        if (!gameOver)
+        if (currentGameState == GameState.Started)
         {
-            currentGameTimeRemaining -= Time.fixedDeltaTime;
-            RemainingMinutes = (int)(currentGameTimeRemaining / 60f);
-            RemainingSeconds = (int)(currentGameTimeRemaining % 60f);
-            gameTimeDisplay.text = RemainingMinutes.ToString("00") + ":" + RemainingSeconds.ToString("00");           
-
-            if (currentGameTimeRemaining <= 0)
+            if (!gameOver)
             {
-                DisplayGameOverMessage();
-                GameObject.FindGameObjectWithTag("Menu").SetActive(true);
-                gameOver = true;
+                currentGameTimeRemaining -= Time.fixedDeltaTime;
+                RemainingMinutes = (int)(currentGameTimeRemaining / 60f);
+                RemainingSeconds = (int)(currentGameTimeRemaining % 60f);
+                gameTimeDisplay.text = RemainingMinutes.ToString("00") + ":" + RemainingSeconds.ToString("00");
+
+                if (currentGameTimeRemaining <= 0)
+                {
+                    DisplayGameOverMessage();
+                    GameObject.FindGameObjectWithTag("Menu").SetActive(true);
+                    gameOver = true;
+                    currentGameState = GameState.GameOver;
+                }
             }
         }
+        
     }
 
     public void IncreaseScore(int scoreincreaseamount)
@@ -86,5 +102,25 @@ public class GameLoopManager : Singleton <GameLoopManager>
         finalScoreDisplay.text = "" + currentGameScore;
         ActiveGameScreen.SetActive(false);
         GameOverScreen.SetActive(true);
+    }
+
+    public void StartGame()
+    {
+        if (currentGameState == GameState.Started)
+        {
+            return;
+        }
+        
+        else if (currentGameState == GameState.Idle)
+        {
+            currentGameState = GameState.Started;
+            Client.SetActive(true);
+            RegisterArea.SetActive(true);
+        }
+        
+        else if (currentGameState == GameState.GameOver)
+        {
+            SceneManager.LoadScene("Game");
+        }
     }
 }
