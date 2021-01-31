@@ -4,24 +4,24 @@ using UnityEngine;
 
 public class Menu : MonoBehaviour
 {
-    public void ReloadScene()
-    {
-        Scene scene = SceneManager.GetActiveScene();
-        SceneManager.LoadScene(scene.name);
-    }
+    //public void ReloadScene()
+    //{
+    //    Scene scene = SceneManager.GetActiveScene();
+    //    SceneManager.LoadScene(scene.name);
+    //}
 
-    public void ShowCredits()
-    {
-        //Show credits instead of buttons
-    }
+    //public void ShowCredits()
+    //{
+    //    //Show credits instead of buttons
+    //}
 
-    public void HideCredits()
-    {
-        //Show buttons again
-    }
+    //public void HideCredits()
+    //{
+    //    //Show buttons again
+    //}
 
-    public void Quit()
-    {
-        Application.Quit();
-    }
+    //public void Quit()
+    //{
+    //    Application.Quit();
+    //}
 }

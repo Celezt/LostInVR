@@ -30,7 +30,7 @@ public class LookOutline : MonoBehaviour
             {
                 RaycastHit hit;
 
-                if (Physics.Raycast(Camera.current.transform.position, Camera.current.transform.forward, out hit, int.MaxValue))
+                if (Physics.Raycast(Camera.main.transform.position, Camera.main.transform.forward, out hit, int.MaxValue))
                 {
                     if (hit.collider.gameObject == gameObject)
                         _outline.enabled = true;

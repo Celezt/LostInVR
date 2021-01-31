@@ -42,7 +42,7 @@ public class FollowPath : MonoBehaviour
             if (ToMove)
             {
                 DistanceTravelled += Speed * Time.deltaTime;
-                PercentTravelled = DistanceTravelled / Creator.path.length;
+                PercentTravelled = (DistanceTravelled / Creator.path.length) % 1;
                 transform.position = Creator.path.GetPointAtDistance(DistanceTravelled) + _offsetPosition;
             }
 
