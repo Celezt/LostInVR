@@ -10,13 +10,17 @@ public class ClientAI : MonoBehaviour
     private GameObject _requestSample;
     private GameObject _displayItem;
 
+    private Vector3 _startlocalScale;
     private int _randomTextureIndex;
     private float _oldPercentTravelled;
+    private float _scaleOffset;
 
     [Range(0, 1)]
     public float WaitPoint;
     public float DampAvatarRotation = 2f;
     public float SampleRotateSpeed = 20f;
+    public float BobSpeed = 0.1f;
+    public float BobAmount = 0.1f;
     public string RequestName = "";
 
     [SerializeField]
@@ -43,6 +47,7 @@ public class ClientAI : MonoBehaviour
         _follow = GetComponent<FollowPath>();
         _renderer = GetComponent<Renderer>();
 
+        _startlocalScale = transform.localScale;
         _oldPercentTravelled = _follow.PercentTravelled;
 
         ChangeTexture();
@@ -93,6 +98,8 @@ public class ClientAI : MonoBehaviour
 
                 if (RequestName == "")
                 {
+                    transform.localScale = _startlocalScale;
+
                     IsMoving = true;
                     IsRequesting = false;
 
@@ -103,6 +110,9 @@ public class ClientAI : MonoBehaviour
 
                     Destroy(_displayItem);
                 }
+
+                _scaleOffset += BobSpeed;
+                transform.localScale = new Vector3(_startlocalScale.x, _startlocalScale.y + Mathf.Cos(_scaleOffset) * BobAmount, _startlocalScale.z);
 
                 // Rotate sample if it exist.
                 if (_displayItem)
