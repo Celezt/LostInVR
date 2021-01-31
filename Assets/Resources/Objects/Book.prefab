@@ -17,6 +17,10 @@ GameObject:
   - component: {fileID: 114316313750514522}
   - component: {fileID: 114574117169553406}
   - component: {fileID: 114015585870210226}
+  - component: {fileID: 114631094260233872}
+  - component: {fileID: 114117887896540402}
+  - component: {fileID: 114540525604995804}
+  - component: {fileID: 114471055698597350}
   m_Layer: 0
   m_Name: Book
   m_TagString: Untagged
@@ -153,6 +157,62 @@ MonoBehaviour:
   Score: 100
   Time: 15
 --- !u!114 &114015585870210226
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6547105402904593793}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad2283e458ed99444bba19ea8ee2e919, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Score: 100
+  Time: 15
+--- !u!114 &114631094260233872
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6547105402904593793}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad2283e458ed99444bba19ea8ee2e919, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Score: 100
+  Time: 15
+--- !u!114 &114117887896540402
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6547105402904593793}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad2283e458ed99444bba19ea8ee2e919, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Score: 100
+  Time: 15
+--- !u!114 &114540525604995804
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6547105402904593793}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad2283e458ed99444bba19ea8ee2e919, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Score: 100
+  Time: 15
+--- !u!114 &114471055698597350
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

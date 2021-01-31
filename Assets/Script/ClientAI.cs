@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-[RequireComponent(typeof(Collider), typeof(FollowPath), typeof(Outline))]
+[RequireComponent(typeof(Collider), typeof(FollowPath))]
 public class ClientAI : MonoBehaviour
 {
     private FollowPath _follow;
@@ -13,10 +13,10 @@ public class ClientAI : MonoBehaviour
     private int _randomTextureIndex;
     private float _oldPercentTravelled;
 
-    public int DistanceThreshold = 3;
     [Range(0, 1)]
     public float WaitPoint;
-    public float DampRotation = 2f;
+    public float DampAvatarRotation = 2f;
+    public float SampleRotateSpeed = 20f;
     public string RequestName = "";
 
     [SerializeField]
@@ -82,7 +82,7 @@ public class ClientAI : MonoBehaviour
                 Vector3 lookPosition = Camera.main.transform.position - transform.position;
                 lookPosition.y = 0;
                 var rotation = Quaternion.LookRotation(lookPosition);
-                transform.rotation = Quaternion.Slerp(transform.rotation, rotation, Time.deltaTime * DampRotation);
+                transform.rotation = Quaternion.Slerp(transform.rotation, rotation, Time.deltaTime * DampAvatarRotation);
 
                 if (RequestName == "")
                 {
@@ -93,6 +93,10 @@ public class ClientAI : MonoBehaviour
 
                     Destroy(_displayItem);
                 }
+
+                // Rotate sample if it exist.
+                if (_displayItem)
+                    _displayItem.transform.Rotate(Vector3.up * (SampleRotateSpeed * Time.deltaTime));
 
                 break;
             case ClientState.MoveFrom:
