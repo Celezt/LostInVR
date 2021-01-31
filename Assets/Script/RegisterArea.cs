@@ -6,8 +6,8 @@ using VRTK.Prefabs.Interactions.Interactors;
 [RequireComponent(typeof(Collider))]
 public class RegisterArea : MonoBehaviour
 {
-    public InteractorFacade LeftHand;
-    public InteractorFacade RightHand;
+    public GameObject LeftHand;
+    public GameObject RightHand;
     private ParticleSystem _particles;
     private GameLoopManager _manager;
     private ClientAI _client;
@@ -22,7 +22,8 @@ public class RegisterArea : MonoBehaviour
     {
         if (_client.RequestName == other.name.Split('(')[0].Trim())
         {
-            if (LeftHand.GrabbedObjects.Count == 0 && RightHand.GrabbedObjects.Count == 0)
+            if (LeftHand.GetComponentInChildren<InteractorFacade>().GrabbedObjects.Count == 0 && 
+                RightHand.GetComponentInChildren<InteractorFacade>().GrabbedObjects.Count == 0)
             {
                 _client.RequestName = "";
 
