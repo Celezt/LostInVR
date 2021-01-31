@@ -64,8 +64,11 @@ public class ClientAI : MonoBehaviour
                     // Set the first found game object with the name as request sample.
                     GameObject sample = GameObject.Find(RequestName);
 
+                    if (!sample)
+                        sample = GameObject.Find(RequestName + "(Clone)");
+
                     // If parent does not contain MeshFilter; Set sample as the first child that has it.
-                    if (!sample.GetComponent<MeshFilter>())
+                    if (sample && !sample.GetComponent<MeshFilter>())
                         sample = sample.GetComponentInChildren<MeshFilter>().gameObject;
 
 
@@ -113,7 +116,7 @@ public class ClientAI : MonoBehaviour
         if (_requestSample)
         {
             _displayItem = new GameObject("DisplayItem");
-            _displayItem.transform.position = transform.position + new Vector3(0, 1, -1);
+            _displayItem.transform.position = transform.position + new Vector3(1, 2, 0);
             _displayItem.transform.rotation = transform.rotation;
             _displayItem.transform.localScale = _requestSample.transform.localScale;
             _displayItem.transform.parent = transform;
@@ -141,8 +144,12 @@ public class ClientAI : MonoBehaviour
     private void RandomRequest()
     {
         GameObject[] objects = GameObject.FindGameObjectsWithTag("Object");
-        int pickedObjectIndex = Random.Range(0, objects.Length);
 
-        RequestName = objects[pickedObjectIndex].name.Split('(')[0].Trim();
+        if (objects.Length > 0)
+        {
+            int pickedObjectIndex = Random.Range(0, objects.Length);
+
+            RequestName = objects[pickedObjectIndex].name.Split('(')[0].Trim();
+        }
     }
 }
