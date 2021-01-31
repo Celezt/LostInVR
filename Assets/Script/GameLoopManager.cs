@@ -36,8 +36,7 @@ public class GameLoopManager : Singleton <GameLoopManager>
             currentGameTimeRemaining -= Time.fixedDeltaTime;
             RemainingMinutes = (int)(currentGameTimeRemaining / 60f);
             RemainingSeconds = (int)(currentGameTimeRemaining % 60f);
-            gameTimeDisplay.text = RemainingMinutes.ToString("00") + ":" + RemainingSeconds.ToString("00");
-           
+            gameTimeDisplay.text = RemainingMinutes.ToString("00") + ":" + RemainingSeconds.ToString("00");           
 
             if (currentGameTimeRemaining <= 0)
             {
