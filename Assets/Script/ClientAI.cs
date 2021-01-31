@@ -22,6 +22,10 @@ public class ClientAI : MonoBehaviour
     [SerializeField]
     private Texture[] _textures;
 
+    public bool IsRequesting { get; private set; }
+    public bool IsRequestAvailable { get; private set; }
+    public bool IsMoving { get; private set; } = true;
+
     /// <summary>
     /// The current state of the client.
     /// </summary>
@@ -55,6 +59,9 @@ public class ClientAI : MonoBehaviour
             case ClientState.MoveTo:
                 if (_follow.PercentTravelled > WaitPoint)
                 {
+                    IsMoving = false;
+                    IsRequesting = true;
+
                     // Request item.
                     State = ClientState.Request;
 
@@ -86,6 +93,9 @@ public class ClientAI : MonoBehaviour
 
                 if (RequestName == "")
                 {
+                    IsMoving = true;
+                    IsRequesting = false;
+
                     _follow.ToMove = true;
                     _follow.ToRotate = true;
 
@@ -151,9 +161,15 @@ public class ClientAI : MonoBehaviour
 
         if (objects.Length > 0)
         {
+            IsRequestAvailable = true;
+
             int pickedObjectIndex = Random.Range(0, objects.Length);
 
             RequestName = objects[pickedObjectIndex].name.Split('(')[0].Trim();
+        }
+        else
+        {
+            IsRequestAvailable = false;
         }
     }
 }
