@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Object
   - PlayerNonVRCamera
+  - GrabbableObject
   layers:
   - Default
   - TransparentFX

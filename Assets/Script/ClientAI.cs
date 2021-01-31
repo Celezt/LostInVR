@@ -42,6 +42,10 @@ public class ClientAI : MonoBehaviour
         _oldPercentTravelled = _follow.PercentTravelled;
 
         ChangeTexture();
+
+        // Give it a random request if no item is requested by default.
+        if (RequestName == "")
+            RandomRequest();
     }
 
     private void Update()
@@ -58,9 +62,14 @@ public class ClientAI : MonoBehaviour
                     _follow.ToRotate = false;
 
                     // Set the first found game object with the name as request sample.
-                    GameObject obj = GameObject.Find(RequestName);
+                    GameObject sample = GameObject.Find(RequestName);
 
-                    _requestSample = (RequestName != "") ? GameObject.Find(RequestName) : null;
+                    // If parent does not contain MeshFilter; Set sample as the first child that has it.
+                    if (!sample.GetComponent<MeshFilter>())
+                        sample = sample.GetComponentInChildren<MeshFilter>().gameObject;
+
+
+                    _requestSample = (RequestName != "") ? sample : null;
 
                     DisplayRequest();
                 }
