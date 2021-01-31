@@ -15,4 +15,13 @@ public class QuitButtonBehavior : MonoBehaviour
     {
         
     }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.gameObject.tag == "HandCollider")
+        {
+            Application.Quit();
+        }
+        
+    }    
 }

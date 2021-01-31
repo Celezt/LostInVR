@@ -57,7 +57,7 @@ public class GameLoopManager : Singleton <GameLoopManager>
                 if (currentGameTimeRemaining <= 0)
                 {
                     DisplayGameOverMessage();
-                    GameObject.FindGameObjectWithTag("Menu").SetActive(true);
+                    //GameObject.FindGameObjectWithTag("Menu").SetActive(true);
                     gameOver = true;
                     currentGameState = GameState.GameOver;
                 }
@@ -95,6 +95,7 @@ public class GameLoopManager : Singleton <GameLoopManager>
         GameOverScreen.SetActive(false);
         ActiveGameScreen.SetActive(true);
         gameOver = false;
+        currentGameState = GameState.Idle;
     }
 
     public void DisplayGameOverMessage()
@@ -120,7 +121,8 @@ public class GameLoopManager : Singleton <GameLoopManager>
         
         else if (currentGameState == GameState.GameOver)
         {
-            SceneManager.LoadScene("Game");
+            AkSoundEngine.StopAll();
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
         }
     }
 }
