@@ -20,10 +20,29 @@ public class RegisterArea : MonoBehaviour
     }
     private void OnTriggerEnter(Collider other)
     {
+        bool found = false;
         if (_client.RequestName == other.name.Split('(')[0].Trim())
         {
-            if (LeftHand.GetComponentInChildren<InteractorFacade>().GrabbedObjects.Count == 0 && 
-                RightHand.GetComponentInChildren<InteractorFacade>().GrabbedObjects.Count == 0)
+            foreach (Transform child in LeftHand.transform)
+            {
+                if (child == other.gameObject)
+                {
+                    found = true;
+                    break;
+                }
+            }
+            if (found == false)
+            {
+                foreach (Transform child in RightHand.transform)
+                {
+                    if (child == other.gameObject)
+                    {
+                        found = true;
+                        break;
+                    }
+                }
+            }
+            if (found == false)
             {
                 _client.RequestName = "";
 
