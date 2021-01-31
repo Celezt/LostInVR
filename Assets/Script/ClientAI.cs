@@ -8,7 +8,7 @@ public class ClientAI : MonoBehaviour
     private FollowPath _follow;
     private Renderer _renderer;
     private GameObject _requestSample;
-    private GameObject _displayItem;
+    private GameObject[] _displayItems;
 
     private Vector3 _startlocalScale;
     private int _randomTextureIndex;
@@ -73,19 +73,6 @@ public class ClientAI : MonoBehaviour
                     _follow.ToMove = false;
                     _follow.ToRotate = false;
 
-                    // Set the first found game object with the name as request sample.
-                    GameObject sample = GameObject.Find(RequestName);
-
-                    if (!sample)
-                        sample = GameObject.Find(RequestName + "(Clone)");
-
-                    // If parent does not contain MeshFilter; Set sample as the first child that has it.
-                    if (sample && !sample.GetComponent<MeshFilter>())
-                        sample = sample.GetComponentInChildren<MeshFilter>().gameObject;
-
-
-                    _requestSample = (RequestName != "") ? sample : null;
-
                     DisplayRequest();
                 }
 
@@ -109,15 +96,22 @@ public class ClientAI : MonoBehaviour
 
                     State = ClientState.MoveFrom;
 
-                    Destroy(_displayItem);
+                    if (_displayItems != null)
+                    {
+                        for (int i = 0; i < _displayItems.Length; i++)
+                            Destroy(_displayItems[i]);
+
+                        _displayItems = null;
+                    }
                 }
 
                 _scaleOffset += BobSpeed;
                 transform.localScale = new Vector3(_startlocalScale.x, _startlocalScale.y + Mathf.Cos(_scaleOffset) * BobAmount, _startlocalScale.z);
 
-                // Rotate sample if it exist.
-                if (_displayItem)
-                    _displayItem.transform.Rotate(Vector3.up * (SampleRotateSpeed * Time.deltaTime));
+                // Rotate samples if it exist.
+                if (_displayItems != null)
+                    for (int i = 0; i < _displayItems.Length; i++)
+                        _displayItems[i].transform.Rotate(Vector3.up * (SampleRotateSpeed * Time.deltaTime));
 
                 break;
             case ClientState.MoveFrom:
@@ -135,27 +129,58 @@ public class ClientAI : MonoBehaviour
     }
     private void DisplayRequest()
     {
-        if (_displayItem)
-            Destroy(_displayItem);
+        // Set the first found game object with the name as request sample.
+        GameObject sample = GameObject.Find(RequestName);
+
+        if (!sample)
+            sample = GameObject.Find(RequestName + "(Clone)");
+
+        _requestSample = (RequestName != "") ? sample : null;
+
+        if (_displayItems != null)
+        {
+            for (int i = 0; i < _displayItems.Length; i++)
+                Destroy(_displayItems[i]);
+
+            _displayItems = null;
+        }
 
         if (_requestSample)
         {
-            _displayItem = new GameObject("DisplayItem");
-            _displayItem.transform.position = transform.position + new Vector3(1, 2, 0);
-            _displayItem.transform.rotation = transform.rotation;
-            _displayItem.transform.localScale = _requestSample.transform.localScale;
-            _displayItem.transform.parent = transform;
+            MeshFilter meshFilter = _requestSample.GetComponent<MeshFilter>();
+            GameObject parentObject = (meshFilter) ? meshFilter.gameObject : null;
 
-            MeshRenderer renderer = _displayItem.AddComponent<MeshRenderer>();
-            MeshFilter filter = _displayItem.AddComponent<MeshFilter>();
+            MeshFilter[] meshFilters = _requestSample.GetComponentsInChildren<MeshFilter>();
+            GameObject[] gameObjects = new GameObject[meshFilters.Length + ((parentObject) ? 1 : 0)];
+            _displayItems = new GameObject[gameObjects.Length];
 
-            renderer.sharedMaterials = _requestSample.GetComponent<MeshRenderer>().sharedMaterials;
-            filter.sharedMesh = _requestSample.GetComponent<MeshFilter>().sharedMesh;
+            for (int i = 0; i < gameObjects.Length; i++)
+            {
+                if (parentObject)
+                    gameObjects[i] = parentObject;
+                else
+                    gameObjects[i] = meshFilters[i].gameObject;
+            }
 
-            Outline outline = _displayItem.AddComponent<Outline>();
-            outline.OutlineMode = Outline.Mode.OutlineVisible;
-            outline.OutlineColor = Color.yellow;
-            outline.OutlineWidth = 10f;
+            for (int i = 0; i < _displayItems.Length; i++)
+            {
+                _displayItems[i] = new GameObject("DisplayItem" + i);
+                _displayItems[i].transform.position = transform.position + new Vector3(1, 2, 0);
+                _displayItems[i].transform.rotation = transform.rotation;
+                _displayItems[i].transform.localScale = _requestSample.transform.localScale;
+                _displayItems[i].transform.parent = transform;
+
+                MeshRenderer renderer = _displayItems[i].AddComponent<MeshRenderer>();
+                MeshFilter filter = _displayItems[i].AddComponent<MeshFilter>();
+
+                renderer.sharedMaterials = gameObjects[i].GetComponent<MeshRenderer>().sharedMaterials;
+                filter.sharedMesh = gameObjects[i].GetComponent<MeshFilter>().sharedMesh;
+
+                Outline outline = _displayItems[i].AddComponent<Outline>();
+                outline.OutlineMode = Outline.Mode.OutlineVisible;
+                outline.OutlineColor = Color.yellow;
+                outline.OutlineWidth = 10f;
+            }
         }
     }
 
