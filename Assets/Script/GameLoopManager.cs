@@ -11,13 +11,16 @@ public class GameLoopManager : Singleton <GameLoopManager>
 
     public float secondsSinceLastItemDelivered;
 
-    public GameObject ActiveGameScreen;
-    public GameObject GameOverScreen;
-    public GameObject Client;
-    public GameObject RegisterArea;
-    public UnityEngine.UI.Text gameScoreDisplay;
-    public UnityEngine.UI.Text gameTimeDisplay;
-    public UnityEngine.UI.Text finalScoreDisplay;
+    private GameObject ScoreTimeMonitor;
+    private GameObject ActiveGameScreen;
+    private GameObject GameOverScreen;
+    private GameObject Client;
+    private GameObject RegisterArea;
+    private UnityEngine.UI.Text gameScoreDisplay;
+    private UnityEngine.UI.Text gameTimeDisplay;
+    private UnityEngine.UI.Text finalScoreDisplay;
+
+
 
     private int currentGameScore = 0, RemainingMinutes = 0, RemainingSeconds = 0;
     public float currentGameTimeRemaining = 120;
@@ -33,11 +36,11 @@ public class GameLoopManager : Singleton <GameLoopManager>
     }
 
     public GameState currentGameState = GameState.Idle;
-
+       
     // Start is called before the first frame update
     void Start()
     {
-        ResetScene();
+       
     }
 
     // Update is called once per frame
@@ -58,6 +61,8 @@ public class GameLoopManager : Singleton <GameLoopManager>
                 {
                     DisplayGameOverMessage();
                     //GameObject.FindGameObjectWithTag("Menu").SetActive(true);
+                    Client.SetActive(false);
+                    RegisterArea.SetActive(false);                    
                     gameOver = true;
                     currentGameState = GameState.GameOver;
                 }
@@ -86,6 +91,15 @@ public class GameLoopManager : Singleton <GameLoopManager>
 
     public void ResetScene()
     {
+        ScoreTimeMonitor = GameObject.Find("ScoreTimeMonitor");
+        ActiveGameScreen = GameObject.Find("/ScoreTimeMonitor/ActiveGameScreen");
+        GameOverScreen = GameObject.Find("/ScoreTimeMonitor/GameOverScreen");
+        Client = GameObject.Find("Client");
+        RegisterArea = GameObject.Find("RegisterArea");
+        gameScoreDisplay = GameObject.Find("/ScoreTimeMonitor/ActiveGameScreen/ScoreValue").GetComponent< UnityEngine.UI.Text>();
+        gameTimeDisplay = GameObject.Find("/ScoreTimeMonitor/ActiveGameScreen/TimeValue").GetComponent<UnityEngine.UI.Text>();
+        finalScoreDisplay = GameObject.Find("/ScoreTimeMonitor/GameOverScreen/TotalScoreValue").GetComponent<UnityEngine.UI.Text>();
+        Debug.Log("" + GameOverScreen + Client + RegisterArea + gameScoreDisplay + gameTimeDisplay);
         currentGameScore = 0;
         currentGameTimeRemaining = MaxGameTime;
         RemainingMinutes = (int)(currentGameTimeRemaining / 60f);
@@ -93,6 +107,8 @@ public class GameLoopManager : Singleton <GameLoopManager>
         gameTimeDisplay.text = RemainingMinutes.ToString("00") + ":" + RemainingSeconds.ToString("00");
         gameScoreDisplay.text = "0";
         GameOverScreen.SetActive(false);
+        Client.SetActive(false);
+        RegisterArea.SetActive(false);
         ActiveGameScreen.SetActive(true);
         gameOver = false;
         currentGameState = GameState.Idle;
@@ -122,7 +138,9 @@ public class GameLoopManager : Singleton <GameLoopManager>
         else if (currentGameState == GameState.GameOver)
         {
             AkSoundEngine.StopAll();
+            currentGameState = GameState.Idle;
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+            ResetScene();
         }
     }
 }
