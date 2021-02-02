@@ -16,6 +16,10 @@ public class GameHelper : MonoBehaviour
     void Update()
     {
         
+        if (Input.GetKeyDown(KeyCode.S))
+        {
+            StartGame();                
+        }
     }
 
     public void StartGame()

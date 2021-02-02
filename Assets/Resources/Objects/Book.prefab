@@ -57,6 +57,8 @@ GameObject:
   - component: {fileID: 114444792023137660}
   - component: {fileID: 114077002515144354}
   - component: {fileID: 114804880796490512}
+  - component: {fileID: 114537402688072288}
+  - component: {fileID: 114828155615652944}
   m_Layer: 0
   m_Name: Book
   m_TagString: Untagged
@@ -753,6 +755,34 @@ MonoBehaviour:
   Score: 100
   Time: 15
 --- !u!114 &114804880796490512
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6547105402904593793}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad2283e458ed99444bba19ea8ee2e919, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Score: 100
+  Time: 15
+--- !u!114 &114537402688072288
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6547105402904593793}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad2283e458ed99444bba19ea8ee2e919, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Score: 100
+  Time: 15
+--- !u!114 &114828155615652944
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

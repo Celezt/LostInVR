@@ -4017,7 +4017,8 @@ MonoBehaviour:
   data:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 0}
+    WwiseObjectReference: {fileID: 11400000, guid: e4985f54f759348228de328cdf555759,
+      type: 2}
   decodeBank: 0
   loadAsynchronous: 0
   saveDecodedBank: 0
@@ -20232,10 +20233,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e1e93886317bc454aab0b0981594524f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  EmittersToStartListeningTo: []
-  EmittersToStopListeningTo: []
-  isDefaultListener: 1
-  listenerId: 0
 --- !u!114 &1883239348
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -20248,18 +20245,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 304e4ba13c138452582900b23fc23129, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_listeners:
-    initialListenerList: []
-    useDefaultListeners: 1
-  isEnvironmentAware: 0
-  isStaticObject: 0
-  m_Collider: {fileID: 0}
-  m_positionOffsetData:
-    KeepMe: 0
-    positionOffset: {x: 0, y: 0, z: 0}
-  isRegistered: 1
-  m_posOffsetData: {fileID: 0}
-  listenerMask: 1
 --- !u!1001 &1884597276
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -22133,21 +22118,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 877395faf8c314a2aaab80cda3cde5a1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  InitializationSettings: {fileID: 11400000, guid: 1f8a80303d24645668655a81d9fb5058,
-    type: 2}
-  basePath: 
-  language: 
-  defaultPoolSize: 0
-  lowerPoolSize: 0
-  streamingPoolSize: 0
-  memoryCutoffThreshold: 0
-  monitorPoolSize: 0
-  monitorQueuePoolSize: 0
-  callbackManagerBufferSize: 0
-  spatialAudioPoolSize: 0
-  maxSoundPropagationDepth: 0
-  diffractionFlags: 11
-  engineLogging: 0
 --- !u!4 &2074235026
 Transform:
   m_ObjectHideFlags: 0
