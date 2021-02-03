@@ -36,17 +36,17 @@ public class NonVRMovement : MonoBehaviour
 
     public void Update()
     {
-        float moveHorizontal    = Input.GetAxis("Horizontal");
-        float moveVertical      = Input.GetAxis("Vertical");
-        bool isJump             = Input.GetButtonDown("Jump");
+        // Player movement.
+        float moveHorizontal        = Input.GetAxisRaw("Horizontal");
+        float moveVertical          = Input.GetAxisRaw("Vertical");
+        bool isJump                 = Input.GetButtonDown("Jump");
+        // Mouse rotation.
+        float rotationHorizontal    = Input.GetAxisRaw("Mouse X");
+        float rotationVertical      = Input.GetAxisRaw("Mouse Y");
 
         // Normalized direction.
         _direction = (transform.right * moveHorizontal + transform.forward * moveVertical).normalized;
         _velocity = _direction * Speed;
-
-        // Mouse movement.
-        float rotationHorizontal = Input.GetAxisRaw("Mouse X");
-        float rotationVertical = Input.GetAxisRaw("Mouse Y");
 
         _deltaRotation = new Vector3(0, rotationHorizontal, 0) * LookSensitivity * Time.deltaTime;
         _cameraDeltaRotation = new Vector3(rotationVertical, 0, 0) * LookSensitivity * Time.deltaTime;
@@ -77,7 +77,7 @@ public class NonVRMovement : MonoBehaviour
         if (_velocity != Vector3.zero)
             _body.MovePosition(_body.position + _velocity * Time.fixedDeltaTime);
 
-        // Rotate the camera of the player.
+        // Rotate the player and camera (horizontally).
         if (_deltaRotation != Vector3.zero)
             _body.MoveRotation(_body.rotation * Quaternion.Euler(_deltaRotation));
     }

@@ -79,7 +79,7 @@ MonoBehaviour:
   _camera: {fileID: 7026538587277703154}
   Speed: 10
   JumpForce: 1000
-  LookSensitivity: 100
+  LookSensitivity: 120
   RayLenght: 1.2
   GroundLayer:
     serializedVersion: 2
