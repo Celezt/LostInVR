@@ -30,6 +30,36 @@ Transform:
   m_Father: {fileID: 4975154575928812225}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &4467999908267317306
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4058831750271347291}
+  m_Layer: 9
+  m_Name: Hold
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4058831750271347291
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4467999908267317306}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 9026569833124909482}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &5018300498109839528
 GameObject:
   m_ObjectHideFlags: 0
@@ -42,6 +72,7 @@ GameObject:
   - component: {fileID: 2163253002550000183}
   - component: {fileID: 2983853281272371952}
   - component: {fileID: 8799752863554850480}
+  - component: {fileID: 1196329769073575522}
   m_Layer: 9
   m_Name: NonVRPlayer
   m_TagString: Untagged
@@ -107,7 +138,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b89a0ec103100524ca74203c0243ebc4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _camera: {fileID: 7026538587277703154}
+  _cameraTransform: {fileID: 9026569833124909482}
   Speed: 10
   JumpForce: 100000
   GravityForce: 3000
@@ -117,6 +148,27 @@ MonoBehaviour:
   GroundLayer:
     serializedVersion: 2
     m_Bits: 256
+--- !u!114 &1196329769073575522
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5018300498109839528}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1157c98b2095b0c459784d9cd26893ef, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _cameraTransform: {fileID: 9026569833124909482}
+  ObjectHolder: {fileID: 4058831750271347291}
+  Item: {fileID: 0}
+  _objectTag: Object
+  RayLength: 100
+  ThrowForce: 1000
+  _audio: {fileID: 0}
+  _audioClipsGrab: []
+  _audioClipsThrow: []
 --- !u!1 &7883237376269310573
 GameObject:
   m_ObjectHideFlags: 0
@@ -143,9 +195,10 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7883237376269310573}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 1.028, z: 0}
+  m_LocalPosition: {x: 0, y: 1, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
+  m_Children:
+  - {fileID: 4058831750271347291}
   m_Father: {fileID: 4975154575928812225}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

@@ -7,9 +7,7 @@ public class NonVRMovement : MonoBehaviour
 {
     [Tooltip("The Camera the player looks through.")]
     [SerializeField]
-    private Camera _camera;
-    [SerializeField]
-
+    private Transform _cameraTransform;
     public float Speed = 10f;
     public float JumpForce = 1000f;
     [Tooltip("Added gravity force to prevent floatiness.")]
@@ -23,6 +21,16 @@ public class NonVRMovement : MonoBehaviour
     [SerializeField]
     private LayerMask GroundLayer;
 
+    [Header("Audio (Optional)")]
+    [SerializeField]
+    private AudioSource _audio;
+    [SerializeField]
+    private AudioClip[] _audioClipsMove;
+    [SerializeField]
+    private AudioClip[] _audioClipsJump;
+    [SerializeField]
+    private AudioClip[] _audioClipsLand;
+
     private Vector3 _direction;
     private Vector3 _velocity;
     private Vector3 _deltaRotation;
@@ -33,7 +41,50 @@ public class NonVRMovement : MonoBehaviour
 
     private bool _isCursorLocked = true;
     private bool _isGrounded = true;
+    private bool _hasFallen = true;
     private bool _isJump;
+
+    public bool IsGrounded { get => _isGrounded; }
+
+    // Play random move sound.
+    public void PlayRandomAudioMove()
+    {
+        if (!_audio || _audioClipsMove == null)
+            return;
+
+        // Stop playing if the player is not moving or not on the ground.
+        if (_audio.isPlaying || _velocity == Vector3.zero || !_isGrounded)
+            _audio.Stop();
+
+        _audio.clip = _audioClipsMove[Random.Range(0, _audioClipsMove.Length)];
+        _audio.Play();
+    }
+
+    // Play random jump sound.
+    public void PlayRandomAudioJump()
+    {
+        if (!_audio || _audioClipsJump == null)
+            return;
+
+        if (_audio.isPlaying)
+            return;
+
+        _audio.clip = _audioClipsJump[Random.Range(0, _audioClipsJump.Length)];
+        _audio.Play();
+    }
+
+    // Play random land sound.
+    public void PlayRandomAudioLand()
+    {
+        if (!_audio || _audioClipsLand == null)
+            return;
+
+        if (_audio.isPlaying)
+            return;
+
+        _audio.clip = _audioClipsLand[Random.Range(0, _audioClipsLand.Length)];
+        _audio.Play();
+    }
 
     private void Start()
     {
@@ -59,9 +110,19 @@ public class NonVRMovement : MonoBehaviour
         _cameraDeltaRotation = new Vector3(cameraVertical, 0, 0) * LookSensitivity * Time.deltaTime;
         _cameraRotation -= _cameraDeltaRotation;
 
+        // Play move sound.
+        if (_velocity != Vector3.zero)
+            PlayRandomAudioMove();
+
         // Jump if on ground.
         if (_isJump && _isGrounded)
+        {
+            _hasFallen = false;
+
             _body.AddForce(transform.up * JumpForce);
+
+            PlayRandomAudioJump();
+        }
 
         InternalLockUpdate();
     }
@@ -71,12 +132,22 @@ public class NonVRMovement : MonoBehaviour
         // Clamp vertical rotation.
         _cameraRotation.x = Mathf.Clamp(_cameraRotation.x, -90f, 90f);
 
-        if (_camera != null)
-            _camera.transform.localRotation = Quaternion.Euler(_cameraRotation);
+        if (_cameraTransform != null)
+            _cameraTransform.localRotation = Quaternion.Euler(_cameraRotation);
 
         // Check with a sphere if the player is colliding with the ground.
         if (Physics.CheckSphere(_sphereTransform.position, Radius, GroundLayer.value))
+        {
+            // Play landing sound if just landed.
+            if (!_hasFallen)
+            {
+                _hasFallen = true;
+
+                PlayRandomAudioLand();
+            }
+
             _isGrounded = true;
+        }
         else
             _isGrounded = false;
 
