@@ -541,5 +541,10 @@ MonoBehaviour:
     List: []
   ExpandedItems:
   - /Lost in VR
+  - /Lost in VR/Events
+  - /Lost in VR/Events/Default Work Unit
+  - /Lost in VR/Events/Default Work Unit/Music
+  - /Lost in VR/SoundBanks
+  - /Lost in VR/SoundBanks/Default Work Unit
   autoPopulateEnabled: 1
   CurrentPluginConfig: 

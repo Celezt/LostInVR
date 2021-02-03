@@ -5,16 +5,6 @@ using UnityEngine;
 [RequireComponent(typeof(Collider), typeof(FollowPath))]
 public class ClientAI : MonoBehaviour
 {
-    private FollowPath _follow;
-    private Renderer _renderer;
-    private GameObject _requestSample;
-    private GameObject[] _displayItems;
-
-    private Vector3 _startlocalScale;
-    private int _randomTextureIndex;
-    private float _oldPercentTravelled;
-    private float _scaleOffset;
-
     [Range(0, 1)]
     public float WaitPoint;
     public float DampAvatarRotation = 2f;
@@ -34,6 +24,16 @@ public class ClientAI : MonoBehaviour
     /// The current state of the client.
     /// </summary>
     public ClientState State { get; private set; } = ClientState.MoveTo;
+
+    private FollowPath _follow;
+    private Renderer _renderer;
+    private GameObject _requestSample;
+    private GameObject[] _displayItems;
+
+    private Vector3 _startlocalScale;
+    private int _randomTextureIndex;
+    private float _oldPercentTravelled;
+    private float _scaleOffset;
 
     public enum ClientState
     {
@@ -83,6 +83,10 @@ public class ClientAI : MonoBehaviour
                 var rotation = Quaternion.LookRotation(lookPosition);
                 transform.rotation = Quaternion.Slerp(transform.rotation, rotation, Time.deltaTime * DampAvatarRotation);
 
+                _scaleOffset += BobSpeed;
+                transform.localScale = new Vector3(_startlocalScale.x, _startlocalScale.y + Mathf.Cos(_scaleOffset) * BobAmount, _startlocalScale.z);
+
+                // If empty it means it was never assigned a request or the request was a success.
                 if (RequestName == "")
                 {
                     _scaleOffset = 0;
@@ -105,9 +109,6 @@ public class ClientAI : MonoBehaviour
                     }
                 }
 
-                _scaleOffset += BobSpeed;
-                transform.localScale = new Vector3(_startlocalScale.x, _startlocalScale.y + Mathf.Cos(_scaleOffset) * BobAmount, _startlocalScale.z);
-
                 // Rotate samples if it exist.
                 if (_displayItems != null)
                     for (int i = 0; i < _displayItems.Length; i++)
@@ -127,6 +128,8 @@ public class ClientAI : MonoBehaviour
 
         _oldPercentTravelled = _follow.PercentTravelled;
     }
+
+    // Create a new game object for display.
     private void DisplayRequest()
     {
         // Set the first found game object with the name as request sample.
@@ -151,6 +154,7 @@ public class ClientAI : MonoBehaviour
             GameObject parentObject = (meshFilter) ? meshFilter.gameObject : null;
 
             MeshFilter[] meshFilters = _requestSample.GetComponentsInChildren<MeshFilter>();
+            // Length of all game objects that has the component MeshFilter including the parent.
             GameObject[] gameObjects = new GameObject[meshFilters.Length + ((parentObject) ? 1 : 0)];
             _displayItems = new GameObject[gameObjects.Length];
 
@@ -184,6 +188,7 @@ public class ClientAI : MonoBehaviour
         }
     }
 
+    // Change randomly the texture based on input.
     private void ChangeTexture()
     {
         // Random skin
@@ -191,6 +196,7 @@ public class ClientAI : MonoBehaviour
         _renderer.material.mainTexture = _textures[_randomTextureIndex];
     }
 
+    // Create random request based on all game objects containing the tag "Object".
     private void RandomRequest()
     {
         GameObject[] objects = GameObject.FindGameObjectsWithTag("Object");
@@ -204,8 +210,6 @@ public class ClientAI : MonoBehaviour
             RequestName = objects[pickedObjectIndex].name.Split('(')[0].Trim();
         }
         else
-        {
             IsRequestAvailable = false;
-        }
     }
 }
