@@ -8,13 +8,18 @@ public class NonVRMovement : MonoBehaviour
     [Tooltip("The Camera the player looks through.")]
     [SerializeField]
     private Camera _camera;
+    [SerializeField]
 
     public float Speed = 10f;
     public float JumpForce = 1000f;
-    public float LookSensitivity = 100f;
+    [Tooltip("Added gravity force to prevent floatiness.")]
+    public float GravityForce = 3000f;
+    public float LookSensitivity = 120f;
 
     [Header("Ground Check")]
-    public float RayLenght = 1.2f;
+    [SerializeField]
+    private Transform _sphereTransform;
+    public float Radius = 0.6f;
     [SerializeField]
     private LayerMask GroundLayer;
 
@@ -28,6 +33,7 @@ public class NonVRMovement : MonoBehaviour
 
     private bool _isCursorLocked = true;
     private bool _isGrounded = true;
+    private bool _isJump;
 
     private void Start()
     {
@@ -37,42 +43,47 @@ public class NonVRMovement : MonoBehaviour
     public void Update()
     {
         // Player movement.
-        float moveHorizontal        = Input.GetAxisRaw("Horizontal");
-        float moveVertical          = Input.GetAxisRaw("Vertical");
-        bool isJump                 = Input.GetButtonDown("Jump");
-        // Mouse rotation.
-        float rotationHorizontal    = Input.GetAxisRaw("Mouse X");
-        float rotationVertical      = Input.GetAxisRaw("Mouse Y");
+        float moveHorizontal    = Input.GetAxisRaw("Horizontal");
+        float moveVertical      = Input.GetAxisRaw("Vertical");
+        // If pressed jump.
+        _isJump                 = Input.GetButtonDown("Jump");
+        // Mouse position.
+        float cameraHorizontal  = Input.GetAxisRaw("Mouse X");
+        float cameraVertical    = Input.GetAxisRaw("Mouse Y");
 
         // Normalized direction.
         _direction = (transform.right * moveHorizontal + transform.forward * moveVertical).normalized;
         _velocity = _direction * Speed;
 
-        _deltaRotation = new Vector3(0, rotationHorizontal, 0) * LookSensitivity * Time.deltaTime;
-        _cameraDeltaRotation = new Vector3(rotationVertical, 0, 0) * LookSensitivity * Time.deltaTime;
+        _deltaRotation = new Vector3(0, cameraHorizontal, 0) * LookSensitivity * Time.deltaTime;
+        _cameraDeltaRotation = new Vector3(cameraVertical, 0, 0) * LookSensitivity * Time.deltaTime;
         _cameraRotation -= _cameraDeltaRotation;
 
         // Jump if on ground.
-        if (isJump && _isGrounded)
+        if (_isJump && _isGrounded)
             _body.AddForce(transform.up * JumpForce);
-
-        // Shoot ray downwards to check if there is ground.
-        if (Physics.Raycast(transform.position, -transform.up, out _, RayLenght, GroundLayer))
-            _isGrounded = true;
-        else
-            _isGrounded = false;
-
-        // Clamp vertical rotation.
-        _cameraRotation.x = Mathf.Clamp(_cameraRotation.x, -90f, 90f);
-
-        if (_camera != null)
-            _camera.transform.localRotation = Quaternion.Euler(_cameraRotation);
 
         InternalLockUpdate();
     }
 
     public void FixedUpdate()
     {
+        // Clamp vertical rotation.
+        _cameraRotation.x = Mathf.Clamp(_cameraRotation.x, -90f, 90f);
+
+        if (_camera != null)
+            _camera.transform.localRotation = Quaternion.Euler(_cameraRotation);
+
+        // Check with a sphere if the player is colliding with the ground.
+        if (Physics.CheckSphere(_sphereTransform.position, Radius, GroundLayer.value))
+            _isGrounded = true;
+        else
+            _isGrounded = false;
+
+        // Add down force when velocity y is negative.
+         if (!_isGrounded && _body.velocity.y < 0)
+            _body.AddForce(-transform.up * GravityForce);
+
         // Move the player.
         if (_velocity != Vector3.zero)
             _body.MovePosition(_body.position + _velocity * Time.fixedDeltaTime);
