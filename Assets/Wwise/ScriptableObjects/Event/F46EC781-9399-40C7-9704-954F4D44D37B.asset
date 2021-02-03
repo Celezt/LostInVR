@@ -9,7 +9,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6937a0f88070d481bb5853cd1f7a7d2e, type: 3}
+  m_Script: {fileID: 11500000, guid: efc3e07a01ed34434ab77a265f05632d, type: 3}
   m_Name: F46EC781-9399-40C7-9704-954F4D44D37B
   m_EditorClassIdentifier: 
   objectName: Main_Music

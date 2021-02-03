@@ -23,7 +23,7 @@ public class PlayerControllerForTesting : MonoBehaviour
             }
             else if (Input.GetKeyDown(KeyCode.T))
             {
-                GameLoopManager.Instance.IncreaseTimeRemaining(5);
+                GameLoopManager.Instance.IncreaseTimeRemaining(15);
             }
         }        
       
