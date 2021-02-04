@@ -124,6 +124,7 @@ GameObject:
   - component: {fileID: 114222707753289494}
   - component: {fileID: 114233283743500634}
   - component: {fileID: 114973429549333100}
+  - component: {fileID: 114479086153535778}
   m_Layer: 0
   m_Name: Book
   m_TagString: Untagged
@@ -1758,6 +1759,20 @@ MonoBehaviour:
   Score: 100
   Time: 15
 --- !u!114 &114973429549333100
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6547105402904593793}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad2283e458ed99444bba19ea8ee2e919, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Score: 100
+  Time: 15
+--- !u!114 &114479086153535778
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
