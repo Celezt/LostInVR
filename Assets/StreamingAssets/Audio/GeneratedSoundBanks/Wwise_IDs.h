@@ -13,7 +13,40 @@ namespace AK
 {
     namespace EVENTS
     {
+        static const AkUniqueID AMBIENCE = 85412153U;
+        static const AkUniqueID BOOK_FALL = 2754669738U;
+        static const AkUniqueID BOOK_SLIDE = 2389286304U;
+        static const AkUniqueID BOTTLE_HANDLE = 4238452446U;
+        static const AkUniqueID BOTTLE_PLACE = 2835074293U;
+        static const AkUniqueID BOTTLE_SLIDE = 404220387U;
+        static const AkUniqueID CHAR1 = 434268438U;
+        static const AkUniqueID CHAR3 = 434268436U;
+        static const AkUniqueID CHAR4 = 434268435U;
+        static const AkUniqueID CHAR5 = 434268434U;
+        static const AkUniqueID CHAR6 = 434268433U;
+        static const AkUniqueID CHAR7 = 434268432U;
+        static const AkUniqueID CHAR8 = 434268447U;
+        static const AkUniqueID CHAR15 = 3580587415U;
+        static const AkUniqueID CHAR16 = 3580587412U;
+        static const AkUniqueID CHAR17 = 3580587413U;
+        static const AkUniqueID CHAR_2 = 929826778U;
+        static const AkUniqueID ELECTRIC = 3250089732U;
+        static const AkUniqueID FOOTSTEPS = 2385628198U;
+        static const AkUniqueID GLASS_BOTTLE_FALL = 3533305262U;
+        static const AkUniqueID HEAVY_ITEMS = 3647759603U;
+        static const AkUniqueID LIGHTS_ON = 1063352154U;
         static const AkUniqueID MAIN_MUSIC = 63796330U;
+        static const AkUniqueID MALE2CHAR1 = 729594357U;
+        static const AkUniqueID MALE2CHAR2 = 729594358U;
+        static const AkUniqueID MALE2CHAR3 = 729594359U;
+        static const AkUniqueID MALE2CHAR4 = 729594352U;
+        static const AkUniqueID MALE2CHAR5 = 729594353U;
+        static const AkUniqueID PLASTIC_BOTTLE_FALL = 276558634U;
+        static const AkUniqueID SUCCESS = 3625060726U;
+        static const AkUniqueID SUITCASE_FALL = 1746749826U;
+        static const AkUniqueID SUITCASE_ROLL = 3321983048U;
+        static const AkUniqueID TIME_RUNNING_OUT = 1735830099U;
+        static const AkUniqueID TIMER_TICKING = 1090822048U;
     } // namespace EVENTS
 
     namespace SWITCHES
@@ -26,6 +59,8 @@ namespace AK
             {
                 static const AkUniqueID LOOP_1 = 3987970511U;
                 static const AkUniqueID LOOP_2 = 3987970508U;
+                static const AkUniqueID LOOP_3 = 3987970509U;
+                static const AkUniqueID LOOP_4 = 3987970506U;
             } // namespace SWITCH
         } // namespace MUSIC_PLAYLIST
 
@@ -58,7 +93,9 @@ namespace AK
     namespace BANKS
     {
         static const AkUniqueID INIT = 1355168291U;
+        static const AkUniqueID DIALOGUE = 3930136735U;
         static const AkUniqueID MUSIC = 3991942870U;
+        static const AkUniqueID SFX = 393239870U;
     } // namespace BANKS
 
     namespace BUSSES
@@ -68,7 +105,6 @@ namespace AK
 
     namespace AUDIO_DEVICES
     {
-        static const AkUniqueID DEFAULT_MOTION_DEVICE = 4230635974U;
         static const AkUniqueID NO_OUTPUT = 2317455096U;
         static const AkUniqueID SYSTEM = 3859886410U;
     } // namespace AUDIO_DEVICES

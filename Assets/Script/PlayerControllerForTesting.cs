@@ -25,6 +25,14 @@ public class PlayerControllerForTesting : MonoBehaviour
             {
                 GameLoopManager.Instance.IncreaseTimeRemaining(15);
             }
+            else if (Input.GetKeyDown(KeyCode.Y))
+            {
+                GameLoopManager.Instance.IncreaseTimeRemaining(-15);
+            }
+            else if (Input.GetKeyDown(KeyCode.P))
+            {
+                AkSoundEngine.PostEvent("Char16", gameObject);
+            }
         }        
       
         else if (Input.GetKeyDown(KeyCode.R))

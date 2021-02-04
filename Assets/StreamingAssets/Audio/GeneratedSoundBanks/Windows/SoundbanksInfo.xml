@@ -1,0 +1,845 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="135">
+	<RootPaths>
+		<ProjectRoot>/Users/mikeyparsons/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/Documents/GitHub/Wwise/Lost in VR - Wwise Project/</ProjectRoot>
+		<SourceFilesRoot>/Users/mikeyparsons/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/Documents/GitHub/Wwise/Lost in VR - Wwise Project/.cache/Windows/</SourceFilesRoot>
+		<SoundBanksRoot>/Users/mikeyparsons/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/Documents/GitHub/LostInVR/Assets/StreamingAssets/Audio/GeneratedSoundBanks/Windows/</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>/Users/mikeyparsons/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/Documents/GitHub/Wwise/Lost in VR - Wwise Project/GeneratedSoundBanks/Windows</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="393239870" Language="SFX" Hash="1548188232">
+			<ObjectPath>\SoundBanks\Default Work Unit\SFX</ObjectPath>
+			<ShortName>SFX</ShortName>
+			<Path>SFX.bnk</Path>
+			<IncludedEvents>
+				<Event Id="85412153" Name="Ambience" ObjectPath="\Events\Default Work Unit\SFX\Ambience" DurationType="OneShot" DurationMin="20.000000" DurationMax="20.000000">
+					<IncludedMemoryFiles>
+						<File Id="1001952878" Language="SFX">
+							<ShortName>Ambience_Loop.wav</ShortName>
+							<Path>SFX/Ambience_Loop_2EB68A41.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2754669738" Name="Book_fall" ObjectPath="\Events\Default Work Unit\SFX\Book_fall" DurationType="OneShot" DurationMin="1.371500" DurationMax="1.787458">
+					<IncludedMemoryFiles>
+						<File Id="2630238" Language="SFX">
+							<ShortName>Books Fall\Books fall-001.wav</ShortName>
+							<Path>SFX/Books Fall/Books fall-001_2EB68A41.wem</Path>
+						</File>
+						<File Id="54740903" Language="SFX">
+							<ShortName>Books Fall\Books fall-003.wav</ShortName>
+							<Path>SFX/Books Fall/Books fall-003_2EB68A41.wem</Path>
+						</File>
+						<File Id="115137587" Language="SFX">
+							<ShortName>Books Fall\Books fall-007.wav</ShortName>
+							<Path>SFX/Books Fall/Books fall-007_2EB68A41.wem</Path>
+						</File>
+						<File Id="594206680" Language="SFX">
+							<ShortName>Books Fall\Books fall-004.wav</ShortName>
+							<Path>SFX/Books Fall/Books fall-004_2EB68A41.wem</Path>
+						</File>
+						<File Id="621719383" Language="SFX">
+							<ShortName>Books Fall\Books fall-002.wav</ShortName>
+							<Path>SFX/Books Fall/Books fall-002_2EB68A41.wem</Path>
+						</File>
+						<File Id="717901879" Language="SFX">
+							<ShortName>Books Fall\Books fall-006.wav</ShortName>
+							<Path>SFX/Books Fall/Books fall-006_2EB68A41.wem</Path>
+						</File>
+						<File Id="879494859" Language="SFX">
+							<ShortName>Books Fall\Books fall-008.wav</ShortName>
+							<Path>SFX/Books Fall/Books fall-008_2EB68A41.wem</Path>
+						</File>
+						<File Id="981516968" Language="SFX">
+							<ShortName>Books Fall\Books fall-005.wav</ShortName>
+							<Path>SFX/Books Fall/Books fall-005_2EB68A41.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2389286304" Name="Book_slide" ObjectPath="\Events\Default Work Unit\SFX\Book_slide" DurationType="OneShot" DurationMin="1.235104" DurationMax="1.672812">
+					<IncludedMemoryFiles>
+						<File Id="362164956" Language="SFX">
+							<ShortName>Book Slide\book slide-003.wav</ShortName>
+							<Path>SFX/Book Slide/book slide-003_2EB68A41.wem</Path>
+						</File>
+						<File Id="599360400" Language="SFX">
+							<ShortName>Book Slide\book slide-004.wav</ShortName>
+							<Path>SFX/Book Slide/book slide-004_2EB68A41.wem</Path>
+						</File>
+						<File Id="744200733" Language="SFX">
+							<ShortName>Book Slide\book slide-001.wav</ShortName>
+							<Path>SFX/Book Slide/book slide-001_2EB68A41.wem</Path>
+						</File>
+						<File Id="770444231" Language="SFX">
+							<ShortName>Book Slide\book slide-006.wav</ShortName>
+							<Path>SFX/Book Slide/book slide-006_2EB68A41.wem</Path>
+						</File>
+						<File Id="891064493" Language="SFX">
+							<ShortName>Book Slide\book slide-002.wav</ShortName>
+							<Path>SFX/Book Slide/book slide-002_2EB68A41.wem</Path>
+						</File>
+						<File Id="933551233" Language="SFX">
+							<ShortName>Book Slide\book slide-007.wav</ShortName>
+							<Path>SFX/Book Slide/book slide-007_2EB68A41.wem</Path>
+						</File>
+						<File Id="1002419050" Language="SFX">
+							<ShortName>Book Slide\book slide-005.wav</ShortName>
+							<Path>SFX/Book Slide/book slide-005_2EB68A41.wem</Path>
+						</File>
+						<File Id="1026235709" Language="SFX">
+							<ShortName>Book Slide\book slide-008.wav</ShortName>
+							<Path>SFX/Book Slide/book slide-008_2EB68A41.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="4238452446" Name="Bottle_handle" ObjectPath="\Events\Default Work Unit\SFX\Bottle_handle" DurationType="OneShot" DurationMin="1.996396" DurationMax="2.379292">
+					<IncludedMemoryFiles>
+						<File Id="115450837" Language="SFX">
+							<ShortName>BottleHandle\bottle handle-003.wav</ShortName>
+							<Path>SFX/BottleHandle/bottle handle-003_2EB68A41.wem</Path>
+						</File>
+						<File Id="420535633" Language="SFX">
+							<ShortName>BottleHandle\bottle handle-005.wav</ShortName>
+							<Path>SFX/BottleHandle/bottle handle-005_2EB68A41.wem</Path>
+						</File>
+						<File Id="599360314" Language="SFX">
+							<ShortName>BottleHandle\bottle handle-001.wav</ShortName>
+							<Path>SFX/BottleHandle/bottle handle-001_2EB68A41.wem</Path>
+						</File>
+						<File Id="968106665" Language="SFX">
+							<ShortName>BottleHandle\bottle handle-002.wav</ShortName>
+							<Path>SFX/BottleHandle/bottle handle-002_2EB68A41.wem</Path>
+						</File>
+						<File Id="1049413072" Language="SFX">
+							<ShortName>BottleHandle\bottle handle-004.wav</ShortName>
+							<Path>SFX/BottleHandle/bottle handle-004_2EB68A41.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2835074293" Name="Bottle_Place" ObjectPath="\Events\Default Work Unit\SFX\Bottle_Place" DurationType="OneShot" DurationMin="1.362625" DurationMax="1.799854">
+					<IncludedMemoryFiles>
+						<File Id="220403463" Language="SFX">
+							<ShortName>BottlePlace\bottle put back-002.wav</ShortName>
+							<Path>SFX/BottlePlace/bottle put back-002_2EB68A41.wem</Path>
+						</File>
+						<File Id="391811938" Language="SFX">
+							<ShortName>BottlePlace\bottle put back-001.wav</ShortName>
+							<Path>SFX/BottlePlace/bottle put back-001_2EB68A41.wem</Path>
+						</File>
+						<File Id="702134655" Language="SFX">
+							<ShortName>BottlePlace\bottle put back-003.wav</ShortName>
+							<Path>SFX/BottlePlace/bottle put back-003_2EB68A41.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="404220387" Name="Bottle_Slide" ObjectPath="\Events\Default Work Unit\SFX\Bottle_Slide" DurationType="OneShot" DurationMin="1.495813" DurationMax="2.260875">
+					<IncludedMemoryFiles>
+						<File Id="108329956" Language="SFX">
+							<ShortName>BottleSlide\bottle slide-006.wav</ShortName>
+							<Path>SFX/BottleSlide/bottle slide-006_2EB68A41.wem</Path>
+						</File>
+						<File Id="203900529" Language="SFX">
+							<ShortName>BottleSlide\bottle slide-008.wav</ShortName>
+							<Path>SFX/BottleSlide/bottle slide-008_2EB68A41.wem</Path>
+						</File>
+						<File Id="272492138" Language="SFX">
+							<ShortName>BottleSlide\bottle slide-007.wav</ShortName>
+							<Path>SFX/BottleSlide/bottle slide-007_2EB68A41.wem</Path>
+						</File>
+						<File Id="371599600" Language="SFX">
+							<ShortName>BottleSlide\bottle slide-001.wav</ShortName>
+							<Path>SFX/BottleSlide/bottle slide-001_2EB68A41.wem</Path>
+						</File>
+						<File Id="554405034" Language="SFX">
+							<ShortName>BottleSlide\bottle slide-005.wav</ShortName>
+							<Path>SFX/BottleSlide/bottle slide-005_2EB68A41.wem</Path>
+						</File>
+						<File Id="583001350" Language="SFX">
+							<ShortName>BottleSlide\bottle slide-004.wav</ShortName>
+							<Path>SFX/BottleSlide/bottle slide-004_2EB68A41.wem</Path>
+						</File>
+						<File Id="817358467" Language="SFX">
+							<ShortName>BottleSlide\bottle slide-003.wav</ShortName>
+							<Path>SFX/BottleSlide/bottle slide-003_2EB68A41.wem</Path>
+						</File>
+						<File Id="875690428" Language="SFX">
+							<ShortName>BottleSlide\bottle slide-002.wav</ShortName>
+							<Path>SFX/BottleSlide/bottle slide-002_2EB68A41.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3250089732" Name="Electric" ObjectPath="\Events\Default Work Unit\SFX\Electric" DurationType="OneShot" DurationMin="5.640104" DurationMax="5.640104">
+					<IncludedMemoryFiles>
+						<File Id="399045153" Language="SFX">
+							<ShortName>Electric_Shutter.wav</ShortName>
+							<Path>SFX/Electric_Shutter_2EB68A41.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2385628198" Name="Footsteps" ObjectPath="\Events\Default Work Unit\SFX\Footsteps" DurationType="OneShot" DurationMin="0.168980" DurationMax="0.192630">
+					<IncludedMemoryFiles>
+						<File Id="54805131" Language="SFX">
+							<ShortName>Footsteps\Footsteps_2.wav</ShortName>
+							<Path>SFX/Footsteps/Footsteps_2_2EB68A41.wem</Path>
+						</File>
+						<File Id="159817621" Language="SFX">
+							<ShortName>Footsteps\Footsteps_1.wav</ShortName>
+							<Path>SFX/Footsteps/Footsteps_1_2EB68A41.wem</Path>
+						</File>
+						<File Id="579848758" Language="SFX">
+							<ShortName>Footsteps\Footsteps_5.wav</ShortName>
+							<Path>SFX/Footsteps/Footsteps_5_2EB68A41.wem</Path>
+						</File>
+						<File Id="595976674" Language="SFX">
+							<ShortName>Footsteps\Footsteps_4.wav</ShortName>
+							<Path>SFX/Footsteps/Footsteps_4_2EB68A41.wem</Path>
+						</File>
+						<File Id="734199645" Language="SFX">
+							<ShortName>Footsteps\Footsteps_3.wav</ShortName>
+							<Path>SFX/Footsteps/Footsteps_3_2EB68A41.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3533305262" Name="Glass_Bottle_fall" ObjectPath="\Events\Default Work Unit\SFX\Glass_Bottle_fall" DurationType="OneShot" DurationMin="1.482771" DurationMax="3.452563">
+					<IncludedMemoryFiles>
+						<File Id="142961642" Language="SFX">
+							<ShortName>GlassBottleFall\glass bottle fall-003.wav</ShortName>
+							<Path>SFX/GlassBottleFall/glass bottle fall-003_2EB68A41.wem</Path>
+						</File>
+						<File Id="297055895" Language="SFX">
+							<ShortName>GlassBottleFall\glass bottle fall-002.wav</ShortName>
+							<Path>SFX/GlassBottleFall/glass bottle fall-002_2EB68A41.wem</Path>
+						</File>
+						<File Id="478956675" Language="SFX">
+							<ShortName>GlassBottleFall\glass bottle fall-001.wav</ShortName>
+							<Path>SFX/GlassBottleFall/glass bottle fall-001_2EB68A41.wem</Path>
+						</File>
+						<File Id="534932078" Language="SFX">
+							<ShortName>GlassBottleFall\glass bottle fall-005.wav</ShortName>
+							<Path>SFX/GlassBottleFall/glass bottle fall-005_2EB68A41.wem</Path>
+						</File>
+						<File Id="730511709" Language="SFX">
+							<ShortName>GlassBottleFall\glass bottle fall-004.wav</ShortName>
+							<Path>SFX/GlassBottleFall/glass bottle fall-004_2EB68A41.wem</Path>
+						</File>
+						<File Id="1009506895" Language="SFX">
+							<ShortName>GlassBottleFall\glass bottle fall-006.wav</ShortName>
+							<Path>SFX/GlassBottleFall/glass bottle fall-006_2EB68A41.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3647759603" Name="Heavy_items" ObjectPath="\Events\Default Work Unit\SFX\Heavy_items" DurationType="OneShot" DurationMin="0.963479" DurationMax="0.963479">
+					<IncludedMemoryFiles>
+						<File Id="110915223" Language="SFX">
+							<ShortName>HeavyItemsFall.wav</ShortName>
+							<Path>SFX/HeavyItemsFall_2EB68A41.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1063352154" Name="Lights_on" ObjectPath="\Events\Default Work Unit\SFX\Lights_on" DurationType="OneShot" DurationMin="3.819521" DurationMax="4.029083">
+					<IncludedMemoryFiles>
+						<File Id="793105954" Language="SFX">
+							<ShortName>LightOn\Light_On-001.wav</ShortName>
+							<Path>SFX/LightOn/Light_On-001_2EB68A41.wem</Path>
+						</File>
+						<File Id="963129637" Language="SFX">
+							<ShortName>LightOn\Light_On-002.wav</ShortName>
+							<Path>SFX/LightOn/Light_On-002_2EB68A41.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="276558634" Name="Plastic_bottle_fall" ObjectPath="\Events\Default Work Unit\SFX\Plastic_bottle_fall" DurationType="OneShot" DurationMin="2.098958" DurationMax="2.913917">
+					<IncludedMemoryFiles>
+						<File Id="103686223" Language="SFX">
+							<ShortName>PlasticBottleFall\Plastic_Bottle_Fall-003.wav</ShortName>
+							<Path>SFX/PlasticBottleFall/Plastic_Bottle_Fall-003_2EB68A41.wem</Path>
+						</File>
+						<File Id="287136782" Language="SFX">
+							<ShortName>PlasticBottleFall\Plastic_Bottle_Fall-004.wav</ShortName>
+							<Path>SFX/PlasticBottleFall/Plastic_Bottle_Fall-004_2EB68A41.wem</Path>
+						</File>
+						<File Id="920184399" Language="SFX">
+							<ShortName>PlasticBottleFall\Plastic_Bottle_Fall-002.wav</ShortName>
+							<Path>SFX/PlasticBottleFall/Plastic_Bottle_Fall-002_2EB68A41.wem</Path>
+						</File>
+						<File Id="1011085861" Language="SFX">
+							<ShortName>PlasticBottleFall\Plastic_Bottle_Fall-001.wav</ShortName>
+							<Path>SFX/PlasticBottleFall/Plastic_Bottle_Fall-001_2EB68A41.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3625060726" Name="Success" ObjectPath="\Events\Default Work Unit\SFX\Success" DurationType="OneShot" DurationMin="1.675083" DurationMax="2.443938">
+					<IncludedMemoryFiles>
+						<File Id="91309965" Language="SFX">
+							<ShortName>Success\Success_1.wav</ShortName>
+							<Path>SFX/Success/Success_1_2EB68A41.wem</Path>
+						</File>
+						<File Id="284770318" Language="SFX">
+							<ShortName>Success\Success_2.wav</ShortName>
+							<Path>SFX/Success/Success_2_2EB68A41.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1746749826" Name="Suitcase_fall" ObjectPath="\Events\Default Work Unit\SFX\Suitcase_fall" DurationType="OneShot" DurationMin="1.777917" DurationMax="1.907063">
+					<IncludedMemoryFiles>
+						<File Id="301296110" Language="SFX">
+							<ShortName>SuitcaseFall\suitcase fall-001.wav</ShortName>
+							<Path>SFX/SuitcaseFall/suitcase fall-001_2EB68A41.wem</Path>
+						</File>
+						<File Id="665447451" Language="SFX">
+							<ShortName>SuitcaseFall\suitcase fall-002.wav</ShortName>
+							<Path>SFX/SuitcaseFall/suitcase fall-002_2EB68A41.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3321983048" Name="Suitcase_roll" ObjectPath="\Events\Default Work Unit\SFX\Suitcase_roll" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="1735830099" Name="Time_running_out" ObjectPath="\Events\Default Work Unit\SFX\Time_running_out" DurationType="OneShot" DurationMin="10.500000" DurationMax="10.500000">
+					<IncludedMemoryFiles>
+						<File Id="531724387" Language="SFX">
+							<ShortName>TimeRunningOut_15_sec.wav</ShortName>
+							<Path>SFX/TimeRunningOut_15_sec_2EB68A41.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1090822048" Name="Timer_ticking" ObjectPath="\Events\Default Work Unit\SFX\Timer_ticking" DurationType="OneShot" DurationMin="6.161396" DurationMax="6.161396">
+					<IncludedMemoryFiles>
+						<File Id="747744700" Language="SFX">
+							<ShortName>TimeTicking_Loop.wav</ShortName>
+							<Path>SFX/TimeTicking_Loop_2EB68A41.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+			</IncludedEvents>
+		</SoundBank>
+		<SoundBank Id="1355168291" Language="SFX" Hash="808099176">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="3930136735" Language="SFX" Hash="1976130930">
+			<ObjectPath>\SoundBanks\Default Work Unit\Dialogue</ObjectPath>
+			<ShortName>Dialogue</ShortName>
+			<Path>Dialogue.bnk</Path>
+			<IncludedEvents>
+				<Event Id="434268438" Name="Char1" ObjectPath="\Events\Default Work Unit\Dialogue\Male 1\Char1" DurationType="OneShot" DurationMin="7.843208" DurationMax="7.843208">
+					<IncludedMemoryFiles>
+						<File Id="974686995" Language="SFX">
+							<ShortName>Male_Voice_1\Character_6\Ch6_2.wav</ShortName>
+							<Path>SFX/Male_Voice_1/Character_6/Ch6_2_2EB68A41.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3580587415" Name="Char15" ObjectPath="\Events\Default Work Unit\Dialogue\Female Char\Char15" DurationType="OneShot" DurationMin="3.227729" DurationMax="4.686167">
+					<IncludedMemoryFiles>
+						<File Id="167981095" Language="SFX">
+							<ShortName>Fem_Voice_1\Character_15\CH15_1.wav</ShortName>
+							<Path>SFX/Fem_Voice_1/Character_15/CH15_1_2EB68A41.wem</Path>
+						</File>
+						<File Id="460113114" Language="SFX">
+							<ShortName>Fem_Voice_1\Character_15\CH15_2.wav</ShortName>
+							<Path>SFX/Fem_Voice_1/Character_15/CH15_2_2EB68A41.wem</Path>
+						</File>
+						<File Id="947572448" Language="SFX">
+							<ShortName>Fem_Voice_1\Character_15\CH15_3.wav</ShortName>
+							<Path>SFX/Fem_Voice_1/Character_15/CH15_3_2EB68A41.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3580587412" Name="Char16" ObjectPath="\Events\Default Work Unit\Dialogue\Female Char\Char16" DurationType="OneShot" DurationMin="4.876563" DurationMax="7.749938">
+					<IncludedMemoryFiles>
+						<File Id="159013578" Language="SFX">
+							<ShortName>Fem_Voice_1\Character_16\CH16_3.wav</ShortName>
+							<Path>SFX/Fem_Voice_1/Character_16/CH16_3_2EB68A41.wem</Path>
+						</File>
+						<File Id="641350946" Language="SFX">
+							<ShortName>Fem_Voice_1\Character_16\CH16_2.wav</ShortName>
+							<Path>SFX/Fem_Voice_1/Character_16/CH16_2_2EB68A41.wem</Path>
+						</File>
+						<File Id="816521724" Language="SFX">
+							<ShortName>Fem_Voice_1\Character_16\CH16_1.wav</ShortName>
+							<Path>SFX/Fem_Voice_1/Character_16/CH16_1_2EB68A41.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3580587413" Name="Char17" ObjectPath="\Events\Default Work Unit\Dialogue\Female Char\Char17" DurationType="OneShot" DurationMin="2.610812" DurationMax="3.401979">
+					<IncludedMemoryFiles>
+						<File Id="86195769" Language="SFX">
+							<ShortName>Fem_Voice_1\Character_17\CH17_1.wav</ShortName>
+							<Path>SFX/Fem_Voice_1/Character_17/CH17_1_2EB68A41.wem</Path>
+						</File>
+						<File Id="652418369" Language="SFX">
+							<ShortName>Fem_Voice_1\Character_17\CH17_2.wav</ShortName>
+							<Path>SFX/Fem_Voice_1/Character_17/CH17_2_2EB68A41.wem</Path>
+						</File>
+						<File Id="998420218" Language="SFX">
+							<ShortName>Fem_Voice_1\Character_17\CH17_3.wav</ShortName>
+							<Path>SFX/Fem_Voice_1/Character_17/CH17_3_2EB68A41.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="434268436" Name="Char3" ObjectPath="\Events\Default Work Unit\Dialogue\Male 1\Char3" DurationType="OneShot" DurationMin="6.546208" DurationMax="6.546208">
+					<IncludedMemoryFiles>
+						<File Id="854424282" Language="SFX">
+							<ShortName>Male_Voice_1\Character_7\Ch7_2.wav</ShortName>
+							<Path>SFX/Male_Voice_1/Character_7/Ch7_2_2EB68A41.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="434268435" Name="Char4" ObjectPath="\Events\Default Work Unit\Dialogue\Male 1\Char4" DurationType="OneShot" DurationMin="7.922250" DurationMax="7.922250">
+					<IncludedMemoryFiles>
+						<File Id="487029698" Language="SFX">
+							<ShortName>Male_Voice_1\Character_9\Ch9_3.wav</ShortName>
+							<Path>SFX/Male_Voice_1/Character_9/Ch9_3_2EB68A41.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="434268434" Name="Char5" ObjectPath="\Events\Default Work Unit\Dialogue\Male 1\Char5" DurationType="OneShot" DurationMin="2.329896" DurationMax="6.660563">
+					<IncludedMemoryFiles>
+						<File Id="76709246" Language="SFX">
+							<ShortName>Male_Voice_1\Character_10\Ch10_2.wav</ShortName>
+							<Path>SFX/Male_Voice_1/Character_10/Ch10_2_2EB68A41.wem</Path>
+						</File>
+						<File Id="315350383" Language="SFX">
+							<ShortName>Male_Voice_1\Character_10\Ch10_3.wav</ShortName>
+							<Path>SFX/Male_Voice_1/Character_10/Ch10_3_2EB68A41.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="434268433" Name="Char6" ObjectPath="\Events\Default Work Unit\Dialogue\Male 1\Char6" DurationType="OneShot" DurationMin="7.444854" DurationMax="7.444854">
+					<IncludedMemoryFiles>
+						<File Id="1877933" Language="SFX">
+							<ShortName>Male_Voice_1\Character_11\Ch11_3.wav</ShortName>
+							<Path>SFX/Male_Voice_1/Character_11/Ch11_3_2EB68A41.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="434268432" Name="Char7" ObjectPath="\Events\Default Work Unit\Dialogue\Male 1\Char7" DurationType="OneShot" DurationMin="4.137187" DurationMax="4.137187">
+					<IncludedMemoryFiles>
+						<File Id="925675865" Language="SFX">
+							<ShortName>Male_Voice_1\Character_12\Ch12_2.wav</ShortName>
+							<Path>SFX/Male_Voice_1/Character_12/Ch12_2_2EB68A41.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="434268447" Name="Char8" ObjectPath="\Events\Default Work Unit\Dialogue\Male 1\Char8" DurationType="OneShot" DurationMin="2.553167" DurationMax="8.191396">
+					<IncludedMemoryFiles>
+						<File Id="166192271" Language="SFX">
+							<ShortName>Male_Voice_1\Character_13\CH13_3.wav</ShortName>
+							<Path>SFX/Male_Voice_1/Character_13/CH13_3_2EB68A41.wem</Path>
+						</File>
+						<File Id="295020058" Language="SFX">
+							<ShortName>Male_Voice_1\Character_13\CH13_1.wav</ShortName>
+							<Path>SFX/Male_Voice_1/Character_13/CH13_1_2EB68A41.wem</Path>
+						</File>
+						<File Id="344557462" Language="SFX">
+							<ShortName>Male_Voice_1\Character_13\CH13_2.wav</ShortName>
+							<Path>SFX/Male_Voice_1/Character_13/CH13_2_2EB68A41.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="929826778" Name="Char_2" ObjectPath="\Events\Default Work Unit\Dialogue\Male 1\Char_2" DurationType="OneShot" DurationMin="2.014208" DurationMax="2.904729">
+					<IncludedMemoryFiles>
+						<File Id="489395153" Language="SFX">
+							<ShortName>Male_Voice_1\Character_14\CH14_2.wav</ShortName>
+							<Path>SFX/Male_Voice_1/Character_14/CH14_2_2EB68A41.wem</Path>
+						</File>
+						<File Id="570000591" Language="SFX">
+							<ShortName>Male_Voice_1\Character_14\CH14_3.wav</ShortName>
+							<Path>SFX/Male_Voice_1/Character_14/CH14_3_2EB68A41.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="729594357" Name="Male2char1" ObjectPath="\Events\Default Work Unit\Dialogue\Male 2\Male2char1" DurationType="OneShot" DurationMin="2.537271" DurationMax="3.079833">
+					<IncludedMemoryFiles>
+						<File Id="21987328" Language="SFX">
+							<ShortName>Male_Voice_2\Character_1\Ch1_3.wav</ShortName>
+							<Path>SFX/Male_Voice_2/Character_1/Ch1_3_2EB68A41.wem</Path>
+						</File>
+						<File Id="198885303" Language="SFX">
+							<ShortName>Male_Voice_2\Character_1\Ch1_2.wav</ShortName>
+							<Path>SFX/Male_Voice_2/Character_1/Ch1_2_2EB68A41.wem</Path>
+						</File>
+						<File Id="999151018" Language="SFX">
+							<ShortName>Male_Voice_2\Character_1\Ch1_1.wav</ShortName>
+							<Path>SFX/Male_Voice_2/Character_1/Ch1_1_2EB68A41.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="729594358" Name="Male2char2" ObjectPath="\Events\Default Work Unit\Dialogue\Male 2\Male2char2" DurationType="OneShot" DurationMin="3.883063" DurationMax="4.688063">
+					<IncludedMemoryFiles>
+						<File Id="153830027" Language="SFX">
+							<ShortName>Male_Voice_2\Character_2\CH2_2.wav</ShortName>
+							<Path>SFX/Male_Voice_2/Character_2/CH2_2_2EB68A41.wem</Path>
+						</File>
+						<File Id="732248451" Language="SFX">
+							<ShortName>Male_Voice_2\Character_2\CH2_3.wav</ShortName>
+							<Path>SFX/Male_Voice_2/Character_2/CH2_3_2EB68A41.wem</Path>
+						</File>
+						<File Id="884183506" Language="SFX">
+							<ShortName>Male_Voice_2\Character_2\CH2_1.wav</ShortName>
+							<Path>SFX/Male_Voice_2/Character_2/CH2_1_2EB68A41.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="729594359" Name="Male2char3" ObjectPath="\Events\Default Work Unit\Dialogue\Male 2\Male2char3" DurationType="OneShot" DurationMin="2.925083" DurationMax="5.792459">
+					<IncludedMemoryFiles>
+						<File Id="512004796" Language="SFX">
+							<ShortName>Male_Voice_2\Character_3\CH3_1.wav</ShortName>
+							<Path>SFX/Male_Voice_2/Character_3/CH3_1_2EB68A41.wem</Path>
+						</File>
+						<File Id="653165244" Language="SFX">
+							<ShortName>Male_Voice_2\Character_3\CH3_3.wav</ShortName>
+							<Path>SFX/Male_Voice_2/Character_3/CH3_3_2EB68A41.wem</Path>
+						</File>
+						<File Id="941943972" Language="SFX">
+							<ShortName>Male_Voice_2\Character_3\CH3_2.wav</ShortName>
+							<Path>SFX/Male_Voice_2/Character_3/CH3_2_2EB68A41.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="729594352" Name="Male2char4" ObjectPath="\Events\Default Work Unit\Dialogue\Male 2\Male2char4" DurationType="OneShot" DurationMin="2.540062" DurationMax="3.320229">
+					<IncludedMemoryFiles>
+						<File Id="269194282" Language="SFX">
+							<ShortName>Male_Voice_2\Character_4\CH4_3.wav</ShortName>
+							<Path>SFX/Male_Voice_2/Character_4/CH4_3_2EB68A41.wem</Path>
+						</File>
+						<File Id="833177707" Language="SFX">
+							<ShortName>Male_Voice_2\Character_4\CH4_1.wav</ShortName>
+							<Path>SFX/Male_Voice_2/Character_4/CH4_1_2EB68A41.wem</Path>
+						</File>
+						<File Id="843430338" Language="SFX">
+							<ShortName>Male_Voice_2\Character_4\CH4_2.wav</ShortName>
+							<Path>SFX/Male_Voice_2/Character_4/CH4_2_2EB68A41.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="729594353" Name="Male2char5" ObjectPath="\Events\Default Work Unit\Dialogue\Male 2\Male2char5" DurationType="OneShot" DurationMin="3.330375" DurationMax="6.311521">
+					<IncludedMemoryFiles>
+						<File Id="245354523" Language="SFX">
+							<ShortName>Male_Voice_2\Character_5\CH5_1.wav</ShortName>
+							<Path>SFX/Male_Voice_2/Character_5/CH5_1_2EB68A41.wem</Path>
+						</File>
+						<File Id="878493618" Language="SFX">
+							<ShortName>Male_Voice_2\Character_5\CH5_3.wav</ShortName>
+							<Path>SFX/Male_Voice_2/Character_5/CH5_3_2EB68A41.wem</Path>
+						</File>
+						<File Id="891908739" Language="SFX">
+							<ShortName>Male_Voice_2\Character_5\CH5_2.wav</ShortName>
+							<Path>SFX/Male_Voice_2/Character_5/CH5_2_2EB68A41.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+			</IncludedEvents>
+		</SoundBank>
+		<SoundBank Id="3991942870" Language="SFX" Hash="242184738">
+			<ObjectPath>\SoundBanks\Default Work Unit\Music</ObjectPath>
+			<ShortName>Music</ShortName>
+			<Path>Music.bnk</Path>
+			<IncludedEvents>
+				<Event Id="63796330" Name="Main_Music" ObjectPath="\Events\Default Work Unit\Music\Main_Music" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="605525" Language="SFX">
+							<ShortName>Intensity_2_B_125bpm_Piano_v2.wav</ShortName>
+							<Path>SFX/Intensity_2_B_125bpm_Piano_v2_1EDAEB4F.wem</Path>
+						</File>
+						<File Id="3559877" Language="SFX">
+							<ShortName>Intensity_1_A_120bpm_GuitarCymb.wav</ShortName>
+							<Path>SFX/Intensity_1_A_120bpm_GuitarCymb_1EDAEB4F.wem</Path>
+						</File>
+						<File Id="11094414" Language="SFX">
+							<ShortName>Intensity_1_B_120bpm_GtrCymb.wav</ShortName>
+							<Path>SFX/Intensity_1_B_120bpm_GtrCymb_1EDAEB4F.wem</Path>
+						</File>
+						<File Id="11296007" Language="SFX">
+							<ShortName>Intensity3_Transition_Flute_78_Accel_2m.wav</ShortName>
+							<Path>SFX/Intensity3_Transition_Flute_78_Accel_2m_1EDAEB4F.wem</Path>
+						</File>
+						<File Id="32357688" Language="SFX">
+							<ShortName>SectionA_Drums_150bpm_8m.wav</ShortName>
+							<Path>SFX/SectionA_Drums_150bpm_8m_1EDAEB4F.wem</Path>
+						</File>
+						<File Id="101245389" Language="SFX">
+							<ShortName>Intensity3_SectionA_Drums_135bpm.wav</ShortName>
+							<Path>SFX/Intensity3_SectionA_Drums_135bpm_1EDAEB4F.wem</Path>
+						</File>
+						<File Id="115320259" Language="SFX">
+							<ShortName>Intensity_2_B_125bpm_Flute.wav</ShortName>
+							<Path>SFX/Intensity_2_B_125bpm_Flute_1EDAEB4F.wem</Path>
+						</File>
+						<File Id="136713495" Language="SFX">
+							<ShortName>ref.wav</ShortName>
+							<Path>SFX/ref_1EDAEB4F.wem</Path>
+						</File>
+						<File Id="183014018" Language="SFX">
+							<ShortName>Intensity_1_C_120bpm_Bass.wav</ShortName>
+							<Path>SFX/Intensity_1_C_120bpm_Bass_1EDAEB4F.wem</Path>
+						</File>
+						<File Id="188055279" Language="SFX">
+							<ShortName>Intensity3_SectionB_Pno3_135bpm.wav</ShortName>
+							<Path>SFX/Intensity3_SectionB_Pno3_135bpm_1EDAEB4F.wem</Path>
+						</File>
+						<File Id="191939805" Language="SFX">
+							<ShortName>Intensity3_SectionB_Drums_135bpm.wav</ShortName>
+							<Path>SFX/Intensity3_SectionB_Drums_135bpm_1EDAEB4F.wem</Path>
+						</File>
+						<File Id="224221456" Language="SFX">
+							<ShortName>Intensity3_SectionB_Synth3_135bpm.wav</ShortName>
+							<Path>SFX/Intensity3_SectionB_Synth3_135bpm_1EDAEB4F.wem</Path>
+						</File>
+						<File Id="227059463" Language="SFX">
+							<ShortName>Intensity3_SectionB_Pno1_135bpm.wav</ShortName>
+							<Path>SFX/Intensity3_SectionB_Pno1_135bpm_1EDAEB4F.wem</Path>
+						</File>
+						<File Id="271167160" Language="SFX">
+							<ShortName>SectionA_Bass_150bpm_8m.wav</ShortName>
+							<Path>SFX/SectionA_Bass_150bpm_8m_1EDAEB4F.wem</Path>
+						</File>
+						<File Id="318979798" Language="SFX">
+							<ShortName>Intensity_2_B_125bpm_Strings.wav</ShortName>
+							<Path>SFX/Intensity_2_B_125bpm_Strings_1EDAEB4F.wem</Path>
+						</File>
+						<File Id="325108709" Language="SFX">
+							<ShortName>Intensity_2_A_125bpm_Piano.wav</ShortName>
+							<Path>SFX/Intensity_2_A_125bpm_Piano_1EDAEB4F.wem</Path>
+						</File>
+						<File Id="330606949" Language="SFX">
+							<ShortName>Intensity3_SectionA_Strings_135bpm.wav</ShortName>
+							<Path>SFX/Intensity3_SectionA_Strings_135bpm_1EDAEB4F.wem</Path>
+						</File>
+						<File Id="343553306" Language="SFX">
+							<ShortName>Transition_Strings_Accel_78_2m.wav</ShortName>
+							<Path>SFX/Transition_Strings_Accel_78_2m_1EDAEB4F.wem</Path>
+						</File>
+						<File Id="359190561" Language="SFX">
+							<ShortName>Intensity3_SectionB_Synth2_135bpm.wav</ShortName>
+							<Path>SFX/Intensity3_SectionB_Synth2_135bpm_1EDAEB4F.wem</Path>
+						</File>
+						<File Id="363758360" Language="SFX">
+							<ShortName>Intensity3_Transition_Drums_78_Accel_2m.wav</ShortName>
+							<Path>SFX/Intensity3_Transition_Drums_78_Accel_2m_1EDAEB4F.wem</Path>
+						</File>
+						<File Id="389611013" Language="SFX">
+							<ShortName>Intensity3_SectionA_Synth2_135bpm.wav</ShortName>
+							<Path>SFX/Intensity3_SectionA_Synth2_135bpm_1EDAEB4F.wem</Path>
+						</File>
+						<File Id="398526417" Language="SFX">
+							<ShortName>Intensity_2_B_125bpm_Bass.wav</ShortName>
+							<Path>SFX/Intensity_2_B_125bpm_Bass_1EDAEB4F.wem</Path>
+						</File>
+						<File Id="443386815" Language="SFX">
+							<ShortName>Intensity_2_A_125bpm_Strings.wav</ShortName>
+							<Path>SFX/Intensity_2_A_125bpm_Strings_1EDAEB4F.wem</Path>
+						</File>
+						<File Id="494654321" Language="SFX">
+							<ShortName>SectionA_Synth_150bpm_8m.wav</ShortName>
+							<Path>SFX/SectionA_Synth_150bpm_8m_1EDAEB4F.wem</Path>
+						</File>
+						<File Id="500636322" Language="SFX">
+							<ShortName>Intensity_2_B_125bpm_Drums.wav</ShortName>
+							<Path>SFX/Intensity_2_B_125bpm_Drums_1EDAEB4F.wem</Path>
+						</File>
+						<File Id="502383278" Language="SFX">
+							<ShortName>Intensity_1_C_120bpm_Strings.wav</ShortName>
+							<Path>SFX/Intensity_1_C_120bpm_Strings_1EDAEB4F.wem</Path>
+						</File>
+						<File Id="542489360" Language="SFX">
+							<ShortName>Transition_Bass_Accel_78_2m.wav</ShortName>
+							<Path>SFX/Transition_Bass_Accel_78_2m_1EDAEB4F.wem</Path>
+						</File>
+						<File Id="564177471" Language="SFX">
+							<ShortName>Intensity_1_C_120bpm_Piano.wav</ShortName>
+							<Path>SFX/Intensity_1_C_120bpm_Piano_1EDAEB4F.wem</Path>
+						</File>
+						<File Id="569362001" Language="SFX">
+							<ShortName>Transition_Pno1_Accel_78_2m.wav</ShortName>
+							<Path>SFX/Transition_Pno1_Accel_78_2m_1EDAEB4F.wem</Path>
+						</File>
+						<File Id="571278796" Language="SFX">
+							<ShortName>Intensity_1_B_120bpm_Piano.wav</ShortName>
+							<Path>SFX/Intensity_1_B_120bpm_Piano_1EDAEB4F.wem</Path>
+						</File>
+						<File Id="607620207" Language="SFX">
+							<ShortName>Intensity_1_A_120bpm_Strings.wav</ShortName>
+							<Path>SFX/Intensity_1_A_120bpm_Strings_1EDAEB4F.wem</Path>
+						</File>
+						<File Id="611069992" Language="SFX">
+							<ShortName>Intensity_1_B_120bpm_Strings.wav</ShortName>
+							<Path>SFX/Intensity_1_B_120bpm_Strings_1EDAEB4F.wem</Path>
+						</File>
+						<File Id="629630328" Language="SFX">
+							<ShortName>Intensity_1_C_120bpm_Drums.wav</ShortName>
+							<Path>SFX/Intensity_1_C_120bpm_Drums_1EDAEB4F.wem</Path>
+						</File>
+						<File Id="673019471" Language="SFX">
+							<ShortName>Intensity3_Transition_Pno1_78_Accel_2m.wav</ShortName>
+							<Path>SFX/Intensity3_Transition_Pno1_78_Accel_2m_1EDAEB4F.wem</Path>
+						</File>
+						<File Id="706761946" Language="SFX">
+							<ShortName>Intensity3_SectionA_Bass_135bpm.wav</ShortName>
+							<Path>SFX/Intensity3_SectionA_Bass_135bpm_1EDAEB4F.wem</Path>
+						</File>
+						<File Id="721406325" Language="SFX">
+							<ShortName>SectionA_Strings_150bpm_8m.wav</ShortName>
+							<Path>SFX/SectionA_Strings_150bpm_8m_1EDAEB4F.wem</Path>
+						</File>
+						<File Id="736751384" Language="SFX">
+							<ShortName>Intensity3_SectionA_Pno1_135bpm.wav</ShortName>
+							<Path>SFX/Intensity3_SectionA_Pno1_135bpm_1EDAEB4F.wem</Path>
+						</File>
+						<File Id="741189474" Language="SFX">
+							<ShortName>Intensity_2_A_125bpm_Synth.wav</ShortName>
+							<Path>SFX/Intensity_2_A_125bpm_Synth_1EDAEB4F.wem</Path>
+						</File>
+						<File Id="744164215" Language="SFX">
+							<ShortName>Intensity3_Transition_Bass_78_Accel_2m.wav</ShortName>
+							<Path>SFX/Intensity3_Transition_Bass_78_Accel_2m_1EDAEB4F.wem</Path>
+						</File>
+						<File Id="750694538" Language="SFX">
+							<ShortName>Intensity3_SectionA_Pno3_135bpm.wav</ShortName>
+							<Path>SFX/Intensity3_SectionA_Pno3_135bpm_1EDAEB4F.wem</Path>
+						</File>
+						<File Id="765616648" Language="SFX">
+							<ShortName>SectionA_Piano_150bpm_8m.wav</ShortName>
+							<Path>SFX/SectionA_Piano_150bpm_8m_1EDAEB4F.wem</Path>
+						</File>
+						<File Id="774499221" Language="SFX">
+							<ShortName>Intensity3_SectionB_Bass_135bpm.wav</ShortName>
+							<Path>SFX/Intensity3_SectionB_Bass_135bpm_1EDAEB4F.wem</Path>
+						</File>
+						<File Id="782003641" Language="SFX">
+							<ShortName>Transition_Drums_Accel_78_2m.wav</ShortName>
+							<Path>SFX/Transition_Drums_Accel_78_2m_1EDAEB4F.wem</Path>
+						</File>
+						<File Id="789644099" Language="SFX">
+							<ShortName>Intensity3_Transition_Strings_78_Accel_2m.wav</ShortName>
+							<Path>SFX/Intensity3_Transition_Strings_78_Accel_2m_1EDAEB4F.wem</Path>
+						</File>
+						<File Id="794283957" Language="SFX">
+							<ShortName>Transition_Flute_Accel_78_2m.wav</ShortName>
+							<Path>SFX/Transition_Flute_Accel_78_2m_1EDAEB4F.wem</Path>
+						</File>
+						<File Id="801906834" Language="SFX">
+							<ShortName>Intensity_1_C_120bpm_GtrCymb.wav</ShortName>
+							<Path>SFX/Intensity_1_C_120bpm_GtrCymb_1EDAEB4F.wem</Path>
+						</File>
+						<File Id="813226892" Language="SFX">
+							<ShortName>Intensity_1_A_120bpm_Piano.wav</ShortName>
+							<Path>SFX/Intensity_1_A_120bpm_Piano_1EDAEB4F.wem</Path>
+						</File>
+						<File Id="848920090" Language="SFX">
+							<ShortName>Intensity_1_B_120bpm_Bass.wav</ShortName>
+							<Path>SFX/Intensity_1_B_120bpm_Bass_1EDAEB4F.wem</Path>
+						</File>
+						<File Id="857015787" Language="SFX">
+							<ShortName>Intensity3_SectionB_Synth4_135bpm.wav</ShortName>
+							<Path>SFX/Intensity3_SectionB_Synth4_135bpm_1EDAEB4F.wem</Path>
+						</File>
+						<File Id="915460647" Language="SFX">
+							<ShortName>Intensity3_SectionA_Flute_135bpm.wav</ShortName>
+							<Path>SFX/Intensity3_SectionA_Flute_135bpm_1EDAEB4F.wem</Path>
+						</File>
+						<File Id="956581375" Language="SFX">
+							<ShortName>Intensity_2_A_125bpm_Bass.wav</ShortName>
+							<Path>SFX/Intensity_2_A_125bpm_Bass_1EDAEB4F.wem</Path>
+						</File>
+						<File Id="963811356" Language="SFX">
+							<ShortName>Intensity_2_B_125bpm_Synth.wav</ShortName>
+							<Path>SFX/Intensity_2_B_125bpm_Synth_1EDAEB4F.wem</Path>
+						</File>
+						<File Id="966440388" Language="SFX">
+							<ShortName>TremStrings.wav</ShortName>
+							<Path>SFX/TremStrings_1EDAEB4F.wem</Path>
+						</File>
+						<File Id="1013036379" Language="SFX">
+							<ShortName>SectionA_Flute_150bpm_8m.wav</ShortName>
+							<Path>SFX/SectionA_Flute_150bpm_8m_1EDAEB4F.wem</Path>
+						</File>
+						<File Id="1048074152" Language="SFX">
+							<ShortName>Intensity_1_C_120bpm_Synth.wav</ShortName>
+							<Path>SFX/Intensity_1_C_120bpm_Synth_1EDAEB4F.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<SwitchContainers>
+						<SwitchContainer SwitchValue="{92C9F3BD-AB15-448A-A6DB-D9876A1ABD2B}">
+							<Media>
+								<File Id="3559877"/>
+								<File Id="11094414"/>
+								<File Id="183014018"/>
+								<File Id="502383278"/>
+								<File Id="564177471"/>
+								<File Id="571278796"/>
+								<File Id="607620207"/>
+								<File Id="611069992"/>
+								<File Id="629630328"/>
+								<File Id="801906834"/>
+								<File Id="813226892"/>
+								<File Id="848920090"/>
+								<File Id="1048074152"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{38775332-F86F-497A-ABDC-1325CC9445F8}">
+							<Media>
+								<File Id="605525"/>
+								<File Id="115320259"/>
+								<File Id="318979798"/>
+								<File Id="325108709"/>
+								<File Id="398526417"/>
+								<File Id="443386815"/>
+								<File Id="500636322"/>
+								<File Id="741189474"/>
+								<File Id="956581375"/>
+								<File Id="963811356"/>
+								<File Id="966440388"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{2E2595B2-1508-4341-81EF-8FEF86245DBB}">
+							<Media>
+								<File Id="101245389"/>
+								<File Id="188055279"/>
+								<File Id="191939805"/>
+								<File Id="224221456"/>
+								<File Id="227059463"/>
+								<File Id="330606949"/>
+								<File Id="359190561"/>
+								<File Id="389611013"/>
+								<File Id="706761946"/>
+								<File Id="736751384"/>
+								<File Id="750694538"/>
+								<File Id="774499221"/>
+								<File Id="857015787"/>
+								<File Id="915460647"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{E4654128-88E9-47DA-944E-D3CBE6AC4276}">
+							<Media>
+								<File Id="32357688"/>
+								<File Id="271167160"/>
+								<File Id="494654321"/>
+								<File Id="721406325"/>
+								<File Id="765616648"/>
+								<File Id="1013036379"/>
+							</Media>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+			</IncludedEvents>
+			<GameParameters>
+				<GameParameter Id="3437824496" Name="GameTimeRemaining" ObjectPath="\Game Parameters\Default Work Unit\GameTimeRemaining"/>
+			</GameParameters>
+			<SwitchGroups>
+				<SwitchGroup Id="2520593515" Name="Music_Playlist" ObjectPath="\Switches\Default Work Unit\Music_Playlist">
+					<Switches>
+						<Switch Id="3987970511" Name="Loop_1" ObjectPath="\Switches\Default Work Unit\Music_Playlist\Loop_1"/>
+						<Switch Id="3987970508" Name="Loop_2" ObjectPath="\Switches\Default Work Unit\Music_Playlist\Loop_2"/>
+						<Switch Id="3987970509" Name="Loop_3" ObjectPath="\Switches\Default Work Unit\Music_Playlist\Loop_3"/>
+						<Switch Id="3987970506" Name="Loop_4" ObjectPath="\Switches\Default Work Unit\Music_Playlist\Loop_4"/>
+					</Switches>
+				</SwitchGroup>
+			</SwitchGroups>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

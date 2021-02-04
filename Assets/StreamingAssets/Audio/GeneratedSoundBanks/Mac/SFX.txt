@@ -1,0 +1,79 @@
+Event	ID	Name			Wwise Object Path	Notes
+	85412153	Ambience			\Default Work Unit\SFX\Ambience	
+	276558634	Plastic_bottle_fall			\Default Work Unit\SFX\Plastic_bottle_fall	
+	404220387	Bottle_Slide			\Default Work Unit\SFX\Bottle_Slide	
+	1063352154	Lights_on			\Default Work Unit\SFX\Lights_on	
+	1090822048	Timer_ticking			\Default Work Unit\SFX\Timer_ticking	
+	1735830099	Time_running_out			\Default Work Unit\SFX\Time_running_out	
+	1746749826	Suitcase_fall			\Default Work Unit\SFX\Suitcase_fall	
+	2385628198	Footsteps			\Default Work Unit\SFX\Footsteps	
+	2389286304	Book_slide			\Default Work Unit\SFX\Book_slide	
+	2754669738	Book_fall			\Default Work Unit\SFX\Book_fall	
+	2835074293	Bottle_Place			\Default Work Unit\SFX\Bottle_Place	
+	3250089732	Electric			\Default Work Unit\SFX\Electric	
+	3321983048	Suitcase_roll			\Default Work Unit\SFX\Suitcase_roll	
+	3533305262	Glass_Bottle_fall			\Default Work Unit\SFX\Glass_Bottle_fall	
+	3625060726	Success			\Default Work Unit\SFX\Success	
+	3647759603	Heavy_items			\Default Work Unit\SFX\Heavy_items	
+	4238452446	Bottle_handle			\Default Work Unit\SFX\Bottle_handle	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	2630238	Books fall-001	Y:\Documents\GitHub\Wwise\Lost in VR - Wwise Project\.cache\Mac\SFX\Books Fall\Books fall-001_2EB68A41.wem		\Actor-Mixer Hierarchy\Default Work Unit\Objects\Books Fall\Books fall-001		12574
+	54740903	Books fall-003	Y:\Documents\GitHub\Wwise\Lost in VR - Wwise Project\.cache\Mac\SFX\Books Fall\Books fall-003_2EB68A41.wem		\Actor-Mixer Hierarchy\Default Work Unit\Objects\Books Fall\Books fall-003		8132
+	54805131	Footsteps_2	Y:\Documents\GitHub\Wwise\Lost in VR - Wwise Project\.cache\Mac\SFX\Footsteps\Footsteps_2_2EB68A41.wem		\Actor-Mixer Hierarchy\Default Work Unit\Objects\Footsteps\Footsteps_2		2803
+	91309965	Success_1	Y:\Documents\GitHub\Wwise\Lost in VR - Wwise Project\.cache\Mac\SFX\Success\Success_1_2EB68A41.wem		\Actor-Mixer Hierarchy\Default Work Unit\Objects\Success\Success_1		31529
+	103686223	Plastic_Bottle_Fall-003	Y:\Documents\GitHub\Wwise\Lost in VR - Wwise Project\.cache\Mac\SFX\PlasticBottleFall\Plastic_Bottle_Fall-003_2EB68A41.wem		\Actor-Mixer Hierarchy\Default Work Unit\Objects\PlasticBottleFall\Plastic_Bottle_Fall-003		13333
+	108329956	bottle slide-006	Y:\Documents\GitHub\Wwise\Lost in VR - Wwise Project\.cache\Mac\SFX\BottleSlide\bottle slide-006_2EB68A41.wem		\Actor-Mixer Hierarchy\Default Work Unit\Objects\BottleSlide\bottle slide-006		12865
+	110915223	HeavyItemsFall	Y:\Documents\GitHub\Wwise\Lost in VR - Wwise Project\.cache\Mac\SFX\HeavyItemsFall_2EB68A41.wem		\Actor-Mixer Hierarchy\Default Work Unit\Objects\HeavyItemsFall		16771
+	115137587	Books fall-007	Y:\Documents\GitHub\Wwise\Lost in VR - Wwise Project\.cache\Mac\SFX\Books Fall\Books fall-007_2EB68A41.wem		\Actor-Mixer Hierarchy\Default Work Unit\Objects\Books Fall\Books fall-007		11650
+	115450837	bottle handle-003	Y:\Documents\GitHub\Wwise\Lost in VR - Wwise Project\.cache\Mac\SFX\BottleHandle\bottle handle-003_2EB68A41.wem		\Actor-Mixer Hierarchy\Default Work Unit\Objects\BottleHandle\bottle handle-003		15753
+	142961642	glass bottle fall-003	Y:\Documents\GitHub\Wwise\Lost in VR - Wwise Project\.cache\Mac\SFX\GlassBottleFall\glass bottle fall-003_2EB68A41.wem		\Actor-Mixer Hierarchy\Default Work Unit\Objects\GlassBottleFall\glass bottle fall-003		22189
+	159817621	Footsteps_1	Y:\Documents\GitHub\Wwise\Lost in VR - Wwise Project\.cache\Mac\SFX\Footsteps\Footsteps_1_2EB68A41.wem		\Actor-Mixer Hierarchy\Default Work Unit\Objects\Footsteps\Footsteps_1		2767
+	203900529	bottle slide-008	Y:\Documents\GitHub\Wwise\Lost in VR - Wwise Project\.cache\Mac\SFX\BottleSlide\bottle slide-008_2EB68A41.wem		\Actor-Mixer Hierarchy\Default Work Unit\Objects\BottleSlide\bottle slide-008		8506
+	220403463	bottle put back-002	Y:\Documents\GitHub\Wwise\Lost in VR - Wwise Project\.cache\Mac\SFX\BottlePlace\bottle put back-002_2EB68A41.wem		\Actor-Mixer Hierarchy\Default Work Unit\Objects\BottlePlace\bottle put back-002		8603
+	272492138	bottle slide-007	Y:\Documents\GitHub\Wwise\Lost in VR - Wwise Project\.cache\Mac\SFX\BottleSlide\bottle slide-007_2EB68A41.wem		\Actor-Mixer Hierarchy\Default Work Unit\Objects\BottleSlide\bottle slide-007		12025
+	284770318	Success_2	Y:\Documents\GitHub\Wwise\Lost in VR - Wwise Project\.cache\Mac\SFX\Success\Success_2_2EB68A41.wem		\Actor-Mixer Hierarchy\Default Work Unit\Objects\Success\Success_2		25412
+	287136782	Plastic_Bottle_Fall-004	Y:\Documents\GitHub\Wwise\Lost in VR - Wwise Project\.cache\Mac\SFX\PlasticBottleFall\Plastic_Bottle_Fall-004_2EB68A41.wem		\Actor-Mixer Hierarchy\Default Work Unit\Objects\PlasticBottleFall\Plastic_Bottle_Fall-004		18854
+	297055895	glass bottle fall-002	Y:\Documents\GitHub\Wwise\Lost in VR - Wwise Project\.cache\Mac\SFX\GlassBottleFall\glass bottle fall-002_2EB68A41.wem		\Actor-Mixer Hierarchy\Default Work Unit\Objects\GlassBottleFall\glass bottle fall-002		12090
+	301296110	suitcase fall-001	Y:\Documents\GitHub\Wwise\Lost in VR - Wwise Project\.cache\Mac\SFX\SuitcaseFall\suitcase fall-001_2EB68A41.wem		\Actor-Mixer Hierarchy\Default Work Unit\Objects\SuitcaseFall\suitcase fall-001		10775
+	362164956	book slide-003	Y:\Documents\GitHub\Wwise\Lost in VR - Wwise Project\.cache\Mac\SFX\Book Slide\book slide-003_2EB68A41.wem		\Actor-Mixer Hierarchy\Default Work Unit\Objects\Book Slide\book slide-003		7994
+	371599600	bottle slide-001	Y:\Documents\GitHub\Wwise\Lost in VR - Wwise Project\.cache\Mac\SFX\BottleSlide\bottle slide-001_2EB68A41.wem		\Actor-Mixer Hierarchy\Default Work Unit\Objects\BottleSlide\bottle slide-001		10878
+	391811938	bottle put back-001	Y:\Documents\GitHub\Wwise\Lost in VR - Wwise Project\.cache\Mac\SFX\BottlePlace\bottle put back-001_2EB68A41.wem		\Actor-Mixer Hierarchy\Default Work Unit\Objects\BottlePlace\bottle put back-001		6248
+	399045153	Electric_Shutter	Y:\Documents\GitHub\Wwise\Lost in VR - Wwise Project\.cache\Mac\SFX\Electric_Shutter_2EB68A41.wem		\Actor-Mixer Hierarchy\Default Work Unit\Objects\Electric_Shutter		121925
+	420535633	bottle handle-005	Y:\Documents\GitHub\Wwise\Lost in VR - Wwise Project\.cache\Mac\SFX\BottleHandle\bottle handle-005_2EB68A41.wem		\Actor-Mixer Hierarchy\Default Work Unit\Objects\BottleHandle\bottle handle-005		13969
+	478956675	glass bottle fall-001	Y:\Documents\GitHub\Wwise\Lost in VR - Wwise Project\.cache\Mac\SFX\GlassBottleFall\glass bottle fall-001_2EB68A41.wem		\Actor-Mixer Hierarchy\Default Work Unit\Objects\GlassBottleFall\glass bottle fall-001		14581
+	531724387	TimeRunningOut_15_sec	Y:\Documents\GitHub\Wwise\Lost in VR - Wwise Project\.cache\Mac\SFX\TimeRunningOut_15_sec_2EB68A41.wem		\Actor-Mixer Hierarchy\Default Work Unit\Objects\TimeRunningOut_15_sec		110074
+	534932078	glass bottle fall-005	Y:\Documents\GitHub\Wwise\Lost in VR - Wwise Project\.cache\Mac\SFX\GlassBottleFall\glass bottle fall-005_2EB68A41.wem		\Actor-Mixer Hierarchy\Default Work Unit\Objects\GlassBottleFall\glass bottle fall-005		11296
+	554405034	bottle slide-005	Y:\Documents\GitHub\Wwise\Lost in VR - Wwise Project\.cache\Mac\SFX\BottleSlide\bottle slide-005_2EB68A41.wem		\Actor-Mixer Hierarchy\Default Work Unit\Objects\BottleSlide\bottle slide-005		15580
+	579848758	Footsteps_5	Y:\Documents\GitHub\Wwise\Lost in VR - Wwise Project\.cache\Mac\SFX\Footsteps\Footsteps_5_2EB68A41.wem		\Actor-Mixer Hierarchy\Default Work Unit\Objects\Footsteps\Footsteps_5		2884
+	583001350	bottle slide-004	Y:\Documents\GitHub\Wwise\Lost in VR - Wwise Project\.cache\Mac\SFX\BottleSlide\bottle slide-004_2EB68A41.wem		\Actor-Mixer Hierarchy\Default Work Unit\Objects\BottleSlide\bottle slide-004		14413
+	594206680	Books fall-004	Y:\Documents\GitHub\Wwise\Lost in VR - Wwise Project\.cache\Mac\SFX\Books Fall\Books fall-004_2EB68A41.wem		\Actor-Mixer Hierarchy\Default Work Unit\Objects\Books Fall\Books fall-004		12821
+	595976674	Footsteps_4	Y:\Documents\GitHub\Wwise\Lost in VR - Wwise Project\.cache\Mac\SFX\Footsteps\Footsteps_4_2EB68A41.wem		\Actor-Mixer Hierarchy\Default Work Unit\Objects\Footsteps\Footsteps_4		2989
+	599360314	bottle handle-001	Y:\Documents\GitHub\Wwise\Lost in VR - Wwise Project\.cache\Mac\SFX\BottleHandle\bottle handle-001_2EB68A41.wem		\Actor-Mixer Hierarchy\Default Work Unit\Objects\BottleHandle\bottle handle-001		16902
+	599360400	book slide-004	Y:\Documents\GitHub\Wwise\Lost in VR - Wwise Project\.cache\Mac\SFX\Book Slide\book slide-004_2EB68A41.wem		\Actor-Mixer Hierarchy\Default Work Unit\Objects\Book Slide\book slide-004		6040
+	621719383	Books fall-002	Y:\Documents\GitHub\Wwise\Lost in VR - Wwise Project\.cache\Mac\SFX\Books Fall\Books fall-002_2EB68A41.wem		\Actor-Mixer Hierarchy\Default Work Unit\Objects\Books Fall\Books fall-002		8415
+	665447451	suitcase fall-002	Y:\Documents\GitHub\Wwise\Lost in VR - Wwise Project\.cache\Mac\SFX\SuitcaseFall\suitcase fall-002_2EB68A41.wem		\Actor-Mixer Hierarchy\Default Work Unit\Objects\SuitcaseFall\suitcase fall-002		11102
+	702134655	bottle put back-003	Y:\Documents\GitHub\Wwise\Lost in VR - Wwise Project\.cache\Mac\SFX\BottlePlace\bottle put back-003_2EB68A41.wem		\Actor-Mixer Hierarchy\Default Work Unit\Objects\BottlePlace\bottle put back-003		12645
+	717901879	Books fall-006	Y:\Documents\GitHub\Wwise\Lost in VR - Wwise Project\.cache\Mac\SFX\Books Fall\Books fall-006_2EB68A41.wem		\Actor-Mixer Hierarchy\Default Work Unit\Objects\Books Fall\Books fall-006		6232
+	730511709	glass bottle fall-004	Y:\Documents\GitHub\Wwise\Lost in VR - Wwise Project\.cache\Mac\SFX\GlassBottleFall\glass bottle fall-004_2EB68A41.wem		\Actor-Mixer Hierarchy\Default Work Unit\Objects\GlassBottleFall\glass bottle fall-004		6196
+	734199645	Footsteps_3	Y:\Documents\GitHub\Wwise\Lost in VR - Wwise Project\.cache\Mac\SFX\Footsteps\Footsteps_3_2EB68A41.wem		\Actor-Mixer Hierarchy\Default Work Unit\Objects\Footsteps\Footsteps_3		2988
+	744200733	book slide-001	Y:\Documents\GitHub\Wwise\Lost in VR - Wwise Project\.cache\Mac\SFX\Book Slide\book slide-001_2EB68A41.wem		\Actor-Mixer Hierarchy\Default Work Unit\Objects\Book Slide\book slide-001		8661
+	747744700	TimeTicking_Loop	Y:\Documents\GitHub\Wwise\Lost in VR - Wwise Project\.cache\Mac\SFX\TimeTicking_Loop_2EB68A41.wem		\Actor-Mixer Hierarchy\Default Work Unit\Objects\TimeTicking_Loop		105438
+	770444231	book slide-006	Y:\Documents\GitHub\Wwise\Lost in VR - Wwise Project\.cache\Mac\SFX\Book Slide\book slide-006_2EB68A41.wem		\Actor-Mixer Hierarchy\Default Work Unit\Objects\Book Slide\book slide-006		8267
+	793105954	Light_On-001	Y:\Documents\GitHub\Wwise\Lost in VR - Wwise Project\.cache\Mac\SFX\LightOn\Light_On-001_2EB68A41.wem		\Actor-Mixer Hierarchy\Default Work Unit\Objects\LightOn\Light_On-001		35597
+	817358467	bottle slide-003	Y:\Documents\GitHub\Wwise\Lost in VR - Wwise Project\.cache\Mac\SFX\BottleSlide\bottle slide-003_2EB68A41.wem		\Actor-Mixer Hierarchy\Default Work Unit\Objects\BottleSlide\bottle slide-003		16263
+	875690428	bottle slide-002	Y:\Documents\GitHub\Wwise\Lost in VR - Wwise Project\.cache\Mac\SFX\BottleSlide\bottle slide-002_2EB68A41.wem		\Actor-Mixer Hierarchy\Default Work Unit\Objects\BottleSlide\bottle slide-002		8153
+	879494859	Books fall-008	Y:\Documents\GitHub\Wwise\Lost in VR - Wwise Project\.cache\Mac\SFX\Books Fall\Books fall-008_2EB68A41.wem		\Actor-Mixer Hierarchy\Default Work Unit\Objects\Books Fall\Books fall-008		8276
+	891064493	book slide-002	Y:\Documents\GitHub\Wwise\Lost in VR - Wwise Project\.cache\Mac\SFX\Book Slide\book slide-002_2EB68A41.wem		\Actor-Mixer Hierarchy\Default Work Unit\Objects\Book Slide\book slide-002		7006
+	920184399	Plastic_Bottle_Fall-002	Y:\Documents\GitHub\Wwise\Lost in VR - Wwise Project\.cache\Mac\SFX\PlasticBottleFall\Plastic_Bottle_Fall-002_2EB68A41.wem		\Actor-Mixer Hierarchy\Default Work Unit\Objects\PlasticBottleFall\Plastic_Bottle_Fall-002		23528
+	933551233	book slide-007	Y:\Documents\GitHub\Wwise\Lost in VR - Wwise Project\.cache\Mac\SFX\Book Slide\book slide-007_2EB68A41.wem		\Actor-Mixer Hierarchy\Default Work Unit\Objects\Book Slide\book slide-007		7430
+	963129637	Light_On-002	Y:\Documents\GitHub\Wwise\Lost in VR - Wwise Project\.cache\Mac\SFX\LightOn\Light_On-002_2EB68A41.wem		\Actor-Mixer Hierarchy\Default Work Unit\Objects\LightOn\Light_On-002		38795
+	968106665	bottle handle-002	Y:\Documents\GitHub\Wwise\Lost in VR - Wwise Project\.cache\Mac\SFX\BottleHandle\bottle handle-002_2EB68A41.wem		\Actor-Mixer Hierarchy\Default Work Unit\Objects\BottleHandle\bottle handle-002		14111
+	981516968	Books fall-005	Y:\Documents\GitHub\Wwise\Lost in VR - Wwise Project\.cache\Mac\SFX\Books Fall\Books fall-005_2EB68A41.wem		\Actor-Mixer Hierarchy\Default Work Unit\Objects\Books Fall\Books fall-005		9660
+	1001952878	Ambience_Loop	Y:\Documents\GitHub\Wwise\Lost in VR - Wwise Project\.cache\Mac\SFX\Ambience_Loop_2EB68A41.wem		\Actor-Mixer Hierarchy\Default Work Unit\Objects\Ambience_Loop		285480
+	1002419050	book slide-005	Y:\Documents\GitHub\Wwise\Lost in VR - Wwise Project\.cache\Mac\SFX\Book Slide\book slide-005_2EB68A41.wem		\Actor-Mixer Hierarchy\Default Work Unit\Objects\Book Slide\book slide-005		4051
+	1009506895	glass bottle fall-006	Y:\Documents\GitHub\Wwise\Lost in VR - Wwise Project\.cache\Mac\SFX\GlassBottleFall\glass bottle fall-006_2EB68A41.wem		\Actor-Mixer Hierarchy\Default Work Unit\Objects\GlassBottleFall\glass bottle fall-006		51576
+	1011085861	Plastic_Bottle_Fall-001	Y:\Documents\GitHub\Wwise\Lost in VR - Wwise Project\.cache\Mac\SFX\PlasticBottleFall\Plastic_Bottle_Fall-001_2EB68A41.wem		\Actor-Mixer Hierarchy\Default Work Unit\Objects\PlasticBottleFall\Plastic_Bottle_Fall-001		21399
+	1026235709	book slide-008	Y:\Documents\GitHub\Wwise\Lost in VR - Wwise Project\.cache\Mac\SFX\Book Slide\book slide-008_2EB68A41.wem		\Actor-Mixer Hierarchy\Default Work Unit\Objects\Book Slide\book slide-008		7720
+	1049413072	bottle handle-004	Y:\Documents\GitHub\Wwise\Lost in VR - Wwise Project\.cache\Mac\SFX\BottleHandle\bottle handle-004_2EB68A41.wem		\Actor-Mixer Hierarchy\Default Work Unit\Objects\BottleHandle\bottle handle-004		20817
+

@@ -1,0 +1,56 @@
+Event	ID	Name			Wwise Object Path	Notes
+	434268432	Char7			\Default Work Unit\Dialogue\Male 1\Char7	
+	434268433	Char6			\Default Work Unit\Dialogue\Male 1\Char6	
+	434268434	Char5			\Default Work Unit\Dialogue\Male 1\Char5	
+	434268435	Char4			\Default Work Unit\Dialogue\Male 1\Char4	
+	434268436	Char3			\Default Work Unit\Dialogue\Male 1\Char3	
+	434268438	Char1			\Default Work Unit\Dialogue\Male 1\Char1	
+	434268447	Char8			\Default Work Unit\Dialogue\Male 1\Char8	
+	729594352	Male2char4			\Default Work Unit\Dialogue\Male 2\Male2char4	
+	729594353	Male2char5			\Default Work Unit\Dialogue\Male 2\Male2char5	
+	729594357	Male2char1			\Default Work Unit\Dialogue\Male 2\Male2char1	
+	729594358	Male2char2			\Default Work Unit\Dialogue\Male 2\Male2char2	
+	729594359	Male2char3			\Default Work Unit\Dialogue\Male 2\Male2char3	
+	929826778	Char_2			\Default Work Unit\Dialogue\Male 1\Char_2	
+	3580587412	Char16			\Default Work Unit\Dialogue\Female Char\Char16	
+	3580587413	Char17			\Default Work Unit\Dialogue\Female Char\Char17	
+	3580587415	Char15			\Default Work Unit\Dialogue\Female Char\Char15	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	1877933	Ch11_3	Y:\Documents\GitHub\Wwise\Lost in VR - Wwise Project\.cache\Windows\SFX\Male_Voice_1\Character_11\Ch11_3_2EB68A41.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Male_Voice_1\Character_11\Ch11_3		65632
+	21987328	Ch1_3	Y:\Documents\GitHub\Wwise\Lost in VR - Wwise Project\.cache\Windows\SFX\Male_Voice_2\Character_1\Ch1_3_2EB68A41.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Male_Voice_2\Character_1\Ch1_3		23917
+	76709246	Ch10_2	Y:\Documents\GitHub\Wwise\Lost in VR - Wwise Project\.cache\Windows\SFX\Male_Voice_1\Character_10\Ch10_2_2EB68A41.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Male_Voice_1\Character_10\Ch10_2		59884
+	86195769	CH17_1	Y:\Documents\GitHub\Wwise\Lost in VR - Wwise Project\.cache\Windows\SFX\Fem_Voice_1\Character_17\CH17_1_2EB68A41.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Fem_Voice_1\Character_17\CH17_1		40963
+	153830027	CH2_2	Y:\Documents\GitHub\Wwise\Lost in VR - Wwise Project\.cache\Windows\SFX\Male_Voice_2\Character_2\CH2_2_2EB68A41.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Male_Voice_2\Character_2\CH2_2		39161
+	159013578	CH16_3	Y:\Documents\GitHub\Wwise\Lost in VR - Wwise Project\.cache\Windows\SFX\Fem_Voice_1\Character_16\CH16_3_2EB68A41.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Fem_Voice_1\Character_16\CH16_3		53742
+	166192271	CH13_3	Y:\Documents\GitHub\Wwise\Lost in VR - Wwise Project\.cache\Windows\SFX\Male_Voice_1\Character_13\CH13_3_2EB68A41.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Male_Voice_1\Character_13\CH13_3		69657
+	167981095	CH15_1	Y:\Documents\GitHub\Wwise\Lost in VR - Wwise Project\.cache\Windows\SFX\Fem_Voice_1\Character_15\CH15_1_2EB68A41.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Fem_Voice_1\Character_15\CH15_1		42446
+	198885303	Ch1_2	Y:\Documents\GitHub\Wwise\Lost in VR - Wwise Project\.cache\Windows\SFX\Male_Voice_2\Character_1\Ch1_2_2EB68A41.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Male_Voice_2\Character_1\Ch1_2		26487
+	245354523	CH5_1	Y:\Documents\GitHub\Wwise\Lost in VR - Wwise Project\.cache\Windows\SFX\Male_Voice_2\Character_5\CH5_1_2EB68A41.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Male_Voice_2\Character_5\CH5_1		28327
+	269194282	CH4_3	Y:\Documents\GitHub\Wwise\Lost in VR - Wwise Project\.cache\Windows\SFX\Male_Voice_2\Character_4\CH4_3_2EB68A41.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Male_Voice_2\Character_4\CH4_3		20970
+	295020058	CH13_1	Y:\Documents\GitHub\Wwise\Lost in VR - Wwise Project\.cache\Windows\SFX\Male_Voice_1\Character_13\CH13_1_2EB68A41.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Male_Voice_1\Character_13\CH13_1		19313
+	315350383	Ch10_3	Y:\Documents\GitHub\Wwise\Lost in VR - Wwise Project\.cache\Windows\SFX\Male_Voice_1\Character_10\Ch10_3_2EB68A41.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Male_Voice_1\Character_10\Ch10_3		14808
+	344557462	CH13_2	Y:\Documents\GitHub\Wwise\Lost in VR - Wwise Project\.cache\Windows\SFX\Male_Voice_1\Character_13\CH13_2_2EB68A41.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Male_Voice_1\Character_13\CH13_2		83980
+	460113114	CH15_2	Y:\Documents\GitHub\Wwise\Lost in VR - Wwise Project\.cache\Windows\SFX\Fem_Voice_1\Character_15\CH15_2_2EB68A41.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Fem_Voice_1\Character_15\CH15_2		25791
+	487029698	Ch9_3	Y:\Documents\GitHub\Wwise\Lost in VR - Wwise Project\.cache\Windows\SFX\Male_Voice_1\Character_9\Ch9_3_2EB68A41.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Male_Voice_1\Character_9\Ch9_3		72063
+	489395153	CH14_2	Y:\Documents\GitHub\Wwise\Lost in VR - Wwise Project\.cache\Windows\SFX\Male_Voice_1\Character_14\CH14_2_2EB68A41.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Male_Voice_1\Character_14\CH14_2		22962
+	512004796	CH3_1	Y:\Documents\GitHub\Wwise\Lost in VR - Wwise Project\.cache\Windows\SFX\Male_Voice_2\Character_3\CH3_1_2EB68A41.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Male_Voice_2\Character_3\CH3_1		55157
+	570000591	CH14_3	Y:\Documents\GitHub\Wwise\Lost in VR - Wwise Project\.cache\Windows\SFX\Male_Voice_1\Character_14\CH14_3_2EB68A41.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Male_Voice_1\Character_14\CH14_3		12190
+	641350946	CH16_2	Y:\Documents\GitHub\Wwise\Lost in VR - Wwise Project\.cache\Windows\SFX\Fem_Voice_1\Character_16\CH16_2_2EB68A41.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Fem_Voice_1\Character_16\CH16_2		42107
+	652418369	CH17_2	Y:\Documents\GitHub\Wwise\Lost in VR - Wwise Project\.cache\Windows\SFX\Fem_Voice_1\Character_17\CH17_2_2EB68A41.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Fem_Voice_1\Character_17\CH17_2		39405
+	653165244	CH3_3	Y:\Documents\GitHub\Wwise\Lost in VR - Wwise Project\.cache\Windows\SFX\Male_Voice_2\Character_3\CH3_3_2EB68A41.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Male_Voice_2\Character_3\CH3_3		25126
+	732248451	CH2_3	Y:\Documents\GitHub\Wwise\Lost in VR - Wwise Project\.cache\Windows\SFX\Male_Voice_2\Character_2\CH2_3_2EB68A41.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Male_Voice_2\Character_2\CH2_3		47946
+	816521724	CH16_1	Y:\Documents\GitHub\Wwise\Lost in VR - Wwise Project\.cache\Windows\SFX\Fem_Voice_1\Character_16\CH16_1_2EB68A41.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Fem_Voice_1\Character_16\CH16_1		79045
+	833177707	CH4_1	Y:\Documents\GitHub\Wwise\Lost in VR - Wwise Project\.cache\Windows\SFX\Male_Voice_2\Character_4\CH4_1_2EB68A41.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Male_Voice_2\Character_4\CH4_1		29742
+	843430338	CH4_2	Y:\Documents\GitHub\Wwise\Lost in VR - Wwise Project\.cache\Windows\SFX\Male_Voice_2\Character_4\CH4_2_2EB68A41.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Male_Voice_2\Character_4\CH4_2		31674
+	854424282	Ch7_2	Y:\Documents\GitHub\Wwise\Lost in VR - Wwise Project\.cache\Windows\SFX\Male_Voice_1\Character_7\Ch7_2_2EB68A41.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Male_Voice_1\Character_7\Ch7_2		74472
+	878493618	CH5_3	Y:\Documents\GitHub\Wwise\Lost in VR - Wwise Project\.cache\Windows\SFX\Male_Voice_2\Character_5\CH5_3_2EB68A41.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Male_Voice_2\Character_5\CH5_3		29548
+	884183506	CH2_1	Y:\Documents\GitHub\Wwise\Lost in VR - Wwise Project\.cache\Windows\SFX\Male_Voice_2\Character_2\CH2_1_2EB68A41.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Male_Voice_2\Character_2\CH2_1		44737
+	891908739	CH5_2	Y:\Documents\GitHub\Wwise\Lost in VR - Wwise Project\.cache\Windows\SFX\Male_Voice_2\Character_5\CH5_2_2EB68A41.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Male_Voice_2\Character_5\CH5_2		63412
+	925675865	Ch12_2	Y:\Documents\GitHub\Wwise\Lost in VR - Wwise Project\.cache\Windows\SFX\Male_Voice_1\Character_12\Ch12_2_2EB68A41.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Male_Voice_1\Character_12\Ch12_2		30590
+	941943972	CH3_2	Y:\Documents\GitHub\Wwise\Lost in VR - Wwise Project\.cache\Windows\SFX\Male_Voice_2\Character_3\CH3_2_2EB68A41.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Male_Voice_2\Character_3\CH3_2		62424
+	947572448	CH15_3	Y:\Documents\GitHub\Wwise\Lost in VR - Wwise Project\.cache\Windows\SFX\Fem_Voice_1\Character_15\CH15_3_2EB68A41.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Fem_Voice_1\Character_15\CH15_3		43530
+	974686995	Ch6_2	Y:\Documents\GitHub\Wwise\Lost in VR - Wwise Project\.cache\Windows\SFX\Male_Voice_1\Character_6\Ch6_2_2EB68A41.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Male_Voice_1\Character_6\Ch6_2		73772
+	998420218	CH17_3	Y:\Documents\GitHub\Wwise\Lost in VR - Wwise Project\.cache\Windows\SFX\Fem_Voice_1\Character_17\CH17_3_2EB68A41.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Fem_Voice_1\Character_17\CH17_3		31925
+	999151018	Ch1_1	Y:\Documents\GitHub\Wwise\Lost in VR - Wwise Project\.cache\Windows\SFX\Male_Voice_2\Character_1\Ch1_1_2EB68A41.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Male_Voice_2\Character_1\Ch1_1		19463
+

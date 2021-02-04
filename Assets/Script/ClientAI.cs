@@ -134,6 +134,7 @@ public class ClientAI : MonoBehaviour
     {
         // Set the first found game object with the name as request sample.
         GameObject sample = GameObject.Find(RequestName);
+        AkSoundEngine.PostEvent("Char15", gameObject);
 
         if (!sample)
             sample = GameObject.Find(RequestName + "(Clone)");
