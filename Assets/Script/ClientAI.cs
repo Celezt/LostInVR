@@ -67,17 +67,18 @@ public class ClientAI : MonoBehaviour
                     IsMoving = false;
                     IsRequesting = true;
 
-                    // Request item.
                     State = ClientState.Request;
 
                     _follow.ToMove = false;
                     _follow.ToRotate = false;
 
+                    AkSoundEngine.PostEvent("Char15", gameObject);
                     DisplayRequest();
                 }
 
                 break;
             case ClientState.Request:
+                // Rotate to look at the main camera.
                 Vector3 lookPosition = Camera.main.transform.position - transform.position;
                 lookPosition.y = 0;
                 var rotation = Quaternion.LookRotation(lookPosition);
@@ -134,7 +135,6 @@ public class ClientAI : MonoBehaviour
     {
         // Set the first found game object with the name as request sample.
         GameObject sample = GameObject.Find(RequestName);
-        AkSoundEngine.PostEvent("Char15", gameObject);
 
         if (!sample)
             sample = GameObject.Find(RequestName + "(Clone)");
@@ -165,10 +165,7 @@ public class ClientAI : MonoBehaviour
                     gameObjects[i] = parentObject;
                 else
                     gameObjects[i] = meshFilters[i].gameObject;
-            }
 
-            for (int i = 0; i < _displayItems.Length; i++)
-            {
                 _displayItems[i] = new GameObject("DisplayItem" + i);
                 _displayItems[i].transform.position = transform.position + new Vector3(1, 2, 0);
                 _displayItems[i].transform.rotation = transform.rotation;
@@ -184,7 +181,7 @@ public class ClientAI : MonoBehaviour
                 Outline outline = _displayItems[i].AddComponent<Outline>();
                 outline.OutlineMode = Outline.Mode.OutlineVisible;
                 outline.OutlineColor = Color.yellow;
-                outline.OutlineWidth = 10f;
+                outline.OutlineWidth = 3f;
             }
         }
     }

@@ -2,19 +2,14 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-[RequireComponent(typeof(Outline))]
 public class LookOutline : MonoBehaviour
 {
-    private Outline _outline;
-    private Renderer _renderer;
+    [SerializeField]
+    private Transform _castFrom;
+    public float RayLength = 100f;
 
-    public float DistanceThreshold = 3f;
-
-    private void Start()
-    {
-        _outline = GetComponent<Outline>();
-        _renderer = GetComponent<Renderer>();
-    }
+    private GameObject _targetedObject;
+    private Outline _targetOutline;
 
     private void FixedUpdate()
     {
@@ -23,18 +18,23 @@ public class LookOutline : MonoBehaviour
 
     private void ObjectOutline()
     {
-        _outline.enabled = false;
+        if (Physics.Raycast(_castFrom.position, _castFrom.forward, out RaycastHit hit, RayLength))
+        {
+            GameObject _hitObject = hit.collider.gameObject;
 
-        if (_renderer.isVisible)
-            if (Vector3.Distance(Camera.main.transform.position, transform.position) < DistanceThreshold)
+            if (_targetedObject == _hitObject)
             {
-                RaycastHit hit;
-
-                if (Physics.Raycast(Camera.main.transform.position, Camera.main.transform.forward, out hit, int.MaxValue))
-                {
-                    if (hit.collider.gameObject == gameObject)
-                        _outline.enabled = true;
-                }
+                _targetOutline.enabled = true;
             }
+            else
+            {
+                _targetedObject = _hitObject;
+
+                if (_targetOutline)
+                    _targetOutline.enabled = false;
+
+                _targetOutline = _hitObject.GetComponent<Outline>();
+            }
+        }
     }
 }

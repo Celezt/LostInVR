@@ -124,17 +124,17 @@ public class NonVRMovement : MonoBehaviour
             PlayRandomAudioJump();
         }
 
-        InternalLockUpdate();
-    }
-
-    public void FixedUpdate()
-    {
         // Clamp vertical rotation.
         _cameraRotation.x = Mathf.Clamp(_cameraRotation.x, -90f, 90f);
 
         if (_cameraTransform != null)
             _cameraTransform.localRotation = Quaternion.Euler(_cameraRotation);
 
+        InternalLockUpdate();
+    }
+
+    public void FixedUpdate()
+    {
         // Check with a sphere if the player is colliding with the ground.
         if (Physics.CheckSphere(_sphereTransform.position, Radius, GroundLayer.value))
         {
