@@ -15,7 +15,7 @@ public class RegisterArea : MonoBehaviour
     private void Awake()
     {
         _particles = GetComponentInChildren<ParticleSystem>();
-        _manager = FindObjectOfType<GameLoopManager>();
+        _manager = GameLoopManager.Instance;
         _client = FindObjectOfType<ClientAI>();
         _particles.Stop();
     }

@@ -16,6 +16,12 @@ public class GameLoopManager : Singleton <GameLoopManager>
     private GameObject GameOverScreen;
     private GameObject Client;
     private GameObject RegisterArea;
+    private GameObject StartButton;
+    private GameObject QuitButton;
+    private GameObject StopTimerButton;
+    private GameObject StartButtonDisplay;
+    private GameObject QuitButtonDisplay;
+    private GameObject StopTimerButtonDisplay;
     private UnityEngine.UI.Text gameScoreDisplay;
     private UnityEngine.UI.Text gameTimeDisplay;
     private UnityEngine.UI.Text finalScoreDisplay;
@@ -62,7 +68,13 @@ public class GameLoopManager : Singleton <GameLoopManager>
                     DisplayGameOverMessage();
                     //GameObject.FindGameObjectWithTag("Menu").SetActive(true);
                     Client.SetActive(false);
-                    RegisterArea.SetActive(false);                    
+                    RegisterArea.SetActive(false);
+                    StartButton.SetActive(true);
+                    QuitButton.SetActive(true);
+                    StartButtonDisplay.SetActive(true);
+                    QuitButtonDisplay.SetActive(true);
+                    StopTimerButton.SetActive(false);
+                    StopTimerButtonDisplay.SetActive(false);
                     gameOver = true;
                     currentGameState = GameState.GameOver;
                 }
@@ -99,6 +111,12 @@ public class GameLoopManager : Singleton <GameLoopManager>
         gameScoreDisplay = GameObject.Find("/ScoreTimeMonitor/ActiveGameScreen/ScoreValue").GetComponent< UnityEngine.UI.Text>();
         gameTimeDisplay = GameObject.Find("/ScoreTimeMonitor/ActiveGameScreen/TimeValue").GetComponent<UnityEngine.UI.Text>();
         finalScoreDisplay = GameObject.Find("/ScoreTimeMonitor/GameOverScreen/TotalScoreValue").GetComponent<UnityEngine.UI.Text>();
+        StartButtonDisplay = GameObject.Find("/Game Manager/Menu/Start_Panel");
+        QuitButtonDisplay = GameObject.Find("/Game Manager/Menu/Quit_Panel");
+        StopTimerButtonDisplay = GameObject.Find("/Game Manager/Menu/Stop_Timer_Panel");
+        StartButton = GameObject.Find("StartButton");
+        QuitButton = GameObject.Find("QuitButton");
+        StopTimerButton = GameObject.Find("StopTimerButton");
         Debug.Log("" + GameOverScreen + Client + RegisterArea + gameScoreDisplay + gameTimeDisplay);
         currentGameScore = 0;
         currentGameTimeRemaining = MaxGameTime;
@@ -110,6 +128,8 @@ public class GameLoopManager : Singleton <GameLoopManager>
         Client.SetActive(false);
         RegisterArea.SetActive(false);
         ActiveGameScreen.SetActive(true);
+        StopTimerButton.SetActive(false);
+        StopTimerButtonDisplay.SetActive(false);
         gameOver = false;
         currentGameState = GameState.Idle;
     }
@@ -133,6 +153,12 @@ public class GameLoopManager : Singleton <GameLoopManager>
             currentGameState = GameState.Started;
             Client.SetActive(true);
             RegisterArea.SetActive(true);
+            StartButton.SetActive(false);
+            QuitButton.SetActive(false);
+            StartButtonDisplay.SetActive(false);
+            QuitButtonDisplay.SetActive(false);
+            StopTimerButton.SetActive(true);
+            StopTimerButtonDisplay.SetActive(true);
         }
         
         else if (currentGameState == GameState.GameOver)
@@ -142,5 +168,21 @@ public class GameLoopManager : Singleton <GameLoopManager>
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
             ResetScene();
         }
+    }
+
+    public void ForceGameOver()
+    {
+        DisplayGameOverMessage();
+        //GameObject.FindGameObjectWithTag("Menu").SetActive(true);
+        Client.SetActive(false);
+        RegisterArea.SetActive(false);
+        StartButton.SetActive(true);
+        QuitButton.SetActive(true);
+        StartButtonDisplay.SetActive(true);
+        QuitButtonDisplay.SetActive(true);
+        StopTimerButton.SetActive(false);
+        StopTimerButtonDisplay.SetActive(false);
+        gameOver = true;
+        currentGameState = GameState.GameOver;
     }
 }
