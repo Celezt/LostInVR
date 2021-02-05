@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 8944999371652729984}
   - component: {fileID: 8944999371649338528}
   - component: {fileID: 8944999371650436704}
-  - component: {fileID: 65016526510069066}
+  - component: {fileID: 4860333037351676938}
   m_Layer: 0
   m_Name: Flask
   m_TagString: Object
@@ -78,8 +78,8 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!65 &65016526510069066
-BoxCollider:
+--- !u!136 &4860333037351676938
+CapsuleCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -88,6 +88,7 @@ BoxCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 0.0024221083, y: 0.0024221088, z: 0.0030988017}
-  m_Center: {x: 0, y: -1.0822393e-17, z: 0.00076155836}
+  m_Radius: 0.0014271401
+  m_Height: 0.0033048128
+  m_Direction: 2
+  m_Center: {x: 0, y: 8.6503935e-18, z: 0.0007895782}

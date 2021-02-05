@@ -62,92 +62,98 @@ public class ClientAI : MonoBehaviour
         switch (State)
         {
             case ClientState.MoveTo:
-                if (_follow.PercentTravelled > WaitPoint)
-                {
-                    IsMoving = false;
-                    IsRequesting = true;
-
-                    State = ClientState.Request;
-
-                    _follow.ToMove = false;
-                    _follow.ToRotate = false;
-
-                    AkSoundEngine.PostEvent("Char15", gameObject);
-                    DisplayRequest();
-                }
-
+                OnMoveTo();
                 break;
             case ClientState.Request:
-                // Rotate to look at the main camera.
-                Vector3 lookPosition = Camera.main.transform.position - transform.position;
-                lookPosition.y = 0;
-                var rotation = Quaternion.LookRotation(lookPosition);
-                transform.rotation = Quaternion.Slerp(transform.rotation, rotation, Time.deltaTime * DampAvatarRotation);
-
-                _scaleOffset += BobSpeed;
-                transform.localScale = new Vector3(_startlocalScale.x, _startlocalScale.y + Mathf.Cos(_scaleOffset) * BobAmount, _startlocalScale.z);
-
-                // If empty it means it was never assigned a request or the request was a success.
-                if (RequestName == "")
-                {
-                    _scaleOffset = 0;
-                    transform.localScale = _startlocalScale;
-
-                    IsMoving = true;
-                    IsRequesting = false;
-
-                    _follow.ToMove = true;
-                    _follow.ToRotate = true;
-
-                    State = ClientState.MoveFrom;
-
-                    if (_displayItems != null)
-                    {
-                        for (int i = 0; i < _displayItems.Length; i++)
-                            Destroy(_displayItems[i]);
-
-                        _displayItems = null;
-                    }
-                }
-
-                // Rotate samples if it exist.
-                if (_displayItems != null)
-                    for (int i = 0; i < _displayItems.Length; i++)
-                        _displayItems[i].transform.Rotate(Vector3.up * (SampleRotateSpeed * Time.deltaTime));
-
+                OnRequest();
                 break;
             case ClientState.MoveFrom:
-                if (_follow.PercentTravelled < _oldPercentTravelled)
-                {
-                    State = ClientState.MoveTo;
-                    ChangeTexture();
-                    RandomRequest();
-                }
-
+                OnMoveFrom();
                 break;
         }
 
         _oldPercentTravelled = _follow.PercentTravelled;
     }
 
-    // Create a new game object for display.
+    // Move to wait point.
+    private void OnMoveTo()
+    {
+        // If reaching the wait point.
+        if (_follow.PercentTravelled > WaitPoint)
+        {
+            IsMoving = false;
+            IsRequesting = true;
+
+            State = ClientState.Request;
+
+            _follow.ToMove = false;
+            _follow.ToRotate = false;
+
+            AkSoundEngine.PostEvent("Char15", gameObject);
+            DisplayRequest();
+        }
+    }
+
+    // Waiting on request.
+    private void OnRequest()
+    {
+        // Rotate to look at the main camera.
+        Vector3 lookPosition = Camera.main.transform.position - transform.position;
+        lookPosition.y = 0;
+        var rotation = Quaternion.LookRotation(lookPosition);
+        transform.rotation = Quaternion.Slerp(transform.rotation, rotation, Time.deltaTime * DampAvatarRotation);
+
+        _scaleOffset += BobSpeed;
+        transform.localScale = new Vector3(_startlocalScale.x, _startlocalScale.y + Mathf.Cos(_scaleOffset) * BobAmount, _startlocalScale.z);
+
+        // If empty it means it was never assigned a request or the request was a success.
+        if (RequestName == "")
+        {
+            _scaleOffset = 0;
+            transform.localScale = _startlocalScale;
+
+            IsMoving = true;
+            IsRequesting = false;
+
+            _follow.ToMove = true;
+            _follow.ToRotate = true;
+
+            State = ClientState.MoveFrom;
+
+            OnDestroyDisplay();
+        }
+
+        // Rotate samples if it exist.
+        if (_displayItems != null)
+            for (int i = 0; i < _displayItems.Length; i++)
+                _displayItems[i].transform.Rotate(Vector3.up * (SampleRotateSpeed * Time.deltaTime));
+    }
+
+    // Moving out and reseting itself for next client.
+    private void OnMoveFrom()
+    {
+        // If reached the end of the path.
+        if (_follow.PercentTravelled < _oldPercentTravelled)
+        {
+            State = ClientState.MoveTo;
+            ChangeTexture();
+            RandomRequest();
+        }
+    }
+
+    // Create a new game object for display. It has no collision.
     private void DisplayRequest()
     {
         // Set the first found game object with the name as request sample.
         GameObject sample = GameObject.Find(RequestName);
 
+        // If not found, try using (Clone) after.
         if (!sample)
             sample = GameObject.Find(RequestName + "(Clone)");
 
         _requestSample = (RequestName != "") ? sample : null;
 
-        if (_displayItems != null)
-        {
-            for (int i = 0; i < _displayItems.Length; i++)
-                Destroy(_displayItems[i]);
-
-            _displayItems = null;
-        }
+        OnDestroyDisplay();
 
         if (_requestSample)
         {
@@ -209,5 +215,17 @@ public class ClientAI : MonoBehaviour
         }
         else
             IsRequestAvailable = false;
+    }
+
+    // Destroy display item.
+    private void OnDestroyDisplay()
+    {
+        if (_displayItems != null)
+        {
+            for (int i = 0; i < _displayItems.Length; i++)
+                Destroy(_displayItems[i]);
+
+            _displayItems = null;
+        }
     }
 }

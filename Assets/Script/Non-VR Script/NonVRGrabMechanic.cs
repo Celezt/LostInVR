@@ -80,7 +80,7 @@ public class NonVRGrabMechanic : MonoBehaviour
                 _itemCollider = hit.collider;
                 _itemColliderObject = _itemCollider.gameObject;
 
-                if (_itemColliderObject.tag == _objectTag)
+                if (_itemColliderObject.CompareTag(_objectTag))
                 {
                     Rigidbody hitParentBody = _itemColliderObject.GetComponentInParent<Rigidbody>();
 

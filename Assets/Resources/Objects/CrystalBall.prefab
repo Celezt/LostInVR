@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 3454277780500519919}
   - component: {fileID: 3454277780503944143}
   - component: {fileID: 3454277780502944015}
-  - component: {fileID: 65963649262709334}
+  - component: {fileID: 8592244079086015558}
   m_Layer: 0
   m_Name: CrystalBall
   m_TagString: Object
@@ -78,8 +78,8 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!65 &65963649262709334
-BoxCollider:
+--- !u!135 &8592244079086015558
+SphereCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -89,5 +89,5 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.0032068703, y: 0.003206871, z: 0.003206871}
+  m_Radius: 0.0016034355
   m_Center: {x: 0, y: 0, z: 0}
