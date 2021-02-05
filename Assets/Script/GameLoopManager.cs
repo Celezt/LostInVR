@@ -163,7 +163,7 @@ public class GameLoopManager : Singleton <GameLoopManager>
         
         else if (currentGameState == GameState.GameOver)
         {
-            //AkSoundEngine.StopAll();
+            AkSoundEngine.StopAll();
             currentGameState = GameState.Idle;
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
             ResetScene();
