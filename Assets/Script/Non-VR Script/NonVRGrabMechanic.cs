@@ -135,12 +135,15 @@ public class NonVRGrabMechanic : MonoBehaviour
 
     private void DetachItem(float force = 0)
     {
-        _itemColliderObject.layer = _itemColliderPreviousLayer;
+        if (Item)
+        {
+            _itemColliderObject.layer = _itemColliderPreviousLayer;
 
-        Rigidbody itemBody = Item.GetComponent<Rigidbody>();
-        itemBody.isKinematic = false;
-        itemBody.useGravity = true;
-        itemBody.AddForce(_cameraTransform.forward * force);
+            Rigidbody itemBody = Item.GetComponent<Rigidbody>();
+            itemBody.isKinematic = false;
+            itemBody.useGravity = true;
+            itemBody.AddForce(_cameraTransform.forward * force);
+        }
 
         _itemColliderPreviousLayer = 0;
         Item = null;
