@@ -4,13 +4,13 @@ using UnityEngine;
 
 public class PlayAreaAxisMovement : MonoBehaviour
 {
-
+    //public GameObject PlayerBody;
     private float RightHorizontalMovement, RightVerticalMovement;
     private Vector3 oldPosition, headsetRotation, newPosition;
     public float maxMoveSpeed = 5;
     private float moveSpeed;
     private bool blockedByObject = true;
-    private int playerLayerMask = 1 << 16;
+    private int playerLayerMask = 1 << 9;
     // Start is called before the first frame update
     void Start()
     {
@@ -38,10 +38,16 @@ public class PlayAreaAxisMovement : MonoBehaviour
         //Debug.DrawLine(this.transform.position, newPosition, Color.blue);
         if (RightVerticalMovement < -0.05f)
         {
+            //headsetRotation = Camera.main.transform.forward;
+            //headsetRotation.y = 0;
+            //PlayerBody.transform.position = this.transform.position + (headsetRotation * moveSpeed);
+
+
+
             oldPosition = this.transform.position;
             headsetRotation = Camera.main.transform.forward;
             headsetRotation.y = 0;
-
+            //PlayerBody.transform.position = this.transform.position + (headsetRotation * moveSpeed);
             newPosition = oldPosition + (headsetRotation * moveSpeed);
             blockedByObject = Physics.Linecast(oldPosition, newPosition, playerLayerMask);
             if (blockedByObject)
@@ -61,6 +67,8 @@ public class PlayAreaAxisMovement : MonoBehaviour
                         return;
                     }
                 }
+
+                return;
             }          
                       
             //Debug.Log("blocked? : " + blockedByObject);
