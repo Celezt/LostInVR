@@ -202,7 +202,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: f676261a21bc6044aba1cc2ea429f95e
     GuidInternal: 
-    m_lastTime: -8585895838914775808
+    m_lastTime: -8585889865844775808
     List:
     - name: Master Audio Bus
       guid: d8a41415a61d2a41a17e75ca0c2149f3
@@ -213,6 +213,17 @@ MonoBehaviour:
       - ElementName: Master Audio Bus
         ObjectType: 2
       Path: Default Work Unit/Master Audio Bus
+    - name: RoomReverb
+      guid: 976dbeebf1a63247aa8b5e27dbe5c30d
+      id: 1340358820
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+      - ElementName: RoomReverb
+        ObjectType: 1
+      Path: Default Work Unit/Master Audio Bus/RoomReverb
   BankWwu:
   - PhysicalPath: SoundBanks/Default Work Unit.wwu
     PathAndIcons:
@@ -221,7 +232,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: 482b2d86e9adc74692f9b14bc8c68585
     GuidInternal: 
-    m_lastTime: -8585894945084775808
+    m_lastTime: -8585889754834775808
     List:
     - name: Dialogue
       guid: 8a030d1cdd56df4a8dffb52767429af2
@@ -491,7 +502,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit/SFX
     guid: 92f1c2763cedd7459ecb3c826f418018
     GuidInternal: 
-    m_lastTime: -8585895032484775808
+    m_lastTime: -8585889774024775808
     List:
     - name: Ambience
       guid: ea16e851d3e0864faf617e7c2bf5f454
@@ -504,37 +515,23 @@ MonoBehaviour:
       - ElementName: Ambience
         ObjectType: 3
       Path: Default Work Unit/SFX/Ambience
-      maxAttenuation: 0
-      maxDuration: 20
-      minDuration: 20
-    - name: Book_fall
-      guid: b5902be28583bc43911b705c5f4e001e
-      id: 2754669738
+      maxAttenuation: 15
+      maxDuration: -1
+      minDuration: -1
+    - name: Barrel
+      guid: ad98c02ac1769345bc65d6c47525cb40
+      id: 442447909
       PathAndIcons:
       - ElementName: Default Work Unit
         ObjectType: 12
       - ElementName: SFX
         ObjectType: 12
-      - ElementName: Book_fall
+      - ElementName: Barrel
         ObjectType: 3
-      Path: Default Work Unit/SFX/Book_fall
-      maxAttenuation: 0
-      maxDuration: 1.787458
-      minDuration: 1.3715
-    - name: Book_slide
-      guid: 6f4e9b325db6374896e1c6c44bf44a9b
-      id: 2389286304
-      PathAndIcons:
-      - ElementName: Default Work Unit
-        ObjectType: 12
-      - ElementName: SFX
-        ObjectType: 12
-      - ElementName: Book_slide
-        ObjectType: 3
-      Path: Default Work Unit/SFX/Book_slide
-      maxAttenuation: 0
-      maxDuration: 1.672812
-      minDuration: 1.235104
+      Path: Default Work Unit/SFX/Barrel
+      maxAttenuation: 10
+      maxDuration: 5.285604
+      minDuration: 3.45475
     - name: Bottle_handle
       guid: acd6b5121a03ef498088566c9ed8ce99
       id: 4238452446
@@ -546,7 +543,7 @@ MonoBehaviour:
       - ElementName: Bottle_handle
         ObjectType: 3
       Path: Default Work Unit/SFX/Bottle_handle
-      maxAttenuation: 0
+      maxAttenuation: 10
       maxDuration: 2.379292
       minDuration: 1.996396
     - name: Bottle_Place
@@ -560,23 +557,23 @@ MonoBehaviour:
       - ElementName: Bottle_Place
         ObjectType: 3
       Path: Default Work Unit/SFX/Bottle_Place
-      maxAttenuation: 0
+      maxAttenuation: 10
       maxDuration: 1.799854
       minDuration: 1.362625
-    - name: Bottle_Slide
-      guid: 702d11f0a279674c913aa8c1d6a1ca2b
-      id: 404220387
+    - name: Crates_Fall
+      guid: 2bd072d16d6c0548b7d8569c359eae5b
+      id: 3600872739
       PathAndIcons:
       - ElementName: Default Work Unit
         ObjectType: 12
       - ElementName: SFX
         ObjectType: 12
-      - ElementName: Bottle_Slide
+      - ElementName: Crates_Fall
         ObjectType: 3
-      Path: Default Work Unit/SFX/Bottle_Slide
-      maxAttenuation: 0
-      maxDuration: 2.260875
-      minDuration: 1.495813
+      Path: Default Work Unit/SFX/Crates_Fall
+      maxAttenuation: 10
+      maxDuration: 1.877542
+      minDuration: 1.228938
     - name: Electric
       guid: a419d09cf6fb5346bfe3aba19fa8ac5f
       id: 3250089732
@@ -588,7 +585,7 @@ MonoBehaviour:
       - ElementName: Electric
         ObjectType: 3
       Path: Default Work Unit/SFX/Electric
-      maxAttenuation: 0
+      maxAttenuation: 10
       maxDuration: 5.640104
       minDuration: 5.640104
     - name: Footsteps
@@ -602,7 +599,7 @@ MonoBehaviour:
       - ElementName: Footsteps
         ObjectType: 3
       Path: Default Work Unit/SFX/Footsteps
-      maxAttenuation: 0
+      maxAttenuation: 10
       maxDuration: 0.19263
       minDuration: 0.16898
     - name: Glass_Bottle_fall
@@ -616,7 +613,7 @@ MonoBehaviour:
       - ElementName: Glass_Bottle_fall
         ObjectType: 3
       Path: Default Work Unit/SFX/Glass_Bottle_fall
-      maxAttenuation: 0
+      maxAttenuation: 10
       maxDuration: 3.452563
       minDuration: 1.482771
     - name: Heavy_items
@@ -630,9 +627,23 @@ MonoBehaviour:
       - ElementName: Heavy_items
         ObjectType: 3
       Path: Default Work Unit/SFX/Heavy_items
-      maxAttenuation: 0
+      maxAttenuation: 10
       maxDuration: 0.963479
       minDuration: 0.963479
+    - name: Item_slide
+      guid: 6f4e9b325db6374896e1c6c44bf44a9b
+      id: 1282961282
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: SFX
+        ObjectType: 12
+      - ElementName: Item_slide
+        ObjectType: 3
+      Path: Default Work Unit/SFX/Item_slide
+      maxAttenuation: 10
+      maxDuration: 1.672812
+      minDuration: 1.442396
     - name: Lights_on
       guid: 2d386e73176af74d97393c15e9d4a270
       id: 1063352154
@@ -644,9 +655,23 @@ MonoBehaviour:
       - ElementName: Lights_on
         ObjectType: 3
       Path: Default Work Unit/SFX/Lights_on
-      maxAttenuation: 0
-      maxDuration: 4.029083
-      minDuration: 3.819521
+      maxAttenuation: 5
+      maxDuration: -1
+      minDuration: -1
+    - name: Pallets
+      guid: bbe9c3b3e79205478132a150ad3b405b
+      id: 2392114782
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: SFX
+        ObjectType: 12
+      - ElementName: Pallets
+        ObjectType: 3
+      Path: Default Work Unit/SFX/Pallets
+      maxAttenuation: 10
+      maxDuration: 1.601134
+      minDuration: 0.938625
     - name: Plastic_bottle_fall
       guid: 185a1e1f72747b49b26b8e6329fa4c64
       id: 276558634
@@ -658,9 +683,23 @@ MonoBehaviour:
       - ElementName: Plastic_bottle_fall
         ObjectType: 3
       Path: Default Work Unit/SFX/Plastic_bottle_fall
-      maxAttenuation: 0
+      maxAttenuation: 10
       maxDuration: 2.913917
       minDuration: 2.098958
+    - name: Shelves
+      guid: 40bfb2be7ca65a45b7564b7fac35b784
+      id: 1204143103
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: SFX
+        ObjectType: 12
+      - ElementName: Shelves
+        ObjectType: 3
+      Path: Default Work Unit/SFX/Shelves
+      maxAttenuation: 10
+      maxDuration: 2.981563
+      minDuration: 1.826167
     - name: Success
       guid: 484a63dff466a1409b3bfae8108139e0
       id: 3625060726
@@ -672,7 +711,7 @@ MonoBehaviour:
       - ElementName: Success
         ObjectType: 3
       Path: Default Work Unit/SFX/Success
-      maxAttenuation: 0
+      maxAttenuation: 10
       maxDuration: 2.443938
       minDuration: 1.675083
     - name: Suitcase_fall
@@ -686,23 +725,9 @@ MonoBehaviour:
       - ElementName: Suitcase_fall
         ObjectType: 3
       Path: Default Work Unit/SFX/Suitcase_fall
-      maxAttenuation: 0
+      maxAttenuation: 10
       maxDuration: 1.907063
       minDuration: 1.777917
-    - name: Suitcase_roll
-      guid: 356c881daee545488697f2de02f74f3b
-      id: 3321983048
-      PathAndIcons:
-      - ElementName: Default Work Unit
-        ObjectType: 12
-      - ElementName: SFX
-        ObjectType: 12
-      - ElementName: Suitcase_roll
-        ObjectType: 3
-      Path: Default Work Unit/SFX/Suitcase_roll
-      maxAttenuation: 0
-      maxDuration: 0
-      minDuration: 0
     - name: Time_running_out
       guid: d3a206f8bbe91346a87903ae91662a88
       id: 1735830099
@@ -714,7 +739,7 @@ MonoBehaviour:
       - ElementName: Time_running_out
         ObjectType: 3
       Path: Default Work Unit/SFX/Time_running_out
-      maxAttenuation: 0
+      maxAttenuation: 10
       maxDuration: 10.5
       minDuration: 10.5
     - name: Timer_ticking
@@ -728,7 +753,7 @@ MonoBehaviour:
       - ElementName: Timer_ticking
         ObjectType: 3
       Path: Default Work Unit/SFX/Timer_ticking
-      maxAttenuation: 0
+      maxAttenuation: 10
       maxDuration: 6.161396
       minDuration: 6.161396
   RtpcWwu:
@@ -966,8 +991,27 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: 0a931830e3e2034c9736d5cf80c52be6
     GuidInternal: 
-    m_lastTime: -8585895114234775808
+    m_lastTime: -8585890558644775808
     List:
+    - name: Footsteps
+      guid: f06566df555df44b87c90201f109d5b4
+      id: 2385628198
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Footsteps
+        ObjectType: 11
+      Path: Default Work Unit/Footsteps
+      values:
+      - name: Ground
+        guid: 450ce838bb8b664481b488ea80c4e2cb
+        id: 2528658256
+        PathAndIcons:
+        - ElementName: Ground
+          ObjectType: 10
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
     - name: Music_Playlist
       guid: 2c84d5ab78313446b08aa25f5e524a57
       id: 2520593515

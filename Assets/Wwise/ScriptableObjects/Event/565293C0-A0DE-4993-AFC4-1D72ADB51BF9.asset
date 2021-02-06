@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: efc3e07a01ed34434ab77a265f05632d, type: 3}
   m_Name: 565293C0-A0DE-4993-AFC4-1D72ADB51BF9
   m_EditorClassIdentifier: 
-  objectName: Female_Greeting
-  id: 3088607285
+  objectName: Char15
+  id: 3580587415
   guid: 565293C0-A0DE-4993-AFC4-1D72ADB51BF9

@@ -43,6 +43,10 @@ public class RegisterArea : MonoBehaviour
                 {
                     AkSoundEngine.PostEvent("Female_Thanks", gameObject);
                 }
+                {
+                    AkSoundEngine.PostEvent("Success", gameObject);
+                }
+
                 _client.IsWaiting = false;
                 _manager.IncreaseTimeRemaining(item.Time);
                 _manager.IncreaseScore((int)(item.Score - ((1 - 1 / (1 + 0.15 * _manager.secondsSinceLastItemDelivered)) * 100)));
