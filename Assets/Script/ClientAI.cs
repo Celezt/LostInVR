@@ -11,6 +11,7 @@ public class ClientAI : MonoBehaviour
     public float SampleRotateSpeed = 20f;
     public float BobSpeed = 0.1f;
     public float BobAmount = 0.1f;
+    public float Countdown = 15f;
     public string RequestName = "";
 
     [SerializeField]
@@ -19,6 +20,8 @@ public class ClientAI : MonoBehaviour
     public bool IsRequesting { get; private set; }
     public bool IsRequestAvailable { get; private set; }
     public bool IsMoving { get; private set; } = true;
+    public bool IsWaiting = false;
+
 
     /// <summary>
     /// The current state of the client.
@@ -31,7 +34,7 @@ public class ClientAI : MonoBehaviour
     private GameObject[] _displayItems;
 
     private Vector3 _startlocalScale;
-    private int _randomTextureIndex;
+    public int _randomTextureIndex;
     private float _oldPercentTravelled;
     private float _scaleOffset;
 
@@ -73,6 +76,7 @@ public class ClientAI : MonoBehaviour
         }
 
         _oldPercentTravelled = _follow.PercentTravelled;
+        StillWaiting();
     }
 
     // Move to wait point.
@@ -89,7 +93,20 @@ public class ClientAI : MonoBehaviour
             _follow.ToMove = false;
             _follow.ToRotate = false;
 
-            AkSoundEngine.PostEvent("Char15", gameObject);
+            Countdown = 15f;
+            IsWaiting = true;
+            if (_randomTextureIndex <= 1)
+            {
+                AkSoundEngine.PostEvent("Male1_Greeting", gameObject);
+            }
+            if (_randomTextureIndex == 2 || _randomTextureIndex == 3)
+            {
+                AkSoundEngine.PostEvent("Male2_Greeting", gameObject);
+            }
+            if (_randomTextureIndex == 4 || _randomTextureIndex == 5)
+            {
+                AkSoundEngine.PostEvent("Female_Greeting", gameObject);
+            }
             DisplayRequest();
         }
     }
@@ -127,6 +144,36 @@ public class ClientAI : MonoBehaviour
         if (_displayItems != null)
             for (int i = 0; i < _displayItems.Length; i++)
                 _displayItems[i].transform.Rotate(Vector3.up * (SampleRotateSpeed * Time.deltaTime));
+    }
+
+    // Counts how much time has elapsed since request made and triggers dialogue
+    private void StillWaiting()
+    {
+        if (IsWaiting == true)
+        {
+            Countdown -= Time.deltaTime;
+            if (Countdown <= 0)
+            {
+                Countdown = 15f;
+                HurryUp();
+            }
+        }
+    }
+
+    private void HurryUp()
+    {
+        if (_randomTextureIndex <= 1)
+        {
+            AkSoundEngine.PostEvent("Male1_Hurry", gameObject);
+        }
+        if (_randomTextureIndex == 2 || _randomTextureIndex == 3)
+        {
+            AkSoundEngine.PostEvent("Male2_Hurry", gameObject);
+        }
+        if (_randomTextureIndex == 4 || _randomTextureIndex == 5)
+        {
+            AkSoundEngine.PostEvent("Female_Hurry", gameObject);
+        }
     }
 
     // Moving out and reseting itself for next client.

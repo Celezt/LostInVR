@@ -58,3 +58,20 @@ sysinfo.txt
 # Crashlytics generated file
 crashlytics-build.properties
 
+Assets/Wwise
+Assets/Wwise.meta
+Assets/WwiseSettings.xml
+Assets/WwiseSettings.xml.meta
+Assets/StreamingAssets/Audio/GeneratedSoundBanks/Mac/English(US).meta
+.DS_Store
+Assets/StreamingAssets/.DS_Store
+Assets/StreamingAssets/Audio/.DS_Store
+Assets/.DS_Store
+Assets/StreamingAssets/.DS_Store
+Assets/StreamingAssets/Audio/.DS_Store
+Assets/StreamingAssets/Audio/GeneratedSoundBanks/.DS_Store
+Assets/StreamingAssets/Audio/GeneratedSoundBanks/Mac/DecodedBanks/English(US).meta
+Assets/Wwise/.DS_Store
+WwiseUnityIntegration_Mac_Src.zip
+WwiseUnityIntegration_Windows_Src.zip
+.DS_Store
