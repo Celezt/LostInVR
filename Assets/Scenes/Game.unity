@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.3731193, g: 0.38073996, b: 0.35872698, a: 1}
+  m_IndirectSpecularColor: {r: 0.37311953, g: 0.38074014, b: 0.3587274, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -2397,7 +2397,7 @@ PrefabInstance:
     - target: {fileID: 5018300498109839528, guid: 384528f74049473489b7890eecc88e43,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8799752863554850480, guid: 384528f74049473489b7890eecc88e43,
         type: 3}
@@ -8447,6 +8447,36 @@ PrefabInstance:
       propertyPath: SampleRotateSpeed
       value: 40
       objectReference: {fileID: 0}
+    - target: {fileID: 6262287086804345132, guid: 2d62d389a56fd494f90daf80d3b4b923,
+        type: 3}
+      propertyPath: Countdown
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 6262287086804345132, guid: 2d62d389a56fd494f90daf80d3b4b923,
+        type: 3}
+      propertyPath: _textures.Array.data[0]
+      value: 
+      objectReference: {fileID: 2800000, guid: a076640b1a40b414eb58815b8adac55e, type: 3}
+    - target: {fileID: 6262287086804345132, guid: 2d62d389a56fd494f90daf80d3b4b923,
+        type: 3}
+      propertyPath: _textures.Array.data[4]
+      value: 
+      objectReference: {fileID: 2800000, guid: 0908d40e074487745879e98a703a3bdc, type: 3}
+    - target: {fileID: 6262287086804345132, guid: 2d62d389a56fd494f90daf80d3b4b923,
+        type: 3}
+      propertyPath: _textures.Array.data[5]
+      value: 
+      objectReference: {fileID: 2800000, guid: baf8469ed2ab821459b8e16a777a496c, type: 3}
+    - target: {fileID: 6262287086804345132, guid: 2d62d389a56fd494f90daf80d3b4b923,
+        type: 3}
+      propertyPath: _textures.Array.data[2]
+      value: 
+      objectReference: {fileID: 2800000, guid: 3d5ff67f33768354182fe3ceb40ebf87, type: 3}
+    - target: {fileID: 6262287086804345132, guid: 2d62d389a56fd494f90daf80d3b4b923,
+        type: 3}
+      propertyPath: _textures.Array.data[3]
+      value: 
+      objectReference: {fileID: 2800000, guid: f1e74f327bb5da540affd39c9842b3f9, type: 3}
     - target: {fileID: 7720254131603920583, guid: 2d62d389a56fd494f90daf80d3b4b923,
         type: 3}
       propertyPath: m_Radius
@@ -21139,7 +21169,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1467290445770872, guid: b6b557e5a38efee4f90e60a9287d7b93, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4938262979527042, guid: b6b557e5a38efee4f90e60a9287d7b93, type: 3}
       propertyPath: m_LocalPosition.x

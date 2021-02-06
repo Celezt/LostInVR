@@ -269,184 +269,8 @@ MonoBehaviour:
     ParentPath: Default Work Unit/Dialogue
     guid: 737d0c24a961004f9f1aca610feeae50
     GuidInternal: 
-    m_lastTime: -8585895020044775808
+    m_lastTime: -8585889921654775808
     List:
-    - name: Char_2
-      guid: 5c18042a21211e4089280bd9393c80a7
-      id: 929826778
-      PathAndIcons:
-      - ElementName: Default Work Unit
-        ObjectType: 12
-      - ElementName: Dialogue
-        ObjectType: 12
-      - ElementName: Male 1
-        ObjectType: 4
-      - ElementName: Char_2
-        ObjectType: 3
-      Path: Default Work Unit/Dialogue/Male 1/Char_2
-      maxAttenuation: 0
-      maxDuration: 2.904729
-      minDuration: 2.014208
-    - name: Char1
-      guid: 4a639c212faa004199305a2df87c451c
-      id: 434268438
-      PathAndIcons:
-      - ElementName: Default Work Unit
-        ObjectType: 12
-      - ElementName: Dialogue
-        ObjectType: 12
-      - ElementName: Male 1
-        ObjectType: 4
-      - ElementName: Char1
-        ObjectType: 3
-      Path: Default Work Unit/Dialogue/Male 1/Char1
-      maxAttenuation: 0
-      maxDuration: 7.843208
-      minDuration: 7.843208
-    - name: Char15
-      guid: c0935256dea09349afc41d72adb51bf9
-      id: 3580587415
-      PathAndIcons:
-      - ElementName: Default Work Unit
-        ObjectType: 12
-      - ElementName: Dialogue
-        ObjectType: 12
-      - ElementName: Female Char
-        ObjectType: 4
-      - ElementName: Char15
-        ObjectType: 3
-      Path: Default Work Unit/Dialogue/Female Char/Char15
-      maxAttenuation: 0
-      maxDuration: 4.686167
-      minDuration: 3.227729
-    - name: Char16
-      guid: cf4f2b337701e04095e0f0c237191b12
-      id: 3580587412
-      PathAndIcons:
-      - ElementName: Default Work Unit
-        ObjectType: 12
-      - ElementName: Dialogue
-        ObjectType: 12
-      - ElementName: Female Char
-        ObjectType: 4
-      - ElementName: Char16
-        ObjectType: 3
-      Path: Default Work Unit/Dialogue/Female Char/Char16
-      maxAttenuation: 0
-      maxDuration: 7.749938
-      minDuration: 4.876563
-    - name: Char17
-      guid: e916a2da810acd4f8227469afaea63b9
-      id: 3580587413
-      PathAndIcons:
-      - ElementName: Default Work Unit
-        ObjectType: 12
-      - ElementName: Dialogue
-        ObjectType: 12
-      - ElementName: Female Char
-        ObjectType: 4
-      - ElementName: Char17
-        ObjectType: 3
-      Path: Default Work Unit/Dialogue/Female Char/Char17
-      maxAttenuation: 0
-      maxDuration: 3.401979
-      minDuration: 2.610812
-    - name: Char3
-      guid: 35a3138401571d4ba05b675010ae3177
-      id: 434268436
-      PathAndIcons:
-      - ElementName: Default Work Unit
-        ObjectType: 12
-      - ElementName: Dialogue
-        ObjectType: 12
-      - ElementName: Male 1
-        ObjectType: 4
-      - ElementName: Char3
-        ObjectType: 3
-      Path: Default Work Unit/Dialogue/Male 1/Char3
-      maxAttenuation: 0
-      maxDuration: 6.546208
-      minDuration: 6.546208
-    - name: Char4
-      guid: 191079511809bc4cb6ec0f5d022688e8
-      id: 434268435
-      PathAndIcons:
-      - ElementName: Default Work Unit
-        ObjectType: 12
-      - ElementName: Dialogue
-        ObjectType: 12
-      - ElementName: Male 1
-        ObjectType: 4
-      - ElementName: Char4
-        ObjectType: 3
-      Path: Default Work Unit/Dialogue/Male 1/Char4
-      maxAttenuation: 0
-      maxDuration: 7.92225
-      minDuration: 7.92225
-    - name: Char5
-      guid: 971516a581d8ca43ba2806bbf11ec661
-      id: 434268434
-      PathAndIcons:
-      - ElementName: Default Work Unit
-        ObjectType: 12
-      - ElementName: Dialogue
-        ObjectType: 12
-      - ElementName: Male 1
-        ObjectType: 4
-      - ElementName: Char5
-        ObjectType: 3
-      Path: Default Work Unit/Dialogue/Male 1/Char5
-      maxAttenuation: 0
-      maxDuration: 6.660563
-      minDuration: 2.329896
-    - name: Char6
-      guid: cbbf66405a7ad44bbf5619984ef97df2
-      id: 434268433
-      PathAndIcons:
-      - ElementName: Default Work Unit
-        ObjectType: 12
-      - ElementName: Dialogue
-        ObjectType: 12
-      - ElementName: Male 1
-        ObjectType: 4
-      - ElementName: Char6
-        ObjectType: 3
-      Path: Default Work Unit/Dialogue/Male 1/Char6
-      maxAttenuation: 0
-      maxDuration: 7.444854
-      minDuration: 7.444854
-    - name: Char7
-      guid: c77f3318788fe24aad8edbe6a75adaad
-      id: 434268432
-      PathAndIcons:
-      - ElementName: Default Work Unit
-        ObjectType: 12
-      - ElementName: Dialogue
-        ObjectType: 12
-      - ElementName: Male 1
-        ObjectType: 4
-      - ElementName: Char7
-        ObjectType: 3
-      Path: Default Work Unit/Dialogue/Male 1/Char7
-      maxAttenuation: 0
-      maxDuration: 4.137187
-      minDuration: 4.137187
-    - name: Char8
-      guid: 56a15f5c602bf3459879d53434808c83
-      id: 434268447
-      PathAndIcons:
-      - ElementName: Default Work Unit
-        ObjectType: 12
-      - ElementName: Dialogue
-        ObjectType: 12
-      - ElementName: Male 1
-        ObjectType: 4
-      - ElementName: Char8
-        ObjectType: 3
-      Path: Default Work Unit/Dialogue/Male 1/Char8
-      maxAttenuation: 0
-      maxDuration: 8.191396
-      minDuration: 2.553167
     - name: Female Char
       guid: 7c8e5090a914d6428a9bcaa02d21dee8
       id: 3208256743
@@ -461,6 +285,54 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
+    - name: Female_Greeting
+      guid: c0935256dea09349afc41d72adb51bf9
+      id: 3088607285
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Dialogue
+        ObjectType: 12
+      - ElementName: Female Char
+        ObjectType: 4
+      - ElementName: Female_Greeting
+        ObjectType: 3
+      Path: Default Work Unit/Dialogue/Female Char/Female_Greeting
+      maxAttenuation: 0
+      maxDuration: 4.964821
+      minDuration: 4.423152
+    - name: Female_Hurry
+      guid: e9be4e0dcd97fc479b441bdfb7974041
+      id: 2145752286
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Dialogue
+        ObjectType: 12
+      - ElementName: Female Char
+        ObjectType: 4
+      - ElementName: Female_Hurry
+        ObjectType: 3
+      Path: Default Work Unit/Dialogue/Female Char/Female_Hurry
+      maxAttenuation: 0
+      maxDuration: 3.227729
+      minDuration: 3.227729
+    - name: Female_Thanks
+      guid: b24c33ba841ea84dab8d4210ebbcda15
+      id: 2228376803
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Dialogue
+        ObjectType: 12
+      - ElementName: Female Char
+        ObjectType: 4
+      - ElementName: Female_Thanks
+        ObjectType: 3
+      Path: Default Work Unit/Dialogue/Female Char/Female_Thanks
+      maxAttenuation: 0
+      maxDuration: 5.319763
+      minDuration: 4.79392
     - name: Male 1
       guid: 2a8bcef6c98cb44b9979a380e289e6b6
       id: 1387209791
@@ -489,9 +361,57 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
-    - name: Male2char1
-      guid: fadab7ec42192a4fb10ac987f6e7041d
-      id: 729594357
+    - name: Male1_Greeting
+      guid: d25612fa8ac634498a85bc6f7d26759b
+      id: 870050339
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Dialogue
+        ObjectType: 12
+      - ElementName: Male 1
+        ObjectType: 4
+      - ElementName: Male1_Greeting
+        ObjectType: 3
+      Path: Default Work Unit/Dialogue/Male 1/Male1_Greeting
+      maxAttenuation: 0
+      maxDuration: 2.553167
+      minDuration: 2.553167
+    - name: Male1_Hurry
+      guid: 8e581e3a1639f54490149a192673a342
+      id: 2076754096
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Dialogue
+        ObjectType: 12
+      - ElementName: Male 1
+        ObjectType: 4
+      - ElementName: Male1_Hurry
+        ObjectType: 3
+      Path: Default Work Unit/Dialogue/Male 1/Male1_Hurry
+      maxAttenuation: 0
+      maxDuration: 8.191396
+      minDuration: 8.191396
+    - name: Male1_Thanks
+      guid: 745b1cc196ec714f821521a44944c1aa
+      id: 971951693
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Dialogue
+        ObjectType: 12
+      - ElementName: Male 1
+        ObjectType: 4
+      - ElementName: Male1_Thanks
+        ObjectType: 3
+      Path: Default Work Unit/Dialogue/Male 1/Male1_Thanks
+      maxAttenuation: 0
+      maxDuration: 8.25175
+      minDuration: 8.25175
+    - name: Male2_Greeting
+      guid: 7da7a82a322b3c408447191d3147ed7a
+      id: 3731104210
       PathAndIcons:
       - ElementName: Default Work Unit
         ObjectType: 12
@@ -499,15 +419,15 @@ MonoBehaviour:
         ObjectType: 12
       - ElementName: Male 2
         ObjectType: 4
-      - ElementName: Male2char1
+      - ElementName: Male2_Greeting
         ObjectType: 3
-      Path: Default Work Unit/Dialogue/Male 2/Male2char1
+      Path: Default Work Unit/Dialogue/Male 2/Male2_Greeting
       maxAttenuation: 0
-      maxDuration: 3.079833
-      minDuration: 2.537271
-    - name: Male2char2
-      guid: e1de37ec147a924aa2e2b2c78d906cc1
-      id: 729594358
+      maxDuration: 4.56425
+      minDuration: 4.56425
+    - name: Male2_Hurry
+      guid: 807e53098f9f3042b7dbed30755645be
+      id: 3258761843
       PathAndIcons:
       - ElementName: Default Work Unit
         ObjectType: 12
@@ -515,15 +435,15 @@ MonoBehaviour:
         ObjectType: 12
       - ElementName: Male 2
         ObjectType: 4
-      - ElementName: Male2char2
+      - ElementName: Male2_Hurry
         ObjectType: 3
-      Path: Default Work Unit/Dialogue/Male 2/Male2char2
+      Path: Default Work Unit/Dialogue/Male 2/Male2_Hurry
       maxAttenuation: 0
-      maxDuration: 4.688063
+      maxDuration: 3.883063
       minDuration: 3.883063
-    - name: Male2char3
-      guid: 360cde61f47c3b469a88b14ba4a0a35f
-      id: 729594359
+    - name: Male2_Thanks
+      guid: 84e730b0e14f2546adfc6578899c93fc
+      id: 458420016
       PathAndIcons:
       - ElementName: Default Work Unit
         ObjectType: 12
@@ -531,44 +451,12 @@ MonoBehaviour:
         ObjectType: 12
       - ElementName: Male 2
         ObjectType: 4
-      - ElementName: Male2char3
+      - ElementName: Male2_Thanks
         ObjectType: 3
-      Path: Default Work Unit/Dialogue/Male 2/Male2char3
+      Path: Default Work Unit/Dialogue/Male 2/Male2_Thanks
       maxAttenuation: 0
-      maxDuration: 5.792459
-      minDuration: 2.925083
-    - name: Male2char4
-      guid: bac2f052c85c144cb8c374c6863adda9
-      id: 729594352
-      PathAndIcons:
-      - ElementName: Default Work Unit
-        ObjectType: 12
-      - ElementName: Dialogue
-        ObjectType: 12
-      - ElementName: Male 2
-        ObjectType: 4
-      - ElementName: Male2char4
-        ObjectType: 3
-      Path: Default Work Unit/Dialogue/Male 2/Male2char4
-      maxAttenuation: 0
-      maxDuration: 3.320229
-      minDuration: 2.540062
-    - name: Male2char5
-      guid: a27c132127864049b160c2ec03a088c1
-      id: 729594353
-      PathAndIcons:
-      - ElementName: Default Work Unit
-        ObjectType: 12
-      - ElementName: Dialogue
-        ObjectType: 12
-      - ElementName: Male 2
-        ObjectType: 4
-      - ElementName: Male2char5
-        ObjectType: 3
-      Path: Default Work Unit/Dialogue/Male 2/Male2char5
-      maxAttenuation: 0
-      maxDuration: 6.311521
-      minDuration: 3.330375
+      maxDuration: 5.188063
+      minDuration: 5.188063
   - PhysicalPath: Events/Music.wwu
     PathAndIcons:
     - ElementName: Default Work Unit
@@ -1129,5 +1017,9 @@ MonoBehaviour:
     List: []
   ExpandedItems:
   - /Lost in VR
+  - /Lost in VR/Events
+  - /Lost in VR/Events/Default Work Unit
+  - /Lost in VR/Events/Default Work Unit/Dialogue
+  - /Lost in VR/Events/Default Work Unit/Dialogue/Female Char
   autoPopulateEnabled: 1
   CurrentPluginConfig: 

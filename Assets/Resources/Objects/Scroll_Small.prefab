@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 1050632825630988604}
   - component: {fileID: 1050632825629891580}
   - component: {fileID: 65412463772049274}
+  - component: {fileID: 114335698755167486}
   m_Layer: 0
   m_Name: Scroll_Small
   m_TagString: Object
@@ -91,3 +92,17 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.0049551073, y: 0.0011501987, z: 0.0007915161}
   m_Center: {x: -0.0000049920054, y: 0.0002558121, z: 0.00040948982}
+--- !u!114 &114335698755167486
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1050632825632081212}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad2283e458ed99444bba19ea8ee2e919, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Score: 100
+  Time: 15

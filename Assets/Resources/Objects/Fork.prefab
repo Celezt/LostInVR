@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 3532566678303094842}
   - component: {fileID: 3532566678304094970}
   - component: {fileID: 65302073039367360}
+  - component: {fileID: 114662120992132304}
   m_Layer: 0
   m_Name: Fork
   m_TagString: Object
@@ -93,3 +94,17 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.0029706492, y: 0.00031479428, z: 0.0003584017}
   m_Center: {x: -0.0009198921, y: -1.7462302e-10, z: -0.0000033082404}
+--- !u!114 &114662120992132304
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3532566678301893690}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad2283e458ed99444bba19ea8ee2e919, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Score: 100
+  Time: 15

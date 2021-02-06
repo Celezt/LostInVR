@@ -30,6 +30,20 @@ public class RegisterArea : MonoBehaviour
 
             if (item && _manager)
             {
+                int _randomTextureIndex = _client._randomTextureIndex;
+                if (_randomTextureIndex <= 1)
+                {
+                    AkSoundEngine.PostEvent("Male1_Thanks", gameObject);
+                }
+                if (_randomTextureIndex == 2 || _randomTextureIndex == 3)
+                {
+                    AkSoundEngine.PostEvent("Male2_Thanks", gameObject);
+                }
+                if (_randomTextureIndex == 4 || _randomTextureIndex == 5)
+                {
+                    AkSoundEngine.PostEvent("Female_Thanks", gameObject);
+                }
+                _client.IsWaiting = false;
                 _manager.IncreaseTimeRemaining(item.Time);
                 _manager.IncreaseScore((int)(item.Score - ((1 - 1 / (1 + 0.15 * _manager.secondsSinceLastItemDelivered)) * 100)));
             }

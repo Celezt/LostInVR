@@ -320,216 +320,80 @@
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="3930136735" Language="SFX" Hash="1976130930">
+		<SoundBank Id="3930136735" Language="SFX" Hash="2728737284">
 			<ObjectPath>\SoundBanks\Default Work Unit\Dialogue</ObjectPath>
 			<ShortName>Dialogue</ShortName>
 			<Path>Dialogue.bnk</Path>
 			<IncludedEvents>
-				<Event Id="434268438" Name="Char1" ObjectPath="\Events\Default Work Unit\Dialogue\Male 1\Char1" DurationType="OneShot" DurationMin="7.843208" DurationMax="7.843208">
-					<IncludedMemoryFiles>
-						<File Id="974686995" Language="SFX">
-							<ShortName>Male_Voice_1\Character_6\Ch6_2.wav</ShortName>
-							<Path>SFX/Male_Voice_1/Character_6/Ch6_2_2EB68A41.wem</Path>
-						</File>
-					</IncludedMemoryFiles>
-				</Event>
-				<Event Id="3580587415" Name="Char15" ObjectPath="\Events\Default Work Unit\Dialogue\Female Char\Char15" DurationType="OneShot" DurationMin="3.227729" DurationMax="4.686167">
+				<Event Id="3088607285" Name="Female_Greeting" ObjectPath="\Events\Default Work Unit\Dialogue\Female Char\Female_Greeting" MaxAttenuation="30.000000" DurationType="OneShot" DurationMin="4.174900" DurationMax="5.260044">
 					<IncludedMemoryFiles>
 						<File Id="167981095" Language="SFX">
 							<ShortName>Fem_Voice_1\Character_15\CH15_1.wav</ShortName>
 							<Path>SFX/Fem_Voice_1/Character_15/CH15_1_2EB68A41.wem</Path>
 						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2145752286" Name="Female_Hurry" ObjectPath="\Events\Default Work Unit\Dialogue\Female Char\Female_Hurry" MaxAttenuation="30.000000" DurationType="OneShot" DurationMin="2.875580" DurationMax="3.623003">
+					<IncludedMemoryFiles>
 						<File Id="460113114" Language="SFX">
 							<ShortName>Fem_Voice_1\Character_15\CH15_2.wav</ShortName>
 							<Path>SFX/Fem_Voice_1/Character_15/CH15_2_2EB68A41.wem</Path>
 						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2228376803" Name="Female_Thanks" ObjectPath="\Events\Default Work Unit\Dialogue\Female Char\Female_Thanks" MaxAttenuation="30.000000" DurationType="OneShot" DurationMin="4.552921" DurationMax="5.606360">
+					<IncludedMemoryFiles>
 						<File Id="947572448" Language="SFX">
 							<ShortName>Fem_Voice_1\Character_15\CH15_3.wav</ShortName>
 							<Path>SFX/Fem_Voice_1/Character_15/CH15_3_2EB68A41.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="3580587412" Name="Char16" ObjectPath="\Events\Default Work Unit\Dialogue\Female Char\Char16" DurationType="OneShot" DurationMin="4.876563" DurationMax="7.749938">
+				<Event Id="870050339" Name="Male1_Greeting" ObjectPath="\Events\Default Work Unit\Dialogue\Male 1\Male1_Greeting" MaxAttenuation="30.000000" DurationType="OneShot" DurationMin="2.274613" DurationMax="2.865833">
 					<IncludedMemoryFiles>
-						<File Id="159013578" Language="SFX">
-							<ShortName>Fem_Voice_1\Character_16\CH16_3.wav</ShortName>
-							<Path>SFX/Fem_Voice_1/Character_16/CH16_3_2EB68A41.wem</Path>
-						</File>
-						<File Id="641350946" Language="SFX">
-							<ShortName>Fem_Voice_1\Character_16\CH16_2.wav</ShortName>
-							<Path>SFX/Fem_Voice_1/Character_16/CH16_2_2EB68A41.wem</Path>
-						</File>
-						<File Id="816521724" Language="SFX">
-							<ShortName>Fem_Voice_1\Character_16\CH16_1.wav</ShortName>
-							<Path>SFX/Fem_Voice_1/Character_16/CH16_1_2EB68A41.wem</Path>
-						</File>
-					</IncludedMemoryFiles>
-				</Event>
-				<Event Id="3580587413" Name="Char17" ObjectPath="\Events\Default Work Unit\Dialogue\Female Char\Char17" DurationType="OneShot" DurationMin="2.610812" DurationMax="3.401979">
-					<IncludedMemoryFiles>
-						<File Id="86195769" Language="SFX">
-							<ShortName>Fem_Voice_1\Character_17\CH17_1.wav</ShortName>
-							<Path>SFX/Fem_Voice_1/Character_17/CH17_1_2EB68A41.wem</Path>
-						</File>
-						<File Id="652418369" Language="SFX">
-							<ShortName>Fem_Voice_1\Character_17\CH17_2.wav</ShortName>
-							<Path>SFX/Fem_Voice_1/Character_17/CH17_2_2EB68A41.wem</Path>
-						</File>
-						<File Id="998420218" Language="SFX">
-							<ShortName>Fem_Voice_1\Character_17\CH17_3.wav</ShortName>
-							<Path>SFX/Fem_Voice_1/Character_17/CH17_3_2EB68A41.wem</Path>
-						</File>
-					</IncludedMemoryFiles>
-				</Event>
-				<Event Id="434268436" Name="Char3" ObjectPath="\Events\Default Work Unit\Dialogue\Male 1\Char3" DurationType="OneShot" DurationMin="6.546208" DurationMax="6.546208">
-					<IncludedMemoryFiles>
-						<File Id="854424282" Language="SFX">
-							<ShortName>Male_Voice_1\Character_7\Ch7_2.wav</ShortName>
-							<Path>SFX/Male_Voice_1/Character_7/Ch7_2_2EB68A41.wem</Path>
-						</File>
-					</IncludedMemoryFiles>
-				</Event>
-				<Event Id="434268435" Name="Char4" ObjectPath="\Events\Default Work Unit\Dialogue\Male 1\Char4" DurationType="OneShot" DurationMin="7.922250" DurationMax="7.922250">
-					<IncludedMemoryFiles>
-						<File Id="487029698" Language="SFX">
-							<ShortName>Male_Voice_1\Character_9\Ch9_3.wav</ShortName>
-							<Path>SFX/Male_Voice_1/Character_9/Ch9_3_2EB68A41.wem</Path>
-						</File>
-					</IncludedMemoryFiles>
-				</Event>
-				<Event Id="434268434" Name="Char5" ObjectPath="\Events\Default Work Unit\Dialogue\Male 1\Char5" DurationType="OneShot" DurationMin="2.329896" DurationMax="6.660563">
-					<IncludedMemoryFiles>
-						<File Id="76709246" Language="SFX">
-							<ShortName>Male_Voice_1\Character_10\Ch10_2.wav</ShortName>
-							<Path>SFX/Male_Voice_1/Character_10/Ch10_2_2EB68A41.wem</Path>
-						</File>
-						<File Id="315350383" Language="SFX">
-							<ShortName>Male_Voice_1\Character_10\Ch10_3.wav</ShortName>
-							<Path>SFX/Male_Voice_1/Character_10/Ch10_3_2EB68A41.wem</Path>
-						</File>
-					</IncludedMemoryFiles>
-				</Event>
-				<Event Id="434268433" Name="Char6" ObjectPath="\Events\Default Work Unit\Dialogue\Male 1\Char6" DurationType="OneShot" DurationMin="7.444854" DurationMax="7.444854">
-					<IncludedMemoryFiles>
-						<File Id="1877933" Language="SFX">
-							<ShortName>Male_Voice_1\Character_11\Ch11_3.wav</ShortName>
-							<Path>SFX/Male_Voice_1/Character_11/Ch11_3_2EB68A41.wem</Path>
-						</File>
-					</IncludedMemoryFiles>
-				</Event>
-				<Event Id="434268432" Name="Char7" ObjectPath="\Events\Default Work Unit\Dialogue\Male 1\Char7" DurationType="OneShot" DurationMin="4.137187" DurationMax="4.137187">
-					<IncludedMemoryFiles>
-						<File Id="925675865" Language="SFX">
-							<ShortName>Male_Voice_1\Character_12\Ch12_2.wav</ShortName>
-							<Path>SFX/Male_Voice_1/Character_12/Ch12_2_2EB68A41.wem</Path>
-						</File>
-					</IncludedMemoryFiles>
-				</Event>
-				<Event Id="434268447" Name="Char8" ObjectPath="\Events\Default Work Unit\Dialogue\Male 1\Char8" DurationType="OneShot" DurationMin="2.553167" DurationMax="8.191396">
-					<IncludedMemoryFiles>
-						<File Id="166192271" Language="SFX">
-							<ShortName>Male_Voice_1\Character_13\CH13_3.wav</ShortName>
-							<Path>SFX/Male_Voice_1/Character_13/CH13_3_2EB68A41.wem</Path>
-						</File>
 						<File Id="295020058" Language="SFX">
 							<ShortName>Male_Voice_1\Character_13\CH13_1.wav</ShortName>
 							<Path>SFX/Male_Voice_1/Character_13/CH13_1_2EB68A41.wem</Path>
 						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2076754096" Name="Male1_Hurry" ObjectPath="\Events\Default Work Unit\Dialogue\Male 1\Male1_Hurry" MaxAttenuation="30.000000" DurationType="OneShot" DurationMin="6.398160" DurationMax="8.061177">
+					<IncludedMemoryFiles>
 						<File Id="344557462" Language="SFX">
 							<ShortName>Male_Voice_1\Character_13\CH13_2.wav</ShortName>
-							<Path>SFX/Male_Voice_1/Character_13/CH13_2_2EB68A41.wem</Path>
+							<Path>SFX/Male_Voice_1/Character_13/CH13_2_B9AA7A01.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="929826778" Name="Char_2" ObjectPath="\Events\Default Work Unit\Dialogue\Male 1\Char_2" DurationType="OneShot" DurationMin="2.014208" DurationMax="2.904729">
+				<Event Id="971951693" Name="Male1_Thanks" ObjectPath="\Events\Default Work Unit\Dialogue\Male 1\Male1_Thanks" MaxAttenuation="30.000000" DurationType="OneShot" DurationMin="2.070641" DurationMax="2.478884">
 					<IncludedMemoryFiles>
-						<File Id="489395153" Language="SFX">
-							<ShortName>Male_Voice_1\Character_14\CH14_2.wav</ShortName>
-							<Path>SFX/Male_Voice_1/Character_14/CH14_2_2EB68A41.wem</Path>
-						</File>
-						<File Id="570000591" Language="SFX">
-							<ShortName>Male_Voice_1\Character_14\CH14_3.wav</ShortName>
-							<Path>SFX/Male_Voice_1/Character_14/CH14_3_2EB68A41.wem</Path>
+						<File Id="166192271" Language="SFX">
+							<ShortName>Male_Voice_1\Character_13\CH13_3.wav</ShortName>
+							<Path>SFX/Male_Voice_1/Character_13/CH13_3_FA8E6568.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="729594357" Name="Male2char1" ObjectPath="\Events\Default Work Unit\Dialogue\Male 2\Male2char1" DurationType="OneShot" DurationMin="2.537271" DurationMax="3.079833">
+				<Event Id="3731104210" Name="Male2_Greeting" ObjectPath="\Events\Default Work Unit\Dialogue\Male 2\Male2_Greeting" MaxAttenuation="30.000000" DurationType="OneShot" DurationMin="4.564250" DurationMax="4.564250">
 					<IncludedMemoryFiles>
-						<File Id="21987328" Language="SFX">
-							<ShortName>Male_Voice_2\Character_1\Ch1_3.wav</ShortName>
-							<Path>SFX/Male_Voice_2/Character_1/Ch1_3_2EB68A41.wem</Path>
-						</File>
-						<File Id="198885303" Language="SFX">
-							<ShortName>Male_Voice_2\Character_1\Ch1_2.wav</ShortName>
-							<Path>SFX/Male_Voice_2/Character_1/Ch1_2_2EB68A41.wem</Path>
-						</File>
-						<File Id="999151018" Language="SFX">
-							<ShortName>Male_Voice_2\Character_1\Ch1_1.wav</ShortName>
-							<Path>SFX/Male_Voice_2/Character_1/Ch1_1_2EB68A41.wem</Path>
-						</File>
-					</IncludedMemoryFiles>
-				</Event>
-				<Event Id="729594358" Name="Male2char2" ObjectPath="\Events\Default Work Unit\Dialogue\Male 2\Male2char2" DurationType="OneShot" DurationMin="3.883063" DurationMax="4.688063">
-					<IncludedMemoryFiles>
-						<File Id="153830027" Language="SFX">
-							<ShortName>Male_Voice_2\Character_2\CH2_2.wav</ShortName>
-							<Path>SFX/Male_Voice_2/Character_2/CH2_2_2EB68A41.wem</Path>
-						</File>
-						<File Id="732248451" Language="SFX">
-							<ShortName>Male_Voice_2\Character_2\CH2_3.wav</ShortName>
-							<Path>SFX/Male_Voice_2/Character_2/CH2_3_2EB68A41.wem</Path>
-						</File>
 						<File Id="884183506" Language="SFX">
 							<ShortName>Male_Voice_2\Character_2\CH2_1.wav</ShortName>
 							<Path>SFX/Male_Voice_2/Character_2/CH2_1_2EB68A41.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="729594359" Name="Male2char3" ObjectPath="\Events\Default Work Unit\Dialogue\Male 2\Male2char3" DurationType="OneShot" DurationMin="2.925083" DurationMax="5.792459">
+				<Event Id="3258761843" Name="Male2_Hurry" ObjectPath="\Events\Default Work Unit\Dialogue\Male 2\Male2_Hurry" MaxAttenuation="30.000000" DurationType="OneShot" DurationMin="3.883063" DurationMax="3.883063">
 					<IncludedMemoryFiles>
-						<File Id="512004796" Language="SFX">
-							<ShortName>Male_Voice_2\Character_3\CH3_1.wav</ShortName>
-							<Path>SFX/Male_Voice_2/Character_3/CH3_1_2EB68A41.wem</Path>
-						</File>
-						<File Id="653165244" Language="SFX">
-							<ShortName>Male_Voice_2\Character_3\CH3_3.wav</ShortName>
-							<Path>SFX/Male_Voice_2/Character_3/CH3_3_2EB68A41.wem</Path>
-						</File>
-						<File Id="941943972" Language="SFX">
-							<ShortName>Male_Voice_2\Character_3\CH3_2.wav</ShortName>
-							<Path>SFX/Male_Voice_2/Character_3/CH3_2_2EB68A41.wem</Path>
+						<File Id="153830027" Language="SFX">
+							<ShortName>Male_Voice_2\Character_2\CH2_2.wav</ShortName>
+							<Path>SFX/Male_Voice_2/Character_2/CH2_2_2EB68A41.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="729594352" Name="Male2char4" ObjectPath="\Events\Default Work Unit\Dialogue\Male 2\Male2char4" DurationType="OneShot" DurationMin="2.540062" DurationMax="3.320229">
+				<Event Id="458420016" Name="Male2_Thanks" ObjectPath="\Events\Default Work Unit\Dialogue\Male 2\Male2_Thanks" MaxAttenuation="30.000000" DurationType="OneShot" DurationMin="5.188063" DurationMax="5.188063">
 					<IncludedMemoryFiles>
-						<File Id="269194282" Language="SFX">
-							<ShortName>Male_Voice_2\Character_4\CH4_3.wav</ShortName>
-							<Path>SFX/Male_Voice_2/Character_4/CH4_3_2EB68A41.wem</Path>
-						</File>
-						<File Id="833177707" Language="SFX">
-							<ShortName>Male_Voice_2\Character_4\CH4_1.wav</ShortName>
-							<Path>SFX/Male_Voice_2/Character_4/CH4_1_2EB68A41.wem</Path>
-						</File>
-						<File Id="843430338" Language="SFX">
-							<ShortName>Male_Voice_2\Character_4\CH4_2.wav</ShortName>
-							<Path>SFX/Male_Voice_2/Character_4/CH4_2_2EB68A41.wem</Path>
-						</File>
-					</IncludedMemoryFiles>
-				</Event>
-				<Event Id="729594353" Name="Male2char5" ObjectPath="\Events\Default Work Unit\Dialogue\Male 2\Male2char5" DurationType="OneShot" DurationMin="3.330375" DurationMax="6.311521">
-					<IncludedMemoryFiles>
-						<File Id="245354523" Language="SFX">
-							<ShortName>Male_Voice_2\Character_5\CH5_1.wav</ShortName>
-							<Path>SFX/Male_Voice_2/Character_5/CH5_1_2EB68A41.wem</Path>
-						</File>
-						<File Id="878493618" Language="SFX">
-							<ShortName>Male_Voice_2\Character_5\CH5_3.wav</ShortName>
-							<Path>SFX/Male_Voice_2/Character_5/CH5_3_2EB68A41.wem</Path>
-						</File>
-						<File Id="891908739" Language="SFX">
-							<ShortName>Male_Voice_2\Character_5\CH5_2.wav</ShortName>
-							<Path>SFX/Male_Voice_2/Character_5/CH5_2_2EB68A41.wem</Path>
+						<File Id="732248451" Language="SFX">
+							<ShortName>Male_Voice_2\Character_2\CH2_3.wav</ShortName>
+							<Path>SFX/Male_Voice_2/Character_2/CH2_3_2EB68A41.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
