@@ -71,5 +71,41 @@ public class PlayAreaAxisMovement : MonoBehaviour
 
 
         }
+
+        else if (RightVerticalMovement > 0.05f)
+        {
+            oldPosition = this.transform.position;
+            headsetRotation = Camera.main.transform.forward;
+            headsetRotation.y = 0;
+
+            newPosition = oldPosition - (headsetRotation * moveSpeed);
+            blockedByObject = Physics.Linecast(oldPosition, newPosition, playerLayerMask);
+            if (blockedByObject)
+            {
+                while (blockedByObject && (moveSpeed > 1))
+                {
+                    moveSpeed -= 0.5f;
+                    if (moveSpeed < 1)
+                    {
+                        return;
+                    }
+                    newPosition = oldPosition - (headsetRotation * moveSpeed);
+                    blockedByObject = Physics.Linecast(oldPosition, newPosition, playerLayerMask);
+                    if (!blockedByObject)
+                    {
+                        this.transform.position -= headsetRotation * moveSpeed * Time.deltaTime;
+                        return;
+                    }
+                }
+            }
+
+            //Debug.Log("blocked? : " + blockedByObject);
+            else
+            {
+                this.transform.position -= headsetRotation * moveSpeed * Time.deltaTime;
+            }
+
+
+        }
     }
 }
