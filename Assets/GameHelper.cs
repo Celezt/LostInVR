@@ -7,7 +7,7 @@ public class GameHelper : MonoBehaviour
     public int MaxGameTime = 120;
 
     // Start is called before the first frame update
-    void Start()
+    void Awake()
     {
         GameLoopManager.Instance.MaxGameTime = MaxGameTime;
         GameLoopManager.Instance.ResetScene();

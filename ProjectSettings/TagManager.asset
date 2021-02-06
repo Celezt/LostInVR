@@ -10,6 +10,7 @@ TagManager:
   - PlayerNonVRCamera
   - GameLoopManager
   - Menu
+  - ExcludeTeleport
   layers:
   - Default
   - TransparentFX
