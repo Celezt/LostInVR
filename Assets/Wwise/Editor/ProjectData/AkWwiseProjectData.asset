@@ -1133,6 +1133,7 @@ MonoBehaviour:
   - /Lost in VR
   - /Lost in VR/Events
   - /Lost in VR/Events/Default Work Unit
-  - /Lost in VR/Events/Default Work Unit/SFX
+  - /Lost in VR/Events/Default Work Unit/Dialogue
+  - /Lost in VR/Events/Default Work Unit/Dialogue/Male 1
   autoPopulateEnabled: 1
   CurrentPluginConfig: 
