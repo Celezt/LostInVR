@@ -7,8 +7,8 @@
   <GenerateSoundBanksAsPreBuildStep>false</GenerateSoundBanksAsPreBuildStep>
   <ShowMissingRigidBodyWarning>true</ShowMissingRigidBodyWarning>
   <ShowSpatialAudioWarningMsg>true</ShowSpatialAudioWarningMsg>
-  <SoundbankPath>Audio</SoundbankPath>
+  <SoundbankPath>Audio/GeneratedSoundBanks</SoundbankPath>
   <WwiseInstallationPathMac>/Volumes/WORK_20/Gaming/Wwise V 2019.2.9.7/Wwise.app</WwiseInstallationPathMac>
   <WwiseInstallationPathWindows />
-  <WwiseProjectPath>../../../escape room vr wwise/WwiseVRProj - Ieva/Lost in VR.wproj</WwiseProjectPath>
+  <WwiseProjectPath>../../../../Downloads/WwiseVRProj - Ieva/WwiseVRProj - Ieva/Lost in VR.wproj</WwiseProjectPath>
 </WwiseSettings>
