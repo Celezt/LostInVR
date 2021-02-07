@@ -96,7 +96,7 @@ public class NonVRGrabMechanic : MonoBehaviour
                     _itemTransform = Item.transform;
 
                     AttachItem();
-                    PlayRandomAudioGrab();
+                    AkSoundEngine.PostEvent("Item_Slide", gameObject);
                 }
             }
         }
