@@ -8,7 +8,7 @@
   <ShowMissingRigidBodyWarning>true</ShowMissingRigidBodyWarning>
   <ShowSpatialAudioWarningMsg>true</ShowSpatialAudioWarningMsg>
   <SoundbankPath>Audio/GeneratedSoundBanks</SoundbankPath>
-  <WwiseInstallationPathMac>/Volumes/WORK_20/Gaming/Wwise V 2019.2.9.7/Wwise.app</WwiseInstallationPathMac>
+  <WwiseInstallationPathMac>/Applications/Audiokinetic/Wwise 2019.2.9.7459/Wwise.app</WwiseInstallationPathMac>
   <WwiseInstallationPathWindows />
-  <WwiseProjectPath>../../../../Downloads/WwiseVRProj - Ieva/WwiseVRProj - Ieva/Lost in VR.wproj</WwiseProjectPath>
+  <WwiseProjectPath>../../Wwise/Lost in VR - Wwise Project/Lost in VR.wproj</WwiseProjectPath>
 </WwiseSettings>

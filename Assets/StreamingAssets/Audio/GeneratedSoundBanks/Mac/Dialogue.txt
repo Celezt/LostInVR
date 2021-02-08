@@ -11,10 +11,10 @@ Event	ID	Name			Wwise Object Path	Notes
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	153830027	Male2_Hurry	Y:\Documents\GitHub\Wwise\Lost in VR - Wwise Project\.cache\Mac\SFX\Male_Voice_2\Character_2\CH2_2_2EB68A41.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Male_Voice_2\Male 2\Male2_Hurry		39161
-	166192271	Male1_Thanks	Y:\Documents\GitHub\Wwise\Lost in VR - Wwise Project\.cache\Mac\SFX\Male_Voice_1\Character_13\CH13_3_FA8E6568.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Male_Voice_1\Male 1\Male1_Thanks		17649
+	166192271	Male1_Thanks	Y:\Documents\GitHub\Wwise\Lost in VR - Wwise Project\.cache\Mac\SFX\Male_Voice_1\Character_13\CH13_3_D08C41B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Male_Voice_1\Male 1\Male1_Thanks		17649
 	167981095	Female_Hello	Y:\Documents\GitHub\Wwise\Lost in VR - Wwise Project\.cache\Mac\SFX\Fem_Voice_1\Character_15\CH15_1_2EB68A41.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Fem_Voice_1\Female1\Female_Hello		42446
 	295020058	Male1_Hello	Y:\Documents\GitHub\Wwise\Lost in VR - Wwise Project\.cache\Mac\SFX\Male_Voice_1\Character_13\CH13_1_2EB68A41.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Male_Voice_1\Male 1\Male1_Hello		19313
-	344557462	Male1_Hurry	Y:\Documents\GitHub\Wwise\Lost in VR - Wwise Project\.cache\Mac\SFX\Male_Voice_1\Character_13\CH13_2_B9AA7A01.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Male_Voice_1\Male 1\Male1_Hurry		83691
+	344557462	Male1_Hurry	Y:\Documents\GitHub\Wwise\Lost in VR - Wwise Project\.cache\Mac\SFX\Male_Voice_1\Character_13\CH13_2_3A88FB0B.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Male_Voice_1\Male 1\Male1_Hurry		83691
 	460113114	Female_Hurry	Y:\Documents\GitHub\Wwise\Lost in VR - Wwise Project\.cache\Mac\SFX\Fem_Voice_1\Character_15\CH15_2_2EB68A41.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Fem_Voice_1\Female1\Female_Hurry		25791
 	732248451	Male2_Thanks	Y:\Documents\GitHub\Wwise\Lost in VR - Wwise Project\.cache\Mac\SFX\Male_Voice_2\Character_2\CH2_3_2EB68A41.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Male_Voice_2\Male 2\Male2_Thanks		47946
 	884183506	Male2_Hello	Y:\Documents\GitHub\Wwise\Lost in VR - Wwise Project\.cache\Mac\SFX\Male_Voice_2\Character_2\CH2_1_2EB68A41.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Male_Voice_2\Male 2\Male2_Hello		44737

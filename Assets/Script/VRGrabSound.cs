@@ -18,6 +18,6 @@ public class VRGrabSound : MonoBehaviour
 
     public void PlayGrabSound()
     {
-        AkSoundEngine.PostEvent("Footsteps", gameObject);
+        AkSoundEngine.PostEvent("Item_slide", gameObject);
     }
 }

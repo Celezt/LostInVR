@@ -65,6 +65,7 @@ public class GameLoopManager : Singleton <GameLoopManager>
 
                 if (currentGameTimeRemaining <= 0)
                 {
+                    AkSoundEngine.PostEvent("Game_Over", gameObject);
                     DisplayGameOverMessage();
                     //GameObject.FindGameObjectWithTag("Menu").SetActive(true);
                     Client.SetActive(false);

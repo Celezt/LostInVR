@@ -11,56 +11,100 @@
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="393239870" Language="SFX" Hash="1548188232">
+		<SoundBank Id="393239870" Language="SFX" Hash="2772948775">
 			<ObjectPath>\SoundBanks\Default Work Unit\SFX</ObjectPath>
 			<ShortName>SFX</ShortName>
 			<Path>SFX.bnk</Path>
 			<IncludedEvents>
-				<Event Id="85412153" Name="Ambience" ObjectPath="\Events\Default Work Unit\SFX\Ambience" DurationType="OneShot" DurationMin="20.000000" DurationMax="20.000000">
+				<Event Id="85412153" Name="Ambience" ObjectPath="\Events\Default Work Unit\SFX\Ambience" MaxAttenuation="20.000000" DurationType="Infinite">
 					<IncludedMemoryFiles>
-						<File Id="1001952878" Language="SFX">
+						<File Id="562444347" Language="SFX">
 							<ShortName>Ambience_Loop.wav</ShortName>
-							<Path>SFX/Ambience_Loop_2EB68A41.wem</Path>
+							<Path>SFX/Ambience_Loop_1EDAEB4F.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="2754669738" Name="Book_fall" ObjectPath="\Events\Default Work Unit\SFX\Book_fall" DurationType="OneShot" DurationMin="1.371500" DurationMax="1.787458">
+				<Event Id="442447909" Name="Barrel" ObjectPath="\Events\Default Work Unit\SFX\Barrel" MaxAttenuation="10.000000" DurationType="OneShot" DurationMin="3.454750" DurationMax="5.285604">
 					<IncludedMemoryFiles>
-						<File Id="2630238" Language="SFX">
-							<ShortName>Books Fall\Books fall-001.wav</ShortName>
-							<Path>SFX/Books Fall/Books fall-001_2EB68A41.wem</Path>
+						<File Id="98808049" Language="SFX">
+							<ShortName>Barrel_1.wav</ShortName>
+							<Path>SFX/Barrel_1_2EB68A41.wem</Path>
 						</File>
-						<File Id="54740903" Language="SFX">
-							<ShortName>Books Fall\Books fall-003.wav</ShortName>
-							<Path>SFX/Books Fall/Books fall-003_2EB68A41.wem</Path>
+						<File Id="131456918" Language="SFX">
+							<ShortName>Barrel_2.wav</ShortName>
+							<Path>SFX/Barrel_2_2EB68A41.wem</Path>
 						</File>
-						<File Id="115137587" Language="SFX">
-							<ShortName>Books Fall\Books fall-007.wav</ShortName>
-							<Path>SFX/Books Fall/Books fall-007_2EB68A41.wem</Path>
-						</File>
-						<File Id="594206680" Language="SFX">
-							<ShortName>Books Fall\Books fall-004.wav</ShortName>
-							<Path>SFX/Books Fall/Books fall-004_2EB68A41.wem</Path>
-						</File>
-						<File Id="621719383" Language="SFX">
-							<ShortName>Books Fall\Books fall-002.wav</ShortName>
-							<Path>SFX/Books Fall/Books fall-002_2EB68A41.wem</Path>
-						</File>
-						<File Id="717901879" Language="SFX">
-							<ShortName>Books Fall\Books fall-006.wav</ShortName>
-							<Path>SFX/Books Fall/Books fall-006_2EB68A41.wem</Path>
-						</File>
-						<File Id="879494859" Language="SFX">
-							<ShortName>Books Fall\Books fall-008.wav</ShortName>
-							<Path>SFX/Books Fall/Books fall-008_2EB68A41.wem</Path>
-						</File>
-						<File Id="981516968" Language="SFX">
-							<ShortName>Books Fall\Books fall-005.wav</ShortName>
-							<Path>SFX/Books Fall/Books fall-005_2EB68A41.wem</Path>
+						<File Id="480016233" Language="SFX">
+							<ShortName>Barrel_3.wav</ShortName>
+							<Path>SFX/Barrel_3_2EB68A41.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="2389286304" Name="Book_slide" ObjectPath="\Events\Default Work Unit\SFX\Book_slide" DurationType="OneShot" DurationMin="1.235104" DurationMax="1.672812">
+				<Event Id="2698747613" Name="Button_Press" ObjectPath="\Events\Default Work Unit\SFX\Button_Press" MaxAttenuation="10.000000" DurationType="OneShot" DurationMin="2.000000" DurationMax="2.000000">
+					<IncludedMemoryFiles>
+						<File Id="1059233455" Language="SFX">
+							<ShortName>Button_Press.wav</ShortName>
+							<Path>SFX/Button_Press_2EB68A41.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3600872739" Name="Crates_Fall" ObjectPath="\Events\Default Work Unit\SFX\Crates_Fall" MaxAttenuation="10.000000" DurationType="OneShot" DurationMin="1.228938" DurationMax="1.877542">
+					<IncludedMemoryFiles>
+						<File Id="369894712" Language="SFX">
+							<ShortName>Crate_2.wav</ShortName>
+							<Path>SFX/Crate_2_2EB68A41.wem</Path>
+						</File>
+						<File Id="424881583" Language="SFX">
+							<ShortName>Crate_3.wav</ShortName>
+							<Path>SFX/Crate_3_2EB68A41.wem</Path>
+						</File>
+						<File Id="589035157" Language="SFX">
+							<ShortName>Crate_1.wav</ShortName>
+							<Path>SFX/Crate_1_2EB68A41.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3250089732" Name="Electric" ObjectPath="\Events\Default Work Unit\SFX\Electric" MaxAttenuation="10.000000" DurationType="OneShot" DurationMin="5.640104" DurationMax="5.640104">
+					<IncludedMemoryFiles>
+						<File Id="399045153" Language="SFX">
+							<ShortName>Electric_Shutter.wav</ShortName>
+							<Path>SFX/Electric_Shutter_2EB68A41.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2385628198" Name="Footsteps" ObjectPath="\Events\Default Work Unit\SFX\Footsteps" MaxAttenuation="10.000000" DurationType="OneShot" DurationMin="0.168980" DurationMax="0.192630">
+					<IncludedMemoryFiles>
+						<File Id="54805131" Language="SFX">
+							<ShortName>Footsteps\Footsteps_2.wav</ShortName>
+							<Path>SFX/Footsteps/Footsteps_2_2EB68A41.wem</Path>
+						</File>
+						<File Id="159817621" Language="SFX">
+							<ShortName>Footsteps\Footsteps_1.wav</ShortName>
+							<Path>SFX/Footsteps/Footsteps_1_2EB68A41.wem</Path>
+						</File>
+						<File Id="579848758" Language="SFX">
+							<ShortName>Footsteps\Footsteps_5.wav</ShortName>
+							<Path>SFX/Footsteps/Footsteps_5_2EB68A41.wem</Path>
+						</File>
+						<File Id="595976674" Language="SFX">
+							<ShortName>Footsteps\Footsteps_4.wav</ShortName>
+							<Path>SFX/Footsteps/Footsteps_4_2EB68A41.wem</Path>
+						</File>
+						<File Id="734199645" Language="SFX">
+							<ShortName>Footsteps\Footsteps_3.wav</ShortName>
+							<Path>SFX/Footsteps/Footsteps_3_2EB68A41.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1432716332" Name="Game_Over" ObjectPath="\Events\Default Work Unit\SFX\Game_Over" MaxAttenuation="10.000000" DurationType="OneShot" DurationMin="3.500000" DurationMax="3.500000">
+					<IncludedMemoryFiles>
+						<File Id="275684024" Language="SFX">
+							<ShortName>GameOver.wav</ShortName>
+							<Path>SFX/GameOver_2EB68A41.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1282961282" Name="Item_slide" ObjectPath="\Events\Default Work Unit\SFX\Item_slide" MaxAttenuation="10.000000" DurationType="OneShot" DurationMin="1.442396" DurationMax="1.672812">
 					<IncludedMemoryFiles>
 						<File Id="362164956" Language="SFX">
 							<ShortName>Book Slide\book slide-003.wav</ShortName>
@@ -86,162 +130,18 @@
 							<ShortName>Book Slide\book slide-007.wav</ShortName>
 							<Path>SFX/Book Slide/book slide-007_2EB68A41.wem</Path>
 						</File>
-						<File Id="1002419050" Language="SFX">
-							<ShortName>Book Slide\book slide-005.wav</ShortName>
-							<Path>SFX/Book Slide/book slide-005_2EB68A41.wem</Path>
-						</File>
 						<File Id="1026235709" Language="SFX">
 							<ShortName>Book Slide\book slide-008.wav</ShortName>
 							<Path>SFX/Book Slide/book slide-008_2EB68A41.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="4238452446" Name="Bottle_handle" ObjectPath="\Events\Default Work Unit\SFX\Bottle_handle" DurationType="OneShot" DurationMin="1.996396" DurationMax="2.379292">
+				<Event Id="1063352154" Name="Lights_on" ObjectPath="\Events\Default Work Unit\SFX\Lights_on" MaxAttenuation="5.000000" DurationType="Infinite">
 					<IncludedMemoryFiles>
-						<File Id="115450837" Language="SFX">
-							<ShortName>BottleHandle\bottle handle-003.wav</ShortName>
-							<Path>SFX/BottleHandle/bottle handle-003_2EB68A41.wem</Path>
+						<File Id="539821053" Language="SFX">
+							<ShortName>Light_On_Loop.wav</ShortName>
+							<Path>SFX/Light_On_Loop_1EDAEB4F.wem</Path>
 						</File>
-						<File Id="420535633" Language="SFX">
-							<ShortName>BottleHandle\bottle handle-005.wav</ShortName>
-							<Path>SFX/BottleHandle/bottle handle-005_2EB68A41.wem</Path>
-						</File>
-						<File Id="599360314" Language="SFX">
-							<ShortName>BottleHandle\bottle handle-001.wav</ShortName>
-							<Path>SFX/BottleHandle/bottle handle-001_2EB68A41.wem</Path>
-						</File>
-						<File Id="968106665" Language="SFX">
-							<ShortName>BottleHandle\bottle handle-002.wav</ShortName>
-							<Path>SFX/BottleHandle/bottle handle-002_2EB68A41.wem</Path>
-						</File>
-						<File Id="1049413072" Language="SFX">
-							<ShortName>BottleHandle\bottle handle-004.wav</ShortName>
-							<Path>SFX/BottleHandle/bottle handle-004_2EB68A41.wem</Path>
-						</File>
-					</IncludedMemoryFiles>
-				</Event>
-				<Event Id="2835074293" Name="Bottle_Place" ObjectPath="\Events\Default Work Unit\SFX\Bottle_Place" DurationType="OneShot" DurationMin="1.362625" DurationMax="1.799854">
-					<IncludedMemoryFiles>
-						<File Id="220403463" Language="SFX">
-							<ShortName>BottlePlace\bottle put back-002.wav</ShortName>
-							<Path>SFX/BottlePlace/bottle put back-002_2EB68A41.wem</Path>
-						</File>
-						<File Id="391811938" Language="SFX">
-							<ShortName>BottlePlace\bottle put back-001.wav</ShortName>
-							<Path>SFX/BottlePlace/bottle put back-001_2EB68A41.wem</Path>
-						</File>
-						<File Id="702134655" Language="SFX">
-							<ShortName>BottlePlace\bottle put back-003.wav</ShortName>
-							<Path>SFX/BottlePlace/bottle put back-003_2EB68A41.wem</Path>
-						</File>
-					</IncludedMemoryFiles>
-				</Event>
-				<Event Id="404220387" Name="Bottle_Slide" ObjectPath="\Events\Default Work Unit\SFX\Bottle_Slide" DurationType="OneShot" DurationMin="1.495813" DurationMax="2.260875">
-					<IncludedMemoryFiles>
-						<File Id="108329956" Language="SFX">
-							<ShortName>BottleSlide\bottle slide-006.wav</ShortName>
-							<Path>SFX/BottleSlide/bottle slide-006_2EB68A41.wem</Path>
-						</File>
-						<File Id="203900529" Language="SFX">
-							<ShortName>BottleSlide\bottle slide-008.wav</ShortName>
-							<Path>SFX/BottleSlide/bottle slide-008_2EB68A41.wem</Path>
-						</File>
-						<File Id="272492138" Language="SFX">
-							<ShortName>BottleSlide\bottle slide-007.wav</ShortName>
-							<Path>SFX/BottleSlide/bottle slide-007_2EB68A41.wem</Path>
-						</File>
-						<File Id="371599600" Language="SFX">
-							<ShortName>BottleSlide\bottle slide-001.wav</ShortName>
-							<Path>SFX/BottleSlide/bottle slide-001_2EB68A41.wem</Path>
-						</File>
-						<File Id="554405034" Language="SFX">
-							<ShortName>BottleSlide\bottle slide-005.wav</ShortName>
-							<Path>SFX/BottleSlide/bottle slide-005_2EB68A41.wem</Path>
-						</File>
-						<File Id="583001350" Language="SFX">
-							<ShortName>BottleSlide\bottle slide-004.wav</ShortName>
-							<Path>SFX/BottleSlide/bottle slide-004_2EB68A41.wem</Path>
-						</File>
-						<File Id="817358467" Language="SFX">
-							<ShortName>BottleSlide\bottle slide-003.wav</ShortName>
-							<Path>SFX/BottleSlide/bottle slide-003_2EB68A41.wem</Path>
-						</File>
-						<File Id="875690428" Language="SFX">
-							<ShortName>BottleSlide\bottle slide-002.wav</ShortName>
-							<Path>SFX/BottleSlide/bottle slide-002_2EB68A41.wem</Path>
-						</File>
-					</IncludedMemoryFiles>
-				</Event>
-				<Event Id="3250089732" Name="Electric" ObjectPath="\Events\Default Work Unit\SFX\Electric" DurationType="OneShot" DurationMin="5.640104" DurationMax="5.640104">
-					<IncludedMemoryFiles>
-						<File Id="399045153" Language="SFX">
-							<ShortName>Electric_Shutter.wav</ShortName>
-							<Path>SFX/Electric_Shutter_2EB68A41.wem</Path>
-						</File>
-					</IncludedMemoryFiles>
-				</Event>
-				<Event Id="2385628198" Name="Footsteps" ObjectPath="\Events\Default Work Unit\SFX\Footsteps" DurationType="OneShot" DurationMin="0.168980" DurationMax="0.192630">
-					<IncludedMemoryFiles>
-						<File Id="54805131" Language="SFX">
-							<ShortName>Footsteps\Footsteps_2.wav</ShortName>
-							<Path>SFX/Footsteps/Footsteps_2_2EB68A41.wem</Path>
-						</File>
-						<File Id="159817621" Language="SFX">
-							<ShortName>Footsteps\Footsteps_1.wav</ShortName>
-							<Path>SFX/Footsteps/Footsteps_1_2EB68A41.wem</Path>
-						</File>
-						<File Id="579848758" Language="SFX">
-							<ShortName>Footsteps\Footsteps_5.wav</ShortName>
-							<Path>SFX/Footsteps/Footsteps_5_2EB68A41.wem</Path>
-						</File>
-						<File Id="595976674" Language="SFX">
-							<ShortName>Footsteps\Footsteps_4.wav</ShortName>
-							<Path>SFX/Footsteps/Footsteps_4_2EB68A41.wem</Path>
-						</File>
-						<File Id="734199645" Language="SFX">
-							<ShortName>Footsteps\Footsteps_3.wav</ShortName>
-							<Path>SFX/Footsteps/Footsteps_3_2EB68A41.wem</Path>
-						</File>
-					</IncludedMemoryFiles>
-				</Event>
-				<Event Id="3533305262" Name="Glass_Bottle_fall" ObjectPath="\Events\Default Work Unit\SFX\Glass_Bottle_fall" DurationType="OneShot" DurationMin="1.482771" DurationMax="3.452563">
-					<IncludedMemoryFiles>
-						<File Id="142961642" Language="SFX">
-							<ShortName>GlassBottleFall\glass bottle fall-003.wav</ShortName>
-							<Path>SFX/GlassBottleFall/glass bottle fall-003_2EB68A41.wem</Path>
-						</File>
-						<File Id="297055895" Language="SFX">
-							<ShortName>GlassBottleFall\glass bottle fall-002.wav</ShortName>
-							<Path>SFX/GlassBottleFall/glass bottle fall-002_2EB68A41.wem</Path>
-						</File>
-						<File Id="478956675" Language="SFX">
-							<ShortName>GlassBottleFall\glass bottle fall-001.wav</ShortName>
-							<Path>SFX/GlassBottleFall/glass bottle fall-001_2EB68A41.wem</Path>
-						</File>
-						<File Id="534932078" Language="SFX">
-							<ShortName>GlassBottleFall\glass bottle fall-005.wav</ShortName>
-							<Path>SFX/GlassBottleFall/glass bottle fall-005_2EB68A41.wem</Path>
-						</File>
-						<File Id="730511709" Language="SFX">
-							<ShortName>GlassBottleFall\glass bottle fall-004.wav</ShortName>
-							<Path>SFX/GlassBottleFall/glass bottle fall-004_2EB68A41.wem</Path>
-						</File>
-						<File Id="1009506895" Language="SFX">
-							<ShortName>GlassBottleFall\glass bottle fall-006.wav</ShortName>
-							<Path>SFX/GlassBottleFall/glass bottle fall-006_2EB68A41.wem</Path>
-						</File>
-					</IncludedMemoryFiles>
-				</Event>
-				<Event Id="3647759603" Name="Heavy_items" ObjectPath="\Events\Default Work Unit\SFX\Heavy_items" DurationType="OneShot" DurationMin="0.963479" DurationMax="0.963479">
-					<IncludedMemoryFiles>
-						<File Id="110915223" Language="SFX">
-							<ShortName>HeavyItemsFall.wav</ShortName>
-							<Path>SFX/HeavyItemsFall_2EB68A41.wem</Path>
-						</File>
-					</IncludedMemoryFiles>
-				</Event>
-				<Event Id="1063352154" Name="Lights_on" ObjectPath="\Events\Default Work Unit\SFX\Lights_on" DurationType="OneShot" DurationMin="3.819521" DurationMax="4.029083">
-					<IncludedMemoryFiles>
 						<File Id="793105954" Language="SFX">
 							<ShortName>LightOn\Light_On-001.wav</ShortName>
 							<Path>SFX/LightOn/Light_On-001_2EB68A41.wem</Path>
@@ -252,27 +152,47 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="276558634" Name="Plastic_bottle_fall" ObjectPath="\Events\Default Work Unit\SFX\Plastic_bottle_fall" DurationType="OneShot" DurationMin="2.098958" DurationMax="2.913917">
+				<Event Id="2392114782" Name="Pallets" ObjectPath="\Events\Default Work Unit\SFX\Pallets" MaxAttenuation="10.000000" DurationType="OneShot" DurationMin="0.938625" DurationMax="1.601134">
 					<IncludedMemoryFiles>
-						<File Id="103686223" Language="SFX">
-							<ShortName>PlasticBottleFall\Plastic_Bottle_Fall-003.wav</ShortName>
-							<Path>SFX/PlasticBottleFall/Plastic_Bottle_Fall-003_2EB68A41.wem</Path>
+						<File Id="4191324" Language="SFX">
+							<ShortName>Pallet_1.wav</ShortName>
+							<Path>SFX/Pallet_1_2EB68A41.wem</Path>
 						</File>
-						<File Id="287136782" Language="SFX">
-							<ShortName>PlasticBottleFall\Plastic_Bottle_Fall-004.wav</ShortName>
-							<Path>SFX/PlasticBottleFall/Plastic_Bottle_Fall-004_2EB68A41.wem</Path>
+						<File Id="500356379" Language="SFX">
+							<ShortName>Pallet_3.wav</ShortName>
+							<Path>SFX/Pallet_3_2EB68A41.wem</Path>
 						</File>
-						<File Id="920184399" Language="SFX">
-							<ShortName>PlasticBottleFall\Plastic_Bottle_Fall-002.wav</ShortName>
-							<Path>SFX/PlasticBottleFall/Plastic_Bottle_Fall-002_2EB68A41.wem</Path>
+						<File Id="813226235" Language="SFX">
+							<ShortName>Pallet_2.wav</ShortName>
+							<Path>SFX/Pallet_2_2EB68A41.wem</Path>
 						</File>
-						<File Id="1011085861" Language="SFX">
-							<ShortName>PlasticBottleFall\Plastic_Bottle_Fall-001.wav</ShortName>
-							<Path>SFX/PlasticBottleFall/Plastic_Bottle_Fall-001_2EB68A41.wem</Path>
+						<File Id="912719435" Language="SFX">
+							<ShortName>Pallet_4.wav</ShortName>
+							<Path>SFX/Pallet_4_2EB68A41.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="3625060726" Name="Success" ObjectPath="\Events\Default Work Unit\SFX\Success" DurationType="OneShot" DurationMin="1.675083" DurationMax="2.443938">
+				<Event Id="1204143103" Name="Shelves" ObjectPath="\Events\Default Work Unit\SFX\Shelves" DurationType="OneShot" DurationMin="1.826167" DurationMax="2.981563">
+					<IncludedMemoryFiles>
+						<File Id="83012511" Language="SFX">
+							<ShortName>Shelves_1.wav</ShortName>
+							<Path>SFX/Shelves_1_2EB68A41.wem</Path>
+						</File>
+						<File Id="215304839" Language="SFX">
+							<ShortName>Shelves_3.wav</ShortName>
+							<Path>SFX/Shelves_3_2EB68A41.wem</Path>
+						</File>
+						<File Id="226251224" Language="SFX">
+							<ShortName>Shelves_2.wav</ShortName>
+							<Path>SFX/Shelves_2_2EB68A41.wem</Path>
+						</File>
+						<File Id="368789376" Language="SFX">
+							<ShortName>Shelves_4.wav</ShortName>
+							<Path>SFX/Shelves_4_2EB68A41.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3625060726" Name="Success" ObjectPath="\Events\Default Work Unit\SFX\Success" MaxAttenuation="10.000000" DurationType="OneShot" DurationMin="1.675083" DurationMax="2.443938">
 					<IncludedMemoryFiles>
 						<File Id="91309965" Language="SFX">
 							<ShortName>Success\Success_1.wav</ShortName>
@@ -284,20 +204,27 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="1746749826" Name="Suitcase_fall" ObjectPath="\Events\Default Work Unit\SFX\Suitcase_fall" DurationType="OneShot" DurationMin="1.777917" DurationMax="1.907063">
+				<Event Id="745179803" Name="Throw" ObjectPath="\Events\Default Work Unit\SFX\Throw" MaxAttenuation="10.000000" DurationType="OneShot" DurationMin="1.745521" DurationMax="3.016453">
 					<IncludedMemoryFiles>
-						<File Id="301296110" Language="SFX">
-							<ShortName>SuitcaseFall\suitcase fall-001.wav</ShortName>
-							<Path>SFX/SuitcaseFall/suitcase fall-001_2EB68A41.wem</Path>
+						<File Id="33881962" Language="SFX">
+							<ShortName>Throw_1.wav</ShortName>
+							<Path>SFX/Throw_1_2EB68A41.wem</Path>
 						</File>
-						<File Id="665447451" Language="SFX">
-							<ShortName>SuitcaseFall\suitcase fall-002.wav</ShortName>
-							<Path>SFX/SuitcaseFall/suitcase fall-002_2EB68A41.wem</Path>
+						<File Id="268249038" Language="SFX">
+							<ShortName>Throw_2.wav</ShortName>
+							<Path>SFX/Throw_2_2EB68A41.wem</Path>
+						</File>
+						<File Id="637847295" Language="SFX">
+							<ShortName>Throw_3.wav</ShortName>
+							<Path>SFX/Throw_3_2EB68A41.wem</Path>
+						</File>
+						<File Id="846981203" Language="SFX">
+							<ShortName>Throw_4.wav</ShortName>
+							<Path>SFX/Throw_4_2EB68A41.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="3321983048" Name="Suitcase_roll" ObjectPath="\Events\Default Work Unit\SFX\Suitcase_roll" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
-				<Event Id="1735830099" Name="Time_running_out" ObjectPath="\Events\Default Work Unit\SFX\Time_running_out" DurationType="OneShot" DurationMin="10.500000" DurationMax="10.500000">
+				<Event Id="1735830099" Name="Time_running_out" ObjectPath="\Events\Default Work Unit\SFX\Time_running_out" MaxAttenuation="10.000000" DurationType="OneShot" DurationMin="10.500000" DurationMax="10.500000">
 					<IncludedMemoryFiles>
 						<File Id="531724387" Language="SFX">
 							<ShortName>TimeRunningOut_15_sec.wav</ShortName>
@@ -305,7 +232,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="1090822048" Name="Timer_ticking" ObjectPath="\Events\Default Work Unit\SFX\Timer_ticking" DurationType="OneShot" DurationMin="6.161396" DurationMax="6.161396">
+				<Event Id="1090822048" Name="Timer_ticking" ObjectPath="\Events\Default Work Unit\SFX\Timer_ticking" MaxAttenuation="10.000000" DurationType="OneShot" DurationMin="6.161396" DurationMax="6.161396">
 					<IncludedMemoryFiles>
 						<File Id="747744700" Language="SFX">
 							<ShortName>TimeTicking_Loop.wav</ShortName>
@@ -315,12 +242,15 @@
 				</Event>
 			</IncludedEvents>
 		</SoundBank>
-		<SoundBank Id="1355168291" Language="SFX" Hash="808099176">
+		<SoundBank Id="1355168291" Language="SFX" Hash="164147123">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
+			<IncludedAuxBusses>
+				<AuxBus Id="1340358820" Name="RoomReverb" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\RoomReverb"/>
+			</IncludedAuxBusses>
 		</SoundBank>
-		<SoundBank Id="3930136735" Language="SFX" Hash="2728737284">
+		<SoundBank Id="3930136735" Language="SFX" Hash="3738309292">
 			<ObjectPath>\SoundBanks\Default Work Unit\Dialogue</ObjectPath>
 			<ShortName>Dialogue</ShortName>
 			<Path>Dialogue.bnk</Path>
@@ -332,6 +262,9 @@
 							<Path>SFX/Fem_Voice_1/Character_15/CH15_1_2EB68A41.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="1340358820" Name="RoomReverb" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\RoomReverb"/>
+					</AuxBusSends>
 				</Event>
 				<Event Id="2145752286" Name="Female_Hurry" ObjectPath="\Events\Default Work Unit\Dialogue\Female Char\Female_Hurry" MaxAttenuation="30.000000" DurationType="OneShot" DurationMin="2.875580" DurationMax="3.623003">
 					<IncludedMemoryFiles>
@@ -340,6 +273,9 @@
 							<Path>SFX/Fem_Voice_1/Character_15/CH15_2_2EB68A41.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="1340358820" Name="RoomReverb" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\RoomReverb"/>
+					</AuxBusSends>
 				</Event>
 				<Event Id="2228376803" Name="Female_Thanks" ObjectPath="\Events\Default Work Unit\Dialogue\Female Char\Female_Thanks" MaxAttenuation="30.000000" DurationType="OneShot" DurationMin="4.552921" DurationMax="5.606360">
 					<IncludedMemoryFiles>
@@ -348,6 +284,9 @@
 							<Path>SFX/Fem_Voice_1/Character_15/CH15_3_2EB68A41.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="1340358820" Name="RoomReverb" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\RoomReverb"/>
+					</AuxBusSends>
 				</Event>
 				<Event Id="870050339" Name="Male1_Greeting" ObjectPath="\Events\Default Work Unit\Dialogue\Male 1\Male1_Greeting" MaxAttenuation="30.000000" DurationType="OneShot" DurationMin="2.274613" DurationMax="2.865833">
 					<IncludedMemoryFiles>
@@ -356,22 +295,31 @@
 							<Path>SFX/Male_Voice_1/Character_13/CH13_1_2EB68A41.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="1340358820" Name="RoomReverb" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\RoomReverb"/>
+					</AuxBusSends>
 				</Event>
 				<Event Id="2076754096" Name="Male1_Hurry" ObjectPath="\Events\Default Work Unit\Dialogue\Male 1\Male1_Hurry" MaxAttenuation="30.000000" DurationType="OneShot" DurationMin="6.398160" DurationMax="8.061177">
 					<IncludedMemoryFiles>
 						<File Id="344557462" Language="SFX">
 							<ShortName>Male_Voice_1\Character_13\CH13_2.wav</ShortName>
-							<Path>SFX/Male_Voice_1/Character_13/CH13_2_B9AA7A01.wem</Path>
+							<Path>SFX/Male_Voice_1/Character_13/CH13_2_3A88FB0B.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="1340358820" Name="RoomReverb" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\RoomReverb"/>
+					</AuxBusSends>
 				</Event>
 				<Event Id="971951693" Name="Male1_Thanks" ObjectPath="\Events\Default Work Unit\Dialogue\Male 1\Male1_Thanks" MaxAttenuation="30.000000" DurationType="OneShot" DurationMin="2.070641" DurationMax="2.478884">
 					<IncludedMemoryFiles>
 						<File Id="166192271" Language="SFX">
 							<ShortName>Male_Voice_1\Character_13\CH13_3.wav</ShortName>
-							<Path>SFX/Male_Voice_1/Character_13/CH13_3_FA8E6568.wem</Path>
+							<Path>SFX/Male_Voice_1/Character_13/CH13_3_D08C41B7.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="1340358820" Name="RoomReverb" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\RoomReverb"/>
+					</AuxBusSends>
 				</Event>
 				<Event Id="3731104210" Name="Male2_Greeting" ObjectPath="\Events\Default Work Unit\Dialogue\Male 2\Male2_Greeting" MaxAttenuation="30.000000" DurationType="OneShot" DurationMin="4.564250" DurationMax="4.564250">
 					<IncludedMemoryFiles>
@@ -380,6 +328,9 @@
 							<Path>SFX/Male_Voice_2/Character_2/CH2_1_2EB68A41.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="1340358820" Name="RoomReverb" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\RoomReverb"/>
+					</AuxBusSends>
 				</Event>
 				<Event Id="3258761843" Name="Male2_Hurry" ObjectPath="\Events\Default Work Unit\Dialogue\Male 2\Male2_Hurry" MaxAttenuation="30.000000" DurationType="OneShot" DurationMin="3.883063" DurationMax="3.883063">
 					<IncludedMemoryFiles>
@@ -388,6 +339,9 @@
 							<Path>SFX/Male_Voice_2/Character_2/CH2_2_2EB68A41.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="1340358820" Name="RoomReverb" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\RoomReverb"/>
+					</AuxBusSends>
 				</Event>
 				<Event Id="458420016" Name="Male2_Thanks" ObjectPath="\Events\Default Work Unit\Dialogue\Male 2\Male2_Thanks" MaxAttenuation="30.000000" DurationType="OneShot" DurationMin="5.188063" DurationMax="5.188063">
 					<IncludedMemoryFiles>
@@ -396,6 +350,9 @@
 							<Path>SFX/Male_Voice_2/Character_2/CH2_3_2EB68A41.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="1340358820" Name="RoomReverb" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\RoomReverb"/>
+					</AuxBusSends>
 				</Event>
 			</IncludedEvents>
 		</SoundBank>

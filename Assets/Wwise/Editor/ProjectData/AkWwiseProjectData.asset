@@ -13,23 +13,23 @@ MonoBehaviour:
   m_Name: AkWwiseProjectData
   m_EditorClassIdentifier: Assembly-CSharp-Editor::AkWwiseProjectData
   AcousticTextureWwu:
-  - PhysicalPath: Virtual Acoustics\Default Work Unit.wwu
+  - PhysicalPath: Virtual Acoustics/Default Work Unit.wwu
     PathAndIcons:
     - ElementName: Default Work Unit
       ObjectType: 12
     ParentPath: Default Work Unit
     guid: fac5d385f16c0241ad62878ffcb40b44
     GuidInternal: 
-    m_lastTime: -8585888875494877770
+    m_lastTime: -8585896040734775808
     List: []
-  - PhysicalPath: Virtual Acoustics\Factory Reflect Acoustic Textures.wwu
+  - PhysicalPath: Virtual Acoustics/Factory Reflect Acoustic Textures.wwu
     PathAndIcons:
     - ElementName: Factory Reflect Acoustic Textures
       ObjectType: 12
     ParentPath: Factory Reflect Acoustic Textures
     guid: 6b663d46a83ca54f8b4a5fef12b883f6
     GuidInternal: 
-    m_lastTime: -8585888875494707618
+    m_lastTime: -8586001288684775808
     List:
     - name: Acoustic_Banner
       guid: f2532d2fccda8e408b8898b1b52a26d6
@@ -41,7 +41,7 @@ MonoBehaviour:
         ObjectType: 4
       - ElementName: Acoustic_Banner
         ObjectType: 15
-      Path: Factory Reflect Acoustic Textures\Textures\Acoustic_Banner
+      Path: Factory Reflect Acoustic Textures/Textures/Acoustic_Banner
     - name: Anechoic
       guid: 32c20a8be202de4ebeacfdd1a900e3ed
       id: 1873957695
@@ -52,7 +52,7 @@ MonoBehaviour:
         ObjectType: 4
       - ElementName: Anechoic
         ObjectType: 15
-      Path: Factory Reflect Acoustic Textures\Textures\Anechoic
+      Path: Factory Reflect Acoustic Textures/Textures/Anechoic
     - name: Brick
       guid: a9a586b004f2534ca838bdb18b18f6d6
       id: 504532776
@@ -63,7 +63,7 @@ MonoBehaviour:
         ObjectType: 4
       - ElementName: Brick
         ObjectType: 15
-      Path: Factory Reflect Acoustic Textures\Textures\Brick
+      Path: Factory Reflect Acoustic Textures/Textures/Brick
     - name: Carpet
       guid: 8975223456dc604296c4b9f4b669092b
       id: 2412606308
@@ -74,7 +74,7 @@ MonoBehaviour:
         ObjectType: 4
       - ElementName: Carpet
         ObjectType: 15
-      Path: Factory Reflect Acoustic Textures\Textures\Carpet
+      Path: Factory Reflect Acoustic Textures/Textures/Carpet
     - name: Concrete
       guid: 001cf85c9628e04aaf7c3080bdaba682
       id: 841620460
@@ -85,7 +85,7 @@ MonoBehaviour:
         ObjectType: 4
       - ElementName: Concrete
         ObjectType: 15
-      Path: Factory Reflect Acoustic Textures\Textures\Concrete
+      Path: Factory Reflect Acoustic Textures/Textures/Concrete
     - name: Cork_Tiles
       guid: 19c9d2305f92434189063dbb3c4ae5e2
       id: 3195498748
@@ -96,7 +96,7 @@ MonoBehaviour:
         ObjectType: 4
       - ElementName: Cork_Tiles
         ObjectType: 15
-      Path: Factory Reflect Acoustic Textures\Textures\Cork_Tiles
+      Path: Factory Reflect Acoustic Textures/Textures/Cork_Tiles
     - name: Curtains
       guid: 339ee6f8975c6849b508a1535f2d66e8
       id: 2928161104
@@ -107,7 +107,7 @@ MonoBehaviour:
         ObjectType: 4
       - ElementName: Curtains
         ObjectType: 15
-      Path: Factory Reflect Acoustic Textures\Textures\Curtains
+      Path: Factory Reflect Acoustic Textures/Textures/Curtains
     - name: Drywall
       guid: f4e3a4680b4c8746a8b8a84db93dbc8f
       id: 3670307564
@@ -118,7 +118,7 @@ MonoBehaviour:
         ObjectType: 4
       - ElementName: Drywall
         ObjectType: 15
-      Path: Factory Reflect Acoustic Textures\Textures\Drywall
+      Path: Factory Reflect Acoustic Textures/Textures/Drywall
     - name: Fabric
       guid: 32d581836edbed4ea7a3bc7b0a0b8ba8
       id: 1970351858
@@ -129,7 +129,7 @@ MonoBehaviour:
         ObjectType: 4
       - ElementName: Fabric
         ObjectType: 15
-      Path: Factory Reflect Acoustic Textures\Textures\Fabric
+      Path: Factory Reflect Acoustic Textures/Textures/Fabric
     - name: Mountain
       guid: 313793c51a00b44a98dd9b033a8c8eab
       id: 513139656
@@ -140,7 +140,7 @@ MonoBehaviour:
         ObjectType: 4
       - ElementName: Mountain
         ObjectType: 15
-      Path: Factory Reflect Acoustic Textures\Textures\Mountain
+      Path: Factory Reflect Acoustic Textures/Textures/Mountain
     - name: Textures
       guid: a3121e7828e3df4a8bba5fb89c74031d
       id: 1276632493
@@ -149,7 +149,7 @@ MonoBehaviour:
         ObjectType: 12
       - ElementName: Textures
         ObjectType: 4
-      Path: Factory Reflect Acoustic Textures\Textures
+      Path: Factory Reflect Acoustic Textures/Textures
     - name: Tile
       guid: c4da82a82a13b747ba9db9907ba29cc0
       id: 2637588553
@@ -160,7 +160,7 @@ MonoBehaviour:
         ObjectType: 4
       - ElementName: Tile
         ObjectType: 15
-      Path: Factory Reflect Acoustic Textures\Textures\Tile
+      Path: Factory Reflect Acoustic Textures/Textures/Tile
     - name: Wood
       guid: 96bcff1fe76f9e48ba6c7c14a71391ae
       id: 2058049674
@@ -171,7 +171,7 @@ MonoBehaviour:
         ObjectType: 4
       - ElementName: Wood
         ObjectType: 15
-      Path: Factory Reflect Acoustic Textures\Textures\Wood
+      Path: Factory Reflect Acoustic Textures/Textures/Wood
     - name: Wood_Bright
       guid: e5d1857ba2c1634e9a13cec54b641adc
       id: 4262522749
@@ -182,7 +182,7 @@ MonoBehaviour:
         ObjectType: 4
       - ElementName: Wood_Bright
         ObjectType: 15
-      Path: Factory Reflect Acoustic Textures\Textures\Wood_Bright
+      Path: Factory Reflect Acoustic Textures/Textures/Wood_Bright
     - name: Wood_Deep
       guid: 8e474652dac50c4ea0dec98d1479529a
       id: 1755085759
@@ -193,16 +193,16 @@ MonoBehaviour:
         ObjectType: 4
       - ElementName: Wood_Deep
         ObjectType: 15
-      Path: Factory Reflect Acoustic Textures\Textures\Wood_Deep
+      Path: Factory Reflect Acoustic Textures/Textures/Wood_Deep
   AuxBusWwu:
-  - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
+  - PhysicalPath: Master-Mixer Hierarchy/Default Work Unit.wwu
     PathAndIcons:
     - ElementName: Default Work Unit
       ObjectType: 12
     ParentPath: Default Work Unit
     guid: f676261a21bc6044aba1cc2ea429f95e
     GuidInternal: 
-    m_lastTime: -8585888875741111686
+    m_lastTime: -8585888184184775808
     List:
     - name: Master Audio Bus
       guid: d8a41415a61d2a41a17e75ca0c2149f3
@@ -212,9 +212,9 @@ MonoBehaviour:
         ObjectType: 12
       - ElementName: Master Audio Bus
         ObjectType: 2
-      Path: Default Work Unit\Master Audio Bus
+      Path: Default Work Unit/Master Audio Bus
     - name: RoomReverb
-      guid: 976dbeebf1a63247aa8b5e27dbe5c30d
+      guid: c9036c66a5e1f54e8674e9441a6b460c
       id: 1340358820
       PathAndIcons:
       - ElementName: Default Work Unit
@@ -223,16 +223,16 @@ MonoBehaviour:
         ObjectType: 2
       - ElementName: RoomReverb
         ObjectType: 1
-      Path: Default Work Unit\Master Audio Bus\RoomReverb
+      Path: Default Work Unit/Master Audio Bus/RoomReverb
   BankWwu:
-  - PhysicalPath: SoundBanks\Default Work Unit.wwu
+  - PhysicalPath: SoundBanks/Default Work Unit.wwu
     PathAndIcons:
     - ElementName: Default Work Unit
       ObjectType: 12
     ParentPath: Default Work Unit
     guid: 482b2d86e9adc74692f9b14bc8c68585
     GuidInternal: 
-    m_lastTime: -8585888875495788604
+    m_lastTime: -8585888157114775808
     List:
     - name: Dialogue
       guid: 8a030d1cdd56df4a8dffb52767429af2
@@ -242,7 +242,7 @@ MonoBehaviour:
         ObjectType: 12
       - ElementName: Dialogue
         ObjectType: 7
-      Path: Default Work Unit\Dialogue
+      Path: Default Work Unit/Dialogue
     - name: Music
       guid: 2a8c560ffd36974493b38189e362304d
       id: 3991942870
@@ -251,7 +251,7 @@ MonoBehaviour:
         ObjectType: 12
       - ElementName: Music
         ObjectType: 7
-      Path: Default Work Unit\Music
+      Path: Default Work Unit/Music
     - name: SFX
       guid: 17b3ac028f56344da9d0986755d1cb03
       id: 393239870
@@ -260,204 +260,28 @@ MonoBehaviour:
         ObjectType: 12
       - ElementName: SFX
         ObjectType: 7
-      Path: Default Work Unit\SFX
+      Path: Default Work Unit/SFX
   EventWwu:
-  - PhysicalPath: Events\Default Work Unit.wwu
+  - PhysicalPath: Events/Default Work Unit.wwu
     PathAndIcons:
     - ElementName: Default Work Unit
       ObjectType: 12
     ParentPath: Default Work Unit
     guid: 7707b64617207a4b888545d7d3d9bf46
     GuidInternal: 
-    m_lastTime: -8585888875749399229
+    m_lastTime: -8585888159554775808
     List: []
-  - PhysicalPath: Events\Dialogue.wwu
+  - PhysicalPath: Events/Dialogue.wwu
     PathAndIcons:
     - ElementName: Default Work Unit
       ObjectType: 12
     - ElementName: Dialogue
       ObjectType: 12
-    ParentPath: Default Work Unit\Dialogue
+    ParentPath: Default Work Unit/Dialogue
     guid: 737d0c24a961004f9f1aca610feeae50
     GuidInternal: 
-    m_lastTime: -8585888875749239084
+    m_lastTime: -8585889844214775808
     List:
-    - name: Char_2
-      guid: 5c18042a21211e4089280bd9393c80a7
-      id: 929826778
-      PathAndIcons:
-      - ElementName: Default Work Unit
-        ObjectType: 12
-      - ElementName: Dialogue
-        ObjectType: 12
-      - ElementName: Male 1
-        ObjectType: 4
-      - ElementName: Char_2
-        ObjectType: 3
-      Path: Default Work Unit\Dialogue\Male 1\Char_2
-      maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
-    - name: Char1
-      guid: 4a639c212faa004199305a2df87c451c
-      id: 434268438
-      PathAndIcons:
-      - ElementName: Default Work Unit
-        ObjectType: 12
-      - ElementName: Dialogue
-        ObjectType: 12
-      - ElementName: Male 1
-        ObjectType: 4
-      - ElementName: Char1
-        ObjectType: 3
-      Path: Default Work Unit\Dialogue\Male 1\Char1
-      maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
-    - name: Char15
-      guid: c0935256dea09349afc41d72adb51bf9
-      id: 3580587415
-      PathAndIcons:
-      - ElementName: Default Work Unit
-        ObjectType: 12
-      - ElementName: Dialogue
-        ObjectType: 12
-      - ElementName: Female Char
-        ObjectType: 4
-      - ElementName: Char15
-        ObjectType: 3
-      Path: Default Work Unit\Dialogue\Female Char\Char15
-      maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
-    - name: Char16
-      guid: cf4f2b337701e04095e0f0c237191b12
-      id: 3580587412
-      PathAndIcons:
-      - ElementName: Default Work Unit
-        ObjectType: 12
-      - ElementName: Dialogue
-        ObjectType: 12
-      - ElementName: Female Char
-        ObjectType: 4
-      - ElementName: Char16
-        ObjectType: 3
-      Path: Default Work Unit\Dialogue\Female Char\Char16
-      maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
-    - name: Char17
-      guid: e916a2da810acd4f8227469afaea63b9
-      id: 3580587413
-      PathAndIcons:
-      - ElementName: Default Work Unit
-        ObjectType: 12
-      - ElementName: Dialogue
-        ObjectType: 12
-      - ElementName: Female Char
-        ObjectType: 4
-      - ElementName: Char17
-        ObjectType: 3
-      Path: Default Work Unit\Dialogue\Female Char\Char17
-      maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
-    - name: Char3
-      guid: 35a3138401571d4ba05b675010ae3177
-      id: 434268436
-      PathAndIcons:
-      - ElementName: Default Work Unit
-        ObjectType: 12
-      - ElementName: Dialogue
-        ObjectType: 12
-      - ElementName: Male 1
-        ObjectType: 4
-      - ElementName: Char3
-        ObjectType: 3
-      Path: Default Work Unit\Dialogue\Male 1\Char3
-      maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
-    - name: Char4
-      guid: 191079511809bc4cb6ec0f5d022688e8
-      id: 434268435
-      PathAndIcons:
-      - ElementName: Default Work Unit
-        ObjectType: 12
-      - ElementName: Dialogue
-        ObjectType: 12
-      - ElementName: Male 1
-        ObjectType: 4
-      - ElementName: Char4
-        ObjectType: 3
-      Path: Default Work Unit\Dialogue\Male 1\Char4
-      maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
-    - name: Char5
-      guid: 971516a581d8ca43ba2806bbf11ec661
-      id: 434268434
-      PathAndIcons:
-      - ElementName: Default Work Unit
-        ObjectType: 12
-      - ElementName: Dialogue
-        ObjectType: 12
-      - ElementName: Male 1
-        ObjectType: 4
-      - ElementName: Char5
-        ObjectType: 3
-      Path: Default Work Unit\Dialogue\Male 1\Char5
-      maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
-    - name: Char6
-      guid: cbbf66405a7ad44bbf5619984ef97df2
-      id: 434268433
-      PathAndIcons:
-      - ElementName: Default Work Unit
-        ObjectType: 12
-      - ElementName: Dialogue
-        ObjectType: 12
-      - ElementName: Male 1
-        ObjectType: 4
-      - ElementName: Char6
-        ObjectType: 3
-      Path: Default Work Unit\Dialogue\Male 1\Char6
-      maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
-    - name: Char7
-      guid: c77f3318788fe24aad8edbe6a75adaad
-      id: 434268432
-      PathAndIcons:
-      - ElementName: Default Work Unit
-        ObjectType: 12
-      - ElementName: Dialogue
-        ObjectType: 12
-      - ElementName: Male 1
-        ObjectType: 4
-      - ElementName: Char7
-        ObjectType: 3
-      Path: Default Work Unit\Dialogue\Male 1\Char7
-      maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
-    - name: Char8
-      guid: 56a15f5c602bf3459879d53434808c83
-      id: 434268447
-      PathAndIcons:
-      - ElementName: Default Work Unit
-        ObjectType: 12
-      - ElementName: Dialogue
-        ObjectType: 12
-      - ElementName: Male 1
-        ObjectType: 4
-      - ElementName: Char8
-        ObjectType: 3
-      Path: Default Work Unit\Dialogue\Male 1\Char8
-      maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
     - name: Female Char
       guid: 7c8e5090a914d6428a9bcaa02d21dee8
       id: 3208256743
@@ -468,10 +292,58 @@ MonoBehaviour:
         ObjectType: 12
       - ElementName: Female Char
         ObjectType: 4
-      Path: Default Work Unit\Dialogue\Female Char
+      Path: Default Work Unit/Dialogue/Female Char
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
+    - name: Female_Greeting
+      guid: c0935256dea09349afc41d72adb51bf9
+      id: 3088607285
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Dialogue
+        ObjectType: 12
+      - ElementName: Female Char
+        ObjectType: 4
+      - ElementName: Female_Greeting
+        ObjectType: 3
+      Path: Default Work Unit/Dialogue/Female Char/Female_Greeting
+      maxAttenuation: 30
+      maxDuration: 5.260044
+      minDuration: 4.1749
+    - name: Female_Hurry
+      guid: e9be4e0dcd97fc479b441bdfb7974041
+      id: 2145752286
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Dialogue
+        ObjectType: 12
+      - ElementName: Female Char
+        ObjectType: 4
+      - ElementName: Female_Hurry
+        ObjectType: 3
+      Path: Default Work Unit/Dialogue/Female Char/Female_Hurry
+      maxAttenuation: 30
+      maxDuration: 3.623003
+      minDuration: 2.87558
+    - name: Female_Thanks
+      guid: b24c33ba841ea84dab8d4210ebbcda15
+      id: 2228376803
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Dialogue
+        ObjectType: 12
+      - ElementName: Female Char
+        ObjectType: 4
+      - ElementName: Female_Thanks
+        ObjectType: 3
+      Path: Default Work Unit/Dialogue/Female Char/Female_Thanks
+      maxAttenuation: 30
+      maxDuration: 5.60636
+      minDuration: 4.552921
     - name: Male 1
       guid: 2a8bcef6c98cb44b9979a380e289e6b6
       id: 1387209791
@@ -482,7 +354,7 @@ MonoBehaviour:
         ObjectType: 12
       - ElementName: Male 1
         ObjectType: 4
-      Path: Default Work Unit\Dialogue\Male 1
+      Path: Default Work Unit/Dialogue/Male 1
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -496,13 +368,61 @@ MonoBehaviour:
         ObjectType: 12
       - ElementName: Male 2
         ObjectType: 4
-      Path: Default Work Unit\Dialogue\Male 2
+      Path: Default Work Unit/Dialogue/Male 2
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
-    - name: Male2char1
-      guid: fadab7ec42192a4fb10ac987f6e7041d
-      id: 729594357
+    - name: Male1_Greeting
+      guid: d25612fa8ac634498a85bc6f7d26759b
+      id: 870050339
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Dialogue
+        ObjectType: 12
+      - ElementName: Male 1
+        ObjectType: 4
+      - ElementName: Male1_Greeting
+        ObjectType: 3
+      Path: Default Work Unit/Dialogue/Male 1/Male1_Greeting
+      maxAttenuation: 30
+      maxDuration: 2.865833
+      minDuration: 2.274613
+    - name: Male1_Hurry
+      guid: 8e581e3a1639f54490149a192673a342
+      id: 2076754096
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Dialogue
+        ObjectType: 12
+      - ElementName: Male 1
+        ObjectType: 4
+      - ElementName: Male1_Hurry
+        ObjectType: 3
+      Path: Default Work Unit/Dialogue/Male 1/Male1_Hurry
+      maxAttenuation: 30
+      maxDuration: 8.061177
+      minDuration: 6.39816
+    - name: Male1_Thanks
+      guid: 745b1cc196ec714f821521a44944c1aa
+      id: 971951693
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Dialogue
+        ObjectType: 12
+      - ElementName: Male 1
+        ObjectType: 4
+      - ElementName: Male1_Thanks
+        ObjectType: 3
+      Path: Default Work Unit/Dialogue/Male 1/Male1_Thanks
+      maxAttenuation: 30
+      maxDuration: 2.478884
+      minDuration: 2.070641
+    - name: Male2_Greeting
+      guid: 7da7a82a322b3c408447191d3147ed7a
+      id: 3731104210
       PathAndIcons:
       - ElementName: Default Work Unit
         ObjectType: 12
@@ -510,15 +430,15 @@ MonoBehaviour:
         ObjectType: 12
       - ElementName: Male 2
         ObjectType: 4
-      - ElementName: Male2char1
+      - ElementName: Male2_Greeting
         ObjectType: 3
-      Path: Default Work Unit\Dialogue\Male 2\Male2char1
-      maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
-    - name: Male2char2
-      guid: e1de37ec147a924aa2e2b2c78d906cc1
-      id: 729594358
+      Path: Default Work Unit/Dialogue/Male 2/Male2_Greeting
+      maxAttenuation: 30
+      maxDuration: 4.56425
+      minDuration: 4.56425
+    - name: Male2_Hurry
+      guid: 807e53098f9f3042b7dbed30755645be
+      id: 3258761843
       PathAndIcons:
       - ElementName: Default Work Unit
         ObjectType: 12
@@ -526,15 +446,15 @@ MonoBehaviour:
         ObjectType: 12
       - ElementName: Male 2
         ObjectType: 4
-      - ElementName: Male2char2
+      - ElementName: Male2_Hurry
         ObjectType: 3
-      Path: Default Work Unit\Dialogue\Male 2\Male2char2
-      maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
-    - name: Male2char3
-      guid: 360cde61f47c3b469a88b14ba4a0a35f
-      id: 729594359
+      Path: Default Work Unit/Dialogue/Male 2/Male2_Hurry
+      maxAttenuation: 30
+      maxDuration: 3.883063
+      minDuration: 3.883063
+    - name: Male2_Thanks
+      guid: 84e730b0e14f2546adfc6578899c93fc
+      id: 458420016
       PathAndIcons:
       - ElementName: Default Work Unit
         ObjectType: 12
@@ -542,54 +462,22 @@ MonoBehaviour:
         ObjectType: 12
       - ElementName: Male 2
         ObjectType: 4
-      - ElementName: Male2char3
+      - ElementName: Male2_Thanks
         ObjectType: 3
-      Path: Default Work Unit\Dialogue\Male 2\Male2char3
-      maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
-    - name: Male2char4
-      guid: bac2f052c85c144cb8c374c6863adda9
-      id: 729594352
-      PathAndIcons:
-      - ElementName: Default Work Unit
-        ObjectType: 12
-      - ElementName: Dialogue
-        ObjectType: 12
-      - ElementName: Male 2
-        ObjectType: 4
-      - ElementName: Male2char4
-        ObjectType: 3
-      Path: Default Work Unit\Dialogue\Male 2\Male2char4
-      maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
-    - name: Male2char5
-      guid: a27c132127864049b160c2ec03a088c1
-      id: 729594353
-      PathAndIcons:
-      - ElementName: Default Work Unit
-        ObjectType: 12
-      - ElementName: Dialogue
-        ObjectType: 12
-      - ElementName: Male 2
-        ObjectType: 4
-      - ElementName: Male2char5
-        ObjectType: 3
-      Path: Default Work Unit\Dialogue\Male 2\Male2char5
-      maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
-  - PhysicalPath: Events\Music.wwu
+      Path: Default Work Unit/Dialogue/Male 2/Male2_Thanks
+      maxAttenuation: 30
+      maxDuration: 5.188063
+      minDuration: 5.188063
+  - PhysicalPath: Events/Music.wwu
     PathAndIcons:
     - ElementName: Default Work Unit
       ObjectType: 12
     - ElementName: Music
       ObjectType: 12
-    ParentPath: Default Work Unit\Music
+    ParentPath: Default Work Unit/Music
     guid: 2a629150331a9c4fa0c1551cf1381308
     GuidInternal: 
-    m_lastTime: -8585888875749148994
+    m_lastTime: -8585895133234775808
     List:
     - name: Main_Music
       guid: 81c76ef49993c7409704954f4d44d37b
@@ -601,20 +489,20 @@ MonoBehaviour:
         ObjectType: 12
       - ElementName: Main_Music
         ObjectType: 3
-      Path: Default Work Unit\Music\Main_Music
+      Path: Default Work Unit/Music/Main_Music
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
-  - PhysicalPath: Events\SFX.wwu
+  - PhysicalPath: Events/SFX.wwu
     PathAndIcons:
     - ElementName: Default Work Unit
       ObjectType: 12
     - ElementName: SFX
       ObjectType: 12
-    ParentPath: Default Work Unit\SFX
+    ParentPath: Default Work Unit/SFX
     guid: 92f1c2763cedd7459ecb3c826f418018
     GuidInternal: 
-    m_lastTime: -8585888875748968836
+    m_lastTime: -8585888094274775808
     List:
     - name: Ambience
       guid: ea16e851d3e0864faf617e7c2bf5f454
@@ -626,10 +514,10 @@ MonoBehaviour:
         ObjectType: 12
       - ElementName: Ambience
         ObjectType: 3
-      Path: Default Work Unit\SFX\Ambience
-      maxAttenuation: 0
-      maxDuration: 20
-      minDuration: 20
+      Path: Default Work Unit/SFX/Ambience
+      maxAttenuation: 20
+      maxDuration: -1
+      minDuration: -1
     - name: Barrel
       guid: ad98c02ac1769345bc65d6c47525cb40
       id: 442447909
@@ -640,10 +528,10 @@ MonoBehaviour:
         ObjectType: 12
       - ElementName: Barrel
         ObjectType: 3
-      Path: Default Work Unit\SFX\Barrel
-      maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      Path: Default Work Unit/SFX/Barrel
+      maxAttenuation: 10
+      maxDuration: 5.285604
+      minDuration: 3.45475
     - name: Button_Press
       guid: bf2c71d86262f945bdfd58aaab0fa834
       id: 2698747613
@@ -654,10 +542,10 @@ MonoBehaviour:
         ObjectType: 12
       - ElementName: Button_Press
         ObjectType: 3
-      Path: Default Work Unit\SFX\Button_Press
-      maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      Path: Default Work Unit/SFX/Button_Press
+      maxAttenuation: 10
+      maxDuration: 2
+      minDuration: 2
     - name: Crates_Fall
       guid: 2bd072d16d6c0548b7d8569c359eae5b
       id: 3600872739
@@ -668,10 +556,10 @@ MonoBehaviour:
         ObjectType: 12
       - ElementName: Crates_Fall
         ObjectType: 3
-      Path: Default Work Unit\SFX\Crates_Fall
-      maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      Path: Default Work Unit/SFX/Crates_Fall
+      maxAttenuation: 10
+      maxDuration: 1.877542
+      minDuration: 1.228938
     - name: Electric
       guid: a419d09cf6fb5346bfe3aba19fa8ac5f
       id: 3250089732
@@ -682,8 +570,8 @@ MonoBehaviour:
         ObjectType: 12
       - ElementName: Electric
         ObjectType: 3
-      Path: Default Work Unit\SFX\Electric
-      maxAttenuation: 0
+      Path: Default Work Unit/SFX/Electric
+      maxAttenuation: 10
       maxDuration: 5.640104
       minDuration: 5.640104
     - name: Footsteps
@@ -696,8 +584,8 @@ MonoBehaviour:
         ObjectType: 12
       - ElementName: Footsteps
         ObjectType: 3
-      Path: Default Work Unit\SFX\Footsteps
-      maxAttenuation: 0
+      Path: Default Work Unit/SFX/Footsteps
+      maxAttenuation: 10
       maxDuration: 0.19263
       minDuration: 0.16898
     - name: Game_Over
@@ -710,10 +598,10 @@ MonoBehaviour:
         ObjectType: 12
       - ElementName: Game_Over
         ObjectType: 3
-      Path: Default Work Unit\SFX\Game_Over
-      maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      Path: Default Work Unit/SFX/Game_Over
+      maxAttenuation: 10
+      maxDuration: 3.5
+      minDuration: 3.5
     - name: Item_slide
       guid: 6f4e9b325db6374896e1c6c44bf44a9b
       id: 1282961282
@@ -724,10 +612,10 @@ MonoBehaviour:
         ObjectType: 12
       - ElementName: Item_slide
         ObjectType: 3
-      Path: Default Work Unit\SFX\Item_slide
-      maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      Path: Default Work Unit/SFX/Item_slide
+      maxAttenuation: 10
+      maxDuration: 1.672812
+      minDuration: 1.442396
     - name: Lights_on
       guid: 2d386e73176af74d97393c15e9d4a270
       id: 1063352154
@@ -738,10 +626,10 @@ MonoBehaviour:
         ObjectType: 12
       - ElementName: Lights_on
         ObjectType: 3
-      Path: Default Work Unit\SFX\Lights_on
-      maxAttenuation: 0
-      maxDuration: 4.029083
-      minDuration: 3.819521
+      Path: Default Work Unit/SFX/Lights_on
+      maxAttenuation: 5
+      maxDuration: -1
+      minDuration: -1
     - name: Pallets
       guid: bbe9c3b3e79205478132a150ad3b405b
       id: 2392114782
@@ -752,10 +640,10 @@ MonoBehaviour:
         ObjectType: 12
       - ElementName: Pallets
         ObjectType: 3
-      Path: Default Work Unit\SFX\Pallets
-      maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      Path: Default Work Unit/SFX/Pallets
+      maxAttenuation: 10
+      maxDuration: 1.601134
+      minDuration: 0.938625
     - name: Shelves
       guid: 40bfb2be7ca65a45b7564b7fac35b784
       id: 1204143103
@@ -766,10 +654,10 @@ MonoBehaviour:
         ObjectType: 12
       - ElementName: Shelves
         ObjectType: 3
-      Path: Default Work Unit\SFX\Shelves
+      Path: Default Work Unit/SFX/Shelves
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 2.981563
+      minDuration: 1.826167
     - name: Success
       guid: 484a63dff466a1409b3bfae8108139e0
       id: 3625060726
@@ -780,8 +668,8 @@ MonoBehaviour:
         ObjectType: 12
       - ElementName: Success
         ObjectType: 3
-      Path: Default Work Unit\SFX\Success
-      maxAttenuation: 0
+      Path: Default Work Unit/SFX/Success
+      maxAttenuation: 10
       maxDuration: 2.443938
       minDuration: 1.675083
     - name: Throw
@@ -794,10 +682,10 @@ MonoBehaviour:
         ObjectType: 12
       - ElementName: Throw
         ObjectType: 3
-      Path: Default Work Unit\SFX\Throw
-      maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      Path: Default Work Unit/SFX/Throw
+      maxAttenuation: 10
+      maxDuration: 3.016453
+      minDuration: 1.745521
     - name: Time_running_out
       guid: d3a206f8bbe91346a87903ae91662a88
       id: 1735830099
@@ -808,8 +696,8 @@ MonoBehaviour:
         ObjectType: 12
       - ElementName: Time_running_out
         ObjectType: 3
-      Path: Default Work Unit\SFX\Time_running_out
-      maxAttenuation: 0
+      Path: Default Work Unit/SFX/Time_running_out
+      maxAttenuation: 10
       maxDuration: 10.5
       minDuration: 10.5
     - name: Timer_ticking
@@ -822,19 +710,19 @@ MonoBehaviour:
         ObjectType: 12
       - ElementName: Timer_ticking
         ObjectType: 3
-      Path: Default Work Unit\SFX\Timer_ticking
-      maxAttenuation: 0
+      Path: Default Work Unit/SFX/Timer_ticking
+      maxAttenuation: 10
       maxDuration: 6.161396
       minDuration: 6.161396
   RtpcWwu:
-  - PhysicalPath: Game Parameters\Default Work Unit.wwu
+  - PhysicalPath: Game Parameters/Default Work Unit.wwu
     PathAndIcons:
     - ElementName: Default Work Unit
       ObjectType: 12
     ParentPath: Default Work Unit
     guid: 575c736193bf5542a9c6b10f15d68ef8
     GuidInternal: 
-    m_lastTime: -8585888875748858737
+    m_lastTime: -8585895685844775808
     List:
     - name: GameTimeRemaining
       guid: 64c22eff3b7fcb44aea8336cbb19f329
@@ -844,7 +732,7 @@ MonoBehaviour:
         ObjectType: 12
       - ElementName: GameTimeRemaining
         ObjectType: 13
-      Path: Default Work Unit\GameTimeRemaining
+      Path: Default Work Unit/GameTimeRemaining
     - name: Items_Collected
       guid: e1d1c59dbe7bd841802288a272f694a0
       id: 2125575055
@@ -853,15 +741,15 @@ MonoBehaviour:
         ObjectType: 12
       - ElementName: Items_Collected
         ObjectType: 13
-      Path: Default Work Unit\Items_Collected
-  - PhysicalPath: Game Parameters\Factory Motion.wwu
+      Path: Default Work Unit/Items_Collected
+  - PhysicalPath: Game Parameters/Factory Motion.wwu
     PathAndIcons:
     - ElementName: Factory Motion
       ObjectType: 12
     ParentPath: Factory Motion
     guid: 225213d7dbd1d042adc0930743567776
     GuidInternal: 
-    m_lastTime: -8585888875748678566
+    m_lastTime: -8586001288684775808
     List:
     - name: Playback_Rate
       guid: e37e38283ac11643b9c3db5c521624af
@@ -871,7 +759,7 @@ MonoBehaviour:
         ObjectType: 12
       - ElementName: Playback_Rate
         ObjectType: 13
-      Path: Factory Motion\Playback_Rate
+      Path: Factory Motion/Playback_Rate
     - name: RPM
       guid: 05aa129177f5fd449f4e4424158129e6
       id: 796049864
@@ -880,15 +768,15 @@ MonoBehaviour:
         ObjectType: 12
       - ElementName: RPM
         ObjectType: 13
-      Path: Factory Motion\RPM
-  - PhysicalPath: Game Parameters\Factory SoundSeed Air Game Syncs.wwu
+      Path: Factory Motion/RPM
+  - PhysicalPath: Game Parameters/Factory SoundSeed Air Game Syncs.wwu
     PathAndIcons:
     - ElementName: Factory SoundSeed Air Game Syncs
       ObjectType: 12
     ParentPath: Factory SoundSeed Air Game Syncs
     guid: 5577163b42fb8b4598bf96f557afb3b9
     GuidInternal: 
-    m_lastTime: -8585888875748508420
+    m_lastTime: -8586001288684775808
     List:
     - name: SS_Air_Fear
       guid: 59062ef746431c4ea1b1dab46a05101e
@@ -898,7 +786,7 @@ MonoBehaviour:
         ObjectType: 12
       - ElementName: SS_Air_Fear
         ObjectType: 13
-      Path: Factory SoundSeed Air Game Syncs\SS_Air_Fear
+      Path: Factory SoundSeed Air Game Syncs/SS_Air_Fear
     - name: SS_Air_Freefall
       guid: 37fe2d2f9e4f944d83d853cca39781ad
       id: 3002758120
@@ -907,7 +795,7 @@ MonoBehaviour:
         ObjectType: 12
       - ElementName: SS_Air_Freefall
         ObjectType: 13
-      Path: Factory SoundSeed Air Game Syncs\SS_Air_Freefall
+      Path: Factory SoundSeed Air Game Syncs/SS_Air_Freefall
     - name: SS_Air_Fury
       guid: dc79aea23acaba4696529986c322a87b
       id: 1029930033
@@ -916,7 +804,7 @@ MonoBehaviour:
         ObjectType: 12
       - ElementName: SS_Air_Fury
         ObjectType: 13
-      Path: Factory SoundSeed Air Game Syncs\SS_Air_Fury
+      Path: Factory SoundSeed Air Game Syncs/SS_Air_Fury
     - name: SS_Air_Month
       guid: 45b4e209a3c47f44b3ca818a1d925ef7
       id: 2648548617
@@ -925,7 +813,7 @@ MonoBehaviour:
         ObjectType: 12
       - ElementName: SS_Air_Month
         ObjectType: 13
-      Path: Factory SoundSeed Air Game Syncs\SS_Air_Month
+      Path: Factory SoundSeed Air Game Syncs/SS_Air_Month
     - name: SS_Air_Presence
       guid: 1a81b7e32f7b0f49b44f5fe51b468041
       id: 3847924954
@@ -934,7 +822,7 @@ MonoBehaviour:
         ObjectType: 12
       - ElementName: SS_Air_Presence
         ObjectType: 13
-      Path: Factory SoundSeed Air Game Syncs\SS_Air_Presence
+      Path: Factory SoundSeed Air Game Syncs/SS_Air_Presence
     - name: SS_Air_RPM
       guid: ab9048a3d5b92645a64d5290c43ef2dc
       id: 822163944
@@ -943,7 +831,7 @@ MonoBehaviour:
         ObjectType: 12
       - ElementName: SS_Air_RPM
         ObjectType: 13
-      Path: Factory SoundSeed Air Game Syncs\SS_Air_RPM
+      Path: Factory SoundSeed Air Game Syncs/SS_Air_RPM
     - name: SS_Air_Size
       guid: efeb291393a12e47a38c64668b494879
       id: 3074696722
@@ -952,7 +840,7 @@ MonoBehaviour:
         ObjectType: 12
       - ElementName: SS_Air_Size
         ObjectType: 13
-      Path: Factory SoundSeed Air Game Syncs\SS_Air_Size
+      Path: Factory SoundSeed Air Game Syncs/SS_Air_Size
     - name: SS_Air_Storm
       guid: db8c3fe9d1063747acaf7cd44bbed783
       id: 3715662592
@@ -961,7 +849,7 @@ MonoBehaviour:
         ObjectType: 12
       - ElementName: SS_Air_Storm
         ObjectType: 13
-      Path: Factory SoundSeed Air Game Syncs\SS_Air_Storm
+      Path: Factory SoundSeed Air Game Syncs/SS_Air_Storm
     - name: SS_Air_TimeOfDay
       guid: 2ca76f537e8c8b4cae03ef34fdadc314
       id: 3203397129
@@ -970,7 +858,7 @@ MonoBehaviour:
         ObjectType: 12
       - ElementName: SS_Air_TimeOfDay
         ObjectType: 13
-      Path: Factory SoundSeed Air Game Syncs\SS_Air_TimeOfDay
+      Path: Factory SoundSeed Air Game Syncs/SS_Air_TimeOfDay
     - name: SS_Air_Turbulence
       guid: 197ba8edaa73a0409f192073606db710
       id: 4160247818
@@ -979,15 +867,15 @@ MonoBehaviour:
         ObjectType: 12
       - ElementName: SS_Air_Turbulence
         ObjectType: 13
-      Path: Factory SoundSeed Air Game Syncs\SS_Air_Turbulence
-  - PhysicalPath: Game Parameters\Factory SoundSeed Grain.wwu
+      Path: Factory SoundSeed Air Game Syncs/SS_Air_Turbulence
+  - PhysicalPath: Game Parameters/Factory SoundSeed Grain.wwu
     PathAndIcons:
     - ElementName: Factory SoundSeed Grain
       ObjectType: 12
     ParentPath: Factory SoundSeed Grain
     guid: 97bdcb0b5177774a85bb6ac940f8cc3f
     GuidInternal: 
-    m_lastTime: -8585888875748338264
+    m_lastTime: -8586001288684775808
     List:
     - name: Density_FA_SSGrain
       guid: 9ef2b363f3048748ba1a4d7694644b24
@@ -997,7 +885,7 @@ MonoBehaviour:
         ObjectType: 12
       - ElementName: Density_FA_SSGrain
         ObjectType: 13
-      Path: Factory SoundSeed Grain\Density_FA_SSGrain
+      Path: Factory SoundSeed Grain/Density_FA_SSGrain
     - name: Immersion_FA_SSGrain
       guid: 22e6413f6c163245bef71dc9ff7eab94
       id: 2481728872
@@ -1006,7 +894,7 @@ MonoBehaviour:
         ObjectType: 12
       - ElementName: Immersion_FA_SSGrain
         ObjectType: 13
-      Path: Factory SoundSeed Grain\Immersion_FA_SSGrain
+      Path: Factory SoundSeed Grain/Immersion_FA_SSGrain
     - name: Instrument_FA_SSGrain
       guid: 44af796282c00846981e9a63d1ee7555
       id: 2317409760
@@ -1015,7 +903,7 @@ MonoBehaviour:
         ObjectType: 12
       - ElementName: Instrument_FA_SSGrain
         ObjectType: 13
-      Path: Factory SoundSeed Grain\Instrument_FA_SSGrain
+      Path: Factory SoundSeed Grain/Instrument_FA_SSGrain
     - name: Proximity_FA_SSGrain
       guid: b4abf1053873bc42a378b1e2b12ee3cb
       id: 1791284502
@@ -1024,7 +912,7 @@ MonoBehaviour:
         ObjectType: 12
       - ElementName: Proximity_FA_SSGrain
         ObjectType: 13
-      Path: Factory SoundSeed Grain\Proximity_FA_SSGrain
+      Path: Factory SoundSeed Grain/Proximity_FA_SSGrain
     - name: RPM_FA_SSGrain
       guid: 5be692c0c4e5554c8a68576e98bbff39
       id: 1656280998
@@ -1033,7 +921,7 @@ MonoBehaviour:
         ObjectType: 12
       - ElementName: RPM_FA_SSGrain
         ObjectType: 13
-      Path: Factory SoundSeed Grain\RPM_FA_SSGrain
+      Path: Factory SoundSeed Grain/RPM_FA_SSGrain
     - name: Simulation_FA_SSGrain
       guid: 71509071790afe429cd6c631171dc3a4
       id: 2428833394
@@ -1042,46 +930,27 @@ MonoBehaviour:
         ObjectType: 12
       - ElementName: Simulation_FA_SSGrain
         ObjectType: 13
-      Path: Factory SoundSeed Grain\Simulation_FA_SSGrain
+      Path: Factory SoundSeed Grain/Simulation_FA_SSGrain
   StateWwu:
-  - PhysicalPath: States\Default Work Unit.wwu
+  - PhysicalPath: States/Default Work Unit.wwu
     PathAndIcons:
     - ElementName: Default Work Unit
       ObjectType: 12
     ParentPath: Default Work Unit
     guid: 5d1a1ef952ff03479ed039a342ba7196
     GuidInternal: 
-    m_lastTime: -8585888875495408256
+    m_lastTime: -8585896040734775808
     List: []
   SwitchWwu:
-  - PhysicalPath: Switches\Default Work Unit.wwu
+  - PhysicalPath: Switches/Default Work Unit.wwu
     PathAndIcons:
     - ElementName: Default Work Unit
       ObjectType: 12
     ParentPath: Default Work Unit
     guid: 0a931830e3e2034c9736d5cf80c52be6
     GuidInternal: 
-    m_lastTime: -8585888875495228092
+    m_lastTime: -8585895114234775808
     List:
-    - name: Footsteps
-      guid: f06566df555df44b87c90201f109d5b4
-      id: 2385628198
-      PathAndIcons:
-      - ElementName: Default Work Unit
-        ObjectType: 12
-      - ElementName: Footsteps
-        ObjectType: 11
-      Path: Default Work Unit\Footsteps
-      values:
-      - name: Ground
-        guid: 450ce838bb8b664481b488ea80c4e2cb
-        id: 2528658256
-        PathAndIcons:
-        - ElementName: Ground
-          ObjectType: 10
-      ValueGuids: []
-      ValueIcons: []
-      valuesInternal: []
     - name: Music_Playlist
       guid: 2c84d5ab78313446b08aa25f5e524a57
       id: 2520593515
@@ -1090,7 +959,7 @@ MonoBehaviour:
         ObjectType: 12
       - ElementName: Music_Playlist
         ObjectType: 11
-      Path: Default Work Unit\Music_Playlist
+      Path: Default Work Unit/Music_Playlist
       values:
       - name: Loop_1
         guid: bdf3c99215ab8a44a6dbd9876a1abd2b
@@ -1120,20 +989,19 @@ MonoBehaviour:
       ValueIcons: []
       valuesInternal: []
   TriggerWwu:
-  - PhysicalPath: Triggers\Default Work Unit.wwu
+  - PhysicalPath: Triggers/Default Work Unit.wwu
     PathAndIcons:
     - ElementName: Default Work Unit
       ObjectType: 12
     ParentPath: Default Work Unit
     guid: 76f2f0d33c787d42836f9fed6c3abdad
     GuidInternal: 
-    m_lastTime: -8585888875495047940
+    m_lastTime: -8585896040734775808
     List: []
   ExpandedItems:
   - /Lost in VR
   - /Lost in VR/Events
   - /Lost in VR/Events/Default Work Unit
-  - /Lost in VR/Events/Default Work Unit/Dialogue
-  - /Lost in VR/Events/Default Work Unit/Dialogue/Male 1
+  - /Lost in VR/Events/Default Work Unit/SFX
   autoPopulateEnabled: 1
   CurrentPluginConfig: 

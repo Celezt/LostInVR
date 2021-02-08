@@ -108,7 +108,7 @@ public class NonVRGrabMechanic : MonoBehaviour
             _itemTransform.parent = _itemPreviousParent;
 
             DetachItem(ThrowForce);
-            PlayRandomAudioThrow();
+            AkSoundEngine.PostEvent("Throw", gameObject);
         }
 
     }

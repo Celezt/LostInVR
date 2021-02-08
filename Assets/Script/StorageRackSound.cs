@@ -33,7 +33,7 @@ public class StorageRackSound : MonoBehaviour
         
         if (!soundplayed)
         {
-            AkSoundEngine.PostEvent("Footsteps", gameObject);
+            AkSoundEngine.PostEvent("Shelves", gameObject);
             soundplayed = true;
             coroutine = DelaySoundReplay();
             StartCoroutine(coroutine);

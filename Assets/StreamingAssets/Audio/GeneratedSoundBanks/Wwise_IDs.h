@@ -14,18 +14,16 @@ namespace AK
     namespace EVENTS
     {
         static const AkUniqueID AMBIENCE = 85412153U;
-        static const AkUniqueID BOOK_FALL = 2754669738U;
-        static const AkUniqueID BOOK_SLIDE = 2389286304U;
-        static const AkUniqueID BOTTLE_HANDLE = 4238452446U;
-        static const AkUniqueID BOTTLE_PLACE = 2835074293U;
-        static const AkUniqueID BOTTLE_SLIDE = 404220387U;
+        static const AkUniqueID BARREL = 442447909U;
+        static const AkUniqueID BUTTON_PRESS = 2698747613U;
+        static const AkUniqueID CRATES_FALL = 3600872739U;
         static const AkUniqueID ELECTRIC = 3250089732U;
         static const AkUniqueID FEMALE_GREETING = 3088607285U;
         static const AkUniqueID FEMALE_HURRY = 2145752286U;
         static const AkUniqueID FEMALE_THANKS = 2228376803U;
         static const AkUniqueID FOOTSTEPS = 2385628198U;
-        static const AkUniqueID GLASS_BOTTLE_FALL = 3533305262U;
-        static const AkUniqueID HEAVY_ITEMS = 3647759603U;
+        static const AkUniqueID GAME_OVER = 1432716332U;
+        static const AkUniqueID ITEM_SLIDE = 1282961282U;
         static const AkUniqueID LIGHTS_ON = 1063352154U;
         static const AkUniqueID MAIN_MUSIC = 63796330U;
         static const AkUniqueID MALE1_GREETING = 870050339U;
@@ -34,10 +32,10 @@ namespace AK
         static const AkUniqueID MALE2_GREETING = 3731104210U;
         static const AkUniqueID MALE2_HURRY = 3258761843U;
         static const AkUniqueID MALE2_THANKS = 458420016U;
-        static const AkUniqueID PLASTIC_BOTTLE_FALL = 276558634U;
+        static const AkUniqueID PALLETS = 2392114782U;
+        static const AkUniqueID SHELVES = 1204143103U;
         static const AkUniqueID SUCCESS = 3625060726U;
-        static const AkUniqueID SUITCASE_FALL = 1746749826U;
-        static const AkUniqueID SUITCASE_ROLL = 3321983048U;
+        static const AkUniqueID THROW = 745179803U;
         static const AkUniqueID TIME_RUNNING_OUT = 1735830099U;
         static const AkUniqueID TIMER_TICKING = 1090822048U;
     } // namespace EVENTS
@@ -95,6 +93,11 @@ namespace AK
     {
         static const AkUniqueID MASTER_AUDIO_BUS = 3803692087U;
     } // namespace BUSSES
+
+    namespace AUX_BUSSES
+    {
+        static const AkUniqueID ROOMREVERB = 1340358820U;
+    } // namespace AUX_BUSSES
 
     namespace AUDIO_DEVICES
     {
