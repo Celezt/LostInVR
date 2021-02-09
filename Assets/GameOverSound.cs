@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class VRGrabSound : MonoBehaviour
+public class GameOverSound : MonoBehaviour
 {
     // Start is called before the first frame update
     void Start()
@@ -14,10 +14,5 @@ public class VRGrabSound : MonoBehaviour
     void Update()
     {
         
-    }
-
-    public void PlayGrabSound()
-    {
-        AkSoundEngine.PostEvent("item_slide", gameObject);
     }
 }

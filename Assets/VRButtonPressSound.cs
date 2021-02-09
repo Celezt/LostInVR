@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class VRGrabSound : MonoBehaviour
+public class VRButtonPressSound : MonoBehaviour
 {
     // Start is called before the first frame update
     void Start()
@@ -16,8 +16,8 @@ public class VRGrabSound : MonoBehaviour
         
     }
 
-    public void PlayGrabSound()
+    public void PlaySound()
     {
-        AkSoundEngine.PostEvent("item_slide", gameObject);
+        AkSoundEngine.PostEvent("Button_Press", gameObject);
     }
 }
