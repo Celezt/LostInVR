@@ -60,8 +60,6 @@ crashlytics-build.properties
 
 Assets/Wwise
 Assets/Wwise.meta
-Assets/WwiseSettings.xml
-Assets/WwiseSettings.xml.meta
 Assets/StreamingAssets/Audio/GeneratedSoundBanks/Mac/English(US).meta
 .DS_Store
 Assets/StreamingAssets/.DS_Store
