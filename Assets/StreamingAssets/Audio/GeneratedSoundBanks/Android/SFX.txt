@@ -1,0 +1,63 @@
+Event	ID	Name			Wwise Object Path	Notes
+	85412153	Ambience			\Default Work Unit\SFX\Ambience	
+	442447909	Barrel			\Default Work Unit\SFX\Barrel	
+	745179803	Throw			\Default Work Unit\SFX\Throw	
+	1063352154	Lights_on			\Default Work Unit\SFX\Lights_on	
+	1090822048	Timer_ticking			\Default Work Unit\SFX\Timer_ticking	
+	1204143103	Shelves			\Default Work Unit\SFX\Shelves	
+	1282961282	Item_slide			\Default Work Unit\SFX\Item_slide	
+	1432716332	Game_Over			\Default Work Unit\SFX\Game_Over	
+	1735830099	Time_running_out			\Default Work Unit\SFX\Time_running_out	
+	2385628198	Footsteps			\Default Work Unit\SFX\Footsteps	
+	2392114782	Pallets			\Default Work Unit\SFX\Pallets	
+	2698747613	Button_Press			\Default Work Unit\SFX\Button_Press	
+	3250089732	Electric			\Default Work Unit\SFX\Electric	
+	3600872739	Crates_Fall			\Default Work Unit\SFX\Crates_Fall	
+	3625060726	Success			\Default Work Unit\SFX\Success	
+
+Effect plug-ins	ID	Name	Type				Notes
+	1865172355	New_Wwise_Gain	Wwise Gain			
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	4191324	Pallet_1	Y:\Documents\GitHub\Wwise\Lost in VR - Wwise Project\.cache\Android\SFX\Pallet_1_2EB68A41.wem		\Actor-Mixer Hierarchy\Default Work Unit\Objects\Pallets\Pallet_1		12982
+	33881962	Throw_1	Y:\Documents\GitHub\Wwise\Lost in VR - Wwise Project\.cache\Android\SFX\Throw_1_2EB68A41.wem		\Actor-Mixer Hierarchy\Default Work Unit\Objects\Throw\Throw_1		26038
+	54805131	Footsteps_2	Y:\Documents\GitHub\Wwise\Lost in VR - Wwise Project\.cache\Android\SFX\Footsteps\Footsteps_2_2EB68A41.wem		\Actor-Mixer Hierarchy\Default Work Unit\Objects\Footsteps\Footsteps_2		2778
+	83012511	Shelves_1	Y:\Documents\GitHub\Wwise\Lost in VR - Wwise Project\.cache\Android\SFX\Shelves_1_2EB68A41.wem		\Actor-Mixer Hierarchy\Default Work Unit\Objects\Shelves\Shelves_1		29569
+	91309965	Success_1	Y:\Documents\GitHub\Wwise\Lost in VR - Wwise Project\.cache\Android\SFX\Success\Success_1_2EB68A41.wem		\Actor-Mixer Hierarchy\Default Work Unit\Objects\Success\Success_1		31356
+	98808049	Barrel_1	Y:\Documents\GitHub\Wwise\Lost in VR - Wwise Project\.cache\Android\SFX\Barrel_1_2EB68A41.wem		\Actor-Mixer Hierarchy\Default Work Unit\Objects\Barrel\Barrel_1		36271
+	131456918	Barrel_2	Y:\Documents\GitHub\Wwise\Lost in VR - Wwise Project\.cache\Android\SFX\Barrel_2_2EB68A41.wem		\Actor-Mixer Hierarchy\Default Work Unit\Objects\Barrel\Barrel_2		38834
+	159817621	Footsteps_1	Y:\Documents\GitHub\Wwise\Lost in VR - Wwise Project\.cache\Android\SFX\Footsteps\Footsteps_1_2EB68A41.wem		\Actor-Mixer Hierarchy\Default Work Unit\Objects\Footsteps\Footsteps_1		2737
+	215304839	Shelves_3	Y:\Documents\GitHub\Wwise\Lost in VR - Wwise Project\.cache\Android\SFX\Shelves_3_2EB68A41.wem		\Actor-Mixer Hierarchy\Default Work Unit\Objects\Shelves\Shelves_3		28752
+	226251224	Shelves_2	Y:\Documents\GitHub\Wwise\Lost in VR - Wwise Project\.cache\Android\SFX\Shelves_2_2EB68A41.wem		\Actor-Mixer Hierarchy\Default Work Unit\Objects\Shelves\Shelves_2		26110
+	268249038	Throw_2	Y:\Documents\GitHub\Wwise\Lost in VR - Wwise Project\.cache\Android\SFX\Throw_2_2EB68A41.wem		\Actor-Mixer Hierarchy\Default Work Unit\Objects\Throw\Throw_2		25419
+	275684024	GameOver	Y:\Documents\GitHub\Wwise\Lost in VR - Wwise Project\.cache\Android\SFX\GameOver_2EB68A41.wem		\Actor-Mixer Hierarchy\Default Work Unit\Objects\GameOver		38287
+	284770318	Success_2	Y:\Documents\GitHub\Wwise\Lost in VR - Wwise Project\.cache\Android\SFX\Success\Success_2_2EB68A41.wem		\Actor-Mixer Hierarchy\Default Work Unit\Objects\Success\Success_2		25260
+	362164956	book slide-003	Y:\Documents\GitHub\Wwise\Lost in VR - Wwise Project\.cache\Android\SFX\Book Slide\book slide-003_2EB68A41.wem		\Actor-Mixer Hierarchy\Default Work Unit\Objects\Item Slide\book slide-003		7968
+	368789376	Shelves_4	Y:\Documents\GitHub\Wwise\Lost in VR - Wwise Project\.cache\Android\SFX\Shelves_4_2EB68A41.wem		\Actor-Mixer Hierarchy\Default Work Unit\Objects\Shelves\Shelves_4		35756
+	369894712	Crate_2	Y:\Documents\GitHub\Wwise\Lost in VR - Wwise Project\.cache\Android\SFX\Crate_2_2EB68A41.wem		\Actor-Mixer Hierarchy\Default Work Unit\Objects\Crates_Fall\Crate_2		12256
+	399045153	Electric_Shutter	Y:\Documents\GitHub\Wwise\Lost in VR - Wwise Project\.cache\Android\SFX\Electric_Shutter_2EB68A41.wem		\Actor-Mixer Hierarchy\Default Work Unit\Objects\Electric_Shutter		121228
+	424881583	Crate_3	Y:\Documents\GitHub\Wwise\Lost in VR - Wwise Project\.cache\Android\SFX\Crate_3_2EB68A41.wem		\Actor-Mixer Hierarchy\Default Work Unit\Objects\Crates_Fall\Crate_3		11587
+	480016233	Barrel_3	Y:\Documents\GitHub\Wwise\Lost in VR - Wwise Project\.cache\Android\SFX\Barrel_3_2EB68A41.wem		\Actor-Mixer Hierarchy\Default Work Unit\Objects\Barrel\Barrel_3		40032
+	500356379	Pallet_3	Y:\Documents\GitHub\Wwise\Lost in VR - Wwise Project\.cache\Android\SFX\Pallet_3_2EB68A41.wem		\Actor-Mixer Hierarchy\Default Work Unit\Objects\Pallets\Pallet_3		11865
+	531724387	TimeRunningOut_15_sec	Y:\Documents\GitHub\Wwise\Lost in VR - Wwise Project\.cache\Android\SFX\TimeRunningOut_15_sec_2EB68A41.wem		\Actor-Mixer Hierarchy\Default Work Unit\Objects\TimeRunningOut_15_sec		110008
+	539821053	Light_On_Loop	Y:\Documents\GitHub\Wwise\Lost in VR - Wwise Project\.cache\Android\SFX\Light_On_Loop_1EDAEB4F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Objects\LightOn\Lights On_1\Light_On_Loop		17027
+	562444347	Ambience_Loop	Y:\Documents\GitHub\Wwise\Lost in VR - Wwise Project\.cache\Android\SFX\Ambience_Loop_1EDAEB4F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Objects\Ambience_Loop		283755
+	579848758	Footsteps_5	Y:\Documents\GitHub\Wwise\Lost in VR - Wwise Project\.cache\Android\SFX\Footsteps\Footsteps_5_2EB68A41.wem		\Actor-Mixer Hierarchy\Default Work Unit\Objects\Footsteps\Footsteps_5		2859
+	589035157	Crate_1	Y:\Documents\GitHub\Wwise\Lost in VR - Wwise Project\.cache\Android\SFX\Crate_1_2EB68A41.wem		\Actor-Mixer Hierarchy\Default Work Unit\Objects\Crates_Fall\Crate_1		15646
+	595976674	Footsteps_4	Y:\Documents\GitHub\Wwise\Lost in VR - Wwise Project\.cache\Android\SFX\Footsteps\Footsteps_4_2EB68A41.wem		\Actor-Mixer Hierarchy\Default Work Unit\Objects\Footsteps\Footsteps_4		2955
+	599360400	book slide-004	Y:\Documents\GitHub\Wwise\Lost in VR - Wwise Project\.cache\Android\SFX\Book Slide\book slide-004_2EB68A41.wem		\Actor-Mixer Hierarchy\Default Work Unit\Objects\Item Slide\book slide-004		6024
+	637847295	Throw_3	Y:\Documents\GitHub\Wwise\Lost in VR - Wwise Project\.cache\Android\SFX\Throw_3_2EB68A41.wem		\Actor-Mixer Hierarchy\Default Work Unit\Objects\Throw\Throw_3		22332
+	734199645	Footsteps_3	Y:\Documents\GitHub\Wwise\Lost in VR - Wwise Project\.cache\Android\SFX\Footsteps\Footsteps_3_2EB68A41.wem		\Actor-Mixer Hierarchy\Default Work Unit\Objects\Footsteps\Footsteps_3		2982
+	744200733	book slide-001	Y:\Documents\GitHub\Wwise\Lost in VR - Wwise Project\.cache\Android\SFX\Book Slide\book slide-001_2EB68A41.wem		\Actor-Mixer Hierarchy\Default Work Unit\Objects\Item Slide\book slide-001		8626
+	747744700	TimeTicking_Loop	Y:\Documents\GitHub\Wwise\Lost in VR - Wwise Project\.cache\Android\SFX\TimeTicking_Loop_2EB68A41.wem		\Actor-Mixer Hierarchy\Default Work Unit\Objects\TimeTicking_Loop		105325
+	770444231	book slide-006	Y:\Documents\GitHub\Wwise\Lost in VR - Wwise Project\.cache\Android\SFX\Book Slide\book slide-006_2EB68A41.wem		\Actor-Mixer Hierarchy\Default Work Unit\Objects\Item Slide\book slide-006		8274
+	793105954	Light_On-001	Y:\Documents\GitHub\Wwise\Lost in VR - Wwise Project\.cache\Android\SFX\LightOn\Light_On-001_2EB68A41.wem		\Actor-Mixer Hierarchy\Default Work Unit\Objects\LightOn\Lights On_1\Light_On-001		35791
+	813226235	Pallet_2	Y:\Documents\GitHub\Wwise\Lost in VR - Wwise Project\.cache\Android\SFX\Pallet_2_2EB68A41.wem		\Actor-Mixer Hierarchy\Default Work Unit\Objects\Pallets\Pallet_2		15872
+	846981203	Throw_4	Y:\Documents\GitHub\Wwise\Lost in VR - Wwise Project\.cache\Android\SFX\Throw_4_2EB68A41.wem		\Actor-Mixer Hierarchy\Default Work Unit\Objects\Throw\Throw_4		25073
+	891064493	book slide-002	Y:\Documents\GitHub\Wwise\Lost in VR - Wwise Project\.cache\Android\SFX\Book Slide\book slide-002_2EB68A41.wem		\Actor-Mixer Hierarchy\Default Work Unit\Objects\Item Slide\book slide-002		6979
+	912719435	Pallet_4	Y:\Documents\GitHub\Wwise\Lost in VR - Wwise Project\.cache\Android\SFX\Pallet_4_2EB68A41.wem		\Actor-Mixer Hierarchy\Default Work Unit\Objects\Pallets\Pallet_4		13525
+	933551233	book slide-007	Y:\Documents\GitHub\Wwise\Lost in VR - Wwise Project\.cache\Android\SFX\Book Slide\book slide-007_2EB68A41.wem		\Actor-Mixer Hierarchy\Default Work Unit\Objects\Item Slide\book slide-007		7401
+	963129637	Light_On-002	Y:\Documents\GitHub\Wwise\Lost in VR - Wwise Project\.cache\Android\SFX\LightOn\Light_On-002_2EB68A41.wem		\Actor-Mixer Hierarchy\Default Work Unit\Objects\LightOn\Lights On_2\Light_On-002		39011
+	1026235709	book slide-008	Y:\Documents\GitHub\Wwise\Lost in VR - Wwise Project\.cache\Android\SFX\Book Slide\book slide-008_2EB68A41.wem		\Actor-Mixer Hierarchy\Default Work Unit\Objects\Item Slide\book slide-008		7686
+	1059233455	Button_Press	Y:\Documents\GitHub\Wwise\Lost in VR - Wwise Project\.cache\Android\SFX\Button_Press_2EB68A41.wem		\Actor-Mixer Hierarchy\Default Work Unit\Objects\Button_Press		7346
+

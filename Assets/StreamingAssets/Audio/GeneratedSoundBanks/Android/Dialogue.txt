@@ -1,0 +1,22 @@
+Event	ID	Name			Wwise Object Path	Notes
+	458420016	Male2_Thanks			\Default Work Unit\Dialogue\Male 2\Male2_Thanks	
+	870050339	Male1_Greeting			\Default Work Unit\Dialogue\Male 1\Male1_Greeting	
+	971951693	Male1_Thanks			\Default Work Unit\Dialogue\Male 1\Male1_Thanks	
+	2076754096	Male1_Hurry			\Default Work Unit\Dialogue\Male 1\Male1_Hurry	
+	2145752286	Female_Hurry			\Default Work Unit\Dialogue\Female Char\Female_Hurry	
+	2228376803	Female_Thanks			\Default Work Unit\Dialogue\Female Char\Female_Thanks	
+	3088607285	Female_Greeting			\Default Work Unit\Dialogue\Female Char\Female_Greeting	
+	3258761843	Male2_Hurry			\Default Work Unit\Dialogue\Male 2\Male2_Hurry	
+	3731104210	Male2_Greeting			\Default Work Unit\Dialogue\Male 2\Male2_Greeting	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	153830027	Male2_Hurry	Y:\Documents\GitHub\Wwise\Lost in VR - Wwise Project\.cache\Android\SFX\Male_Voice_2\Character_2\CH2_2_2EB68A41.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Male_Voice_2\Male 2\Male2_Hurry		39034
+	166192271	Male1_Thanks	Y:\Documents\GitHub\Wwise\Lost in VR - Wwise Project\.cache\Android\SFX\Male_Voice_1\Character_13\CH13_3_D08C41B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Male_Voice_1\Male 1\Male1_Thanks		17623
+	167981095	Female_Hello	Y:\Documents\GitHub\Wwise\Lost in VR - Wwise Project\.cache\Android\SFX\Fem_Voice_1\Character_15\CH15_1_2EB68A41.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Fem_Voice_1\Female1\Female_Hello		42339
+	295020058	Male1_Hello	Y:\Documents\GitHub\Wwise\Lost in VR - Wwise Project\.cache\Android\SFX\Male_Voice_1\Character_13\CH13_1_2EB68A41.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Male_Voice_1\Male 1\Male1_Hello		19305
+	344557462	Male1_Hurry	Y:\Documents\GitHub\Wwise\Lost in VR - Wwise Project\.cache\Android\SFX\Male_Voice_1\Character_13\CH13_2_3A88FB0B.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Male_Voice_1\Male 1\Male1_Hurry		83602
+	460113114	Female_Hurry	Y:\Documents\GitHub\Wwise\Lost in VR - Wwise Project\.cache\Android\SFX\Fem_Voice_1\Character_15\CH15_2_2EB68A41.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Fem_Voice_1\Female1\Female_Hurry		25751
+	732248451	Male2_Thanks	Y:\Documents\GitHub\Wwise\Lost in VR - Wwise Project\.cache\Android\SFX\Male_Voice_2\Character_2\CH2_3_2EB68A41.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Male_Voice_2\Male 2\Male2_Thanks		47844
+	884183506	Male2_Hello	Y:\Documents\GitHub\Wwise\Lost in VR - Wwise Project\.cache\Android\SFX\Male_Voice_2\Character_2\CH2_1_2EB68A41.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Male_Voice_2\Male 2\Male2_Hello		44622
+	947572448	Female_Thanks	Y:\Documents\GitHub\Wwise\Lost in VR - Wwise Project\.cache\Android\SFX\Fem_Voice_1\Character_15\CH15_3_2EB68A41.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Fem_Voice_1\Female1\Female_Thanks		43491
+
